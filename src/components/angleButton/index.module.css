@@ -1,0 +1,78 @@
+.button {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #ED2E44;
+    -webkit-clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 20px, 100% 100%, 20px 100%, 0 calc(100% - 20px));
+    clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 20px, 100% 100%, 20px 100%, 0 calc(100% - 20px));
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    margin: 0;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.5rem;
+    line-height: 2em;
+    font-weight: 600;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    outline: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+    transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+
+.button::before {
+    top: 0;
+    right: -14px;
+    content: "";
+    position: absolute;
+    background-color: #ED2E44;
+    width: 60px;
+    height: 2px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.button::after {
+    bottom: 0;
+    left: -14px;
+    content: "";
+    position: absolute;
+    background-color: #ED2E44;
+    width: 60px;
+    height: 2px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.buttonShine {
+    background-color: #ED2E44;
+    position: absolute;
+    display: block;
+    top: 104%;
+    left: -114%;
+    width: 150%;
+    height: 600%;
+    z-index: 1;
+    -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
+    transform: rotate(45deg) translate3d(0, 0, 0);
+    transition: .5s ease-in-out;
+    pointer-events: none;
+}
+
+.buttonText {
+    position: relative;
+    z-index: 2;
+}
+
+.button:hover .buttonShine {
+    transition: .5s ease-in-out;
+    -webkit-transform: rotate(45deg) translate3d(0, -85%, 0);
+    transform: rotate(45deg) translate3d(0, -85%, 0);
+}
