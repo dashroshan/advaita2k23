@@ -1,6 +1,7 @@
 import { Route, Routes, useLocation, Outlet } from 'react-router-dom';
 import { motion } from "framer-motion";
 import { useEffect } from 'react';
+import AnimatedCursor from "react-animated-cursor"
 
 import HomePage from './routes/homePage';
 import NavBar from './components/navbar';
@@ -71,6 +72,12 @@ export default function App() {
                     <Route path="/" element={<HomePage />} />
                 </Route>
             </Routes>
+            <AnimatedCursor
+                innerSize={10}
+                outerSize={50}
+                outerScale={2}
+                color='237, 46, 68'
+            />
         </div>
     );
 }
