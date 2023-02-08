@@ -59,6 +59,7 @@
     background: rgba(26, 15, 34, .85);
     font-weight: bold;
     font-size: 4rem;
+    z-index: 5;
 }
 
 @keyframes overlayItem {

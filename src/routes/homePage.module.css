@@ -1,7 +1,51 @@
 .hero {
     background-image: url(../assets/hero.png);
     background-repeat: no-repeat;
-    background-position: center 0;
+    background-position: center bottom;
     background-size: cover;
     height: 100vh;
+}
+
+.leftVertical {
+    position: absolute;
+    top: 50%;
+    letter-spacing: 0.2rem;
+    display: flex;
+    align-items: center;
+    rotate: -90deg;
+    left: 0;
+    transform: translateY(-5rem);
+}
+
+.leftVertical img {
+    width: 1rem;
+    margin-left: 1.5rem;
+    filter: invert();
+    transition: .3s;
+    rotate: 90deg;
+}
+
+.leftVertical img:hover {
+    scale: 1.5;
+}
+
+.rightVertical {
+    position: absolute;
+    top: 50%;
+    letter-spacing: 0.2rem;
+    display: flex;
+    align-items: center;
+    rotate: -90deg;
+    right: 0;
+    transform: translateY(4.5rem);
+}
+
+@media (max-width: 850px) {
+    .leftVertical {
+        transform: translateY(-6rem);
+    }
+
+    .rightVertical {
+        transform: translateY(5.8rem);
+    }
 }
