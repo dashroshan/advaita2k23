@@ -9,6 +9,7 @@
     top: 0;
     left: 0;
     right: 0;
+    z-index: 9;
 }
 
 .nav img {
@@ -59,7 +60,7 @@
     background: rgba(26, 15, 34, .85);
     font-weight: bold;
     font-size: 4rem;
-    z-index: 5;
+    z-index: 10;
 }
 
 @keyframes overlayItem {
