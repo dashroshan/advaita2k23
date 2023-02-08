@@ -2,7 +2,8 @@ import classes from "./index.module.css";
 import advaitaLogo from "../../assets/logo.webp";
 
 import { motion, AnimatePresence } from "framer-motion";
-import { useState, useEffect } from "react";
+import { useState } from "react";
+import TopBinary from "./topBinary";
 
 export default function NavBar() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -39,6 +40,16 @@ export default function NavBar() {
                         </div>
                     </motion.nav>
                 }
+            </AnimatePresence>
+            <AnimatePresence>{menuOpen ? null :
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    transition={{ duration: 0.5 }}
+                >
+                    <TopBinary />
+                </motion.div>}
             </AnimatePresence>
         </>
     );

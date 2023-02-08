@@ -1,0 +1,7 @@
+.hero {
+    background-image: url(../assets/hero.png);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    height: 100vh;
+}

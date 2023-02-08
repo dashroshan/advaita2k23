@@ -1,0 +1,32 @@
+.binary {
+    font-family: monospace;
+    max-width: 100vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-shadow: none;
+    opacity: 0.3;
+    font-size: 0.7rem;
+    mask-image: radial-gradient(70% 500% at 50% 50%, black 40%, transparent 65%);
+    position: fixed;
+    z-index: 10;
+    transform: translateY(calc(13vw + 1.2rem));
+    color: white;
+}
+
+.top {
+    transform: translateY(0.3rem);
+    color: red;
+}
+
+@media (min-width: 850px) {
+    .binary {
+        transform: translateY(6.3rem);
+        color: white;
+        display: none;
+    }
+
+    .top {
+        transform: translateY(0.3rem);
+        display: block;
+    }
+}

@@ -2,9 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2rem auto;
+    margin: 1.3rem auto;
     padding: 0 2rem;
     max-width: 1500px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .nav img {
@@ -52,7 +56,7 @@
     align-items: center;
     position: fixed;
     top: 0;
-    background: rgba(26, 15, 34, .95);
+    background: rgba(26, 15, 34, .85);
     font-weight: bold;
     font-size: 4rem;
 }
@@ -103,11 +107,14 @@
         margin: 0;
         padding: 1rem;
         padding-bottom: 0.7rem;
-        background: #1b0f23;
     }
 
     .nav img {
         width: 50vw;
+    }
+
+    .btns {
+        transform: translateY(1vw);
     }
 
     .btns>div {
