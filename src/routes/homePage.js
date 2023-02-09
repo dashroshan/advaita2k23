@@ -165,10 +165,60 @@ export default function HomePage() {
 
             <section className={classes.sponsorsSection}>
                 <img src={sponsorsImg} alt="Sponsors" />
-                <div className={classes.sponsorCardWrap}>
-                    <div className={classes.sponsorCard}>
-                        <img src={s1CodingNinja} alt="sponsor" />
-                        <div className={classes.sponsorCardOverlay} />
+                <div className={classes.sponsorsWrap}>
+                    <div className={classes.sponsorCardWrap}>
+                        <div className={classes.sponsorCard}>
+                            <img src={s1CodingNinja} alt="sponsor" />
+                            <div className={classes.sponsorCardOverlay} />
+                        </div>
+                    </div>
+                    <div className={classes.sponsorCardWrap}>
+                        <div className={classes.sponsorCard}>
+                            <img src={s1CodingNinja} alt="sponsor" />
+                            <div className={classes.sponsorCardOverlay} />
+                        </div>
+                    </div>
+                    <div className={classes.sponsorCardWrap}>
+                        <div className={classes.sponsorCard}>
+                            <img src={s1CodingNinja} alt="sponsor" />
+                            <div className={classes.sponsorCardOverlay} />
+                        </div>
+                    </div>
+                    <div className={classes.sponsorCardWrap}>
+                        <div className={classes.sponsorCard}>
+                            <img src={s1CodingNinja} alt="sponsor" />
+                            <div className={classes.sponsorCardOverlay} />
+                        </div>
+                    </div>
+                    <div className={classes.sponsorCardWrap}>
+                        <div className={classes.sponsorCard}>
+                            <img src={s1CodingNinja} alt="sponsor" />
+                            <div className={classes.sponsorCardOverlay} />
+                        </div>
+                    </div>
+                    <div className={classes.sponsorCardWrap}>
+                        <div className={classes.sponsorCard}>
+                            <img src={s1CodingNinja} alt="sponsor" />
+                            <div className={classes.sponsorCardOverlay} />
+                        </div>
+                    </div>
+                    <div className={classes.sponsorCardWrap}>
+                        <div className={classes.sponsorCard}>
+                            <img src={s1CodingNinja} alt="sponsor" />
+                            <div className={classes.sponsorCardOverlay} />
+                        </div>
+                    </div>
+                    <div className={classes.sponsorCardWrap}>
+                        <div className={classes.sponsorCard}>
+                            <img src={s1CodingNinja} alt="sponsor" />
+                            <div className={classes.sponsorCardOverlay} />
+                        </div>
+                    </div>
+                    <div className={classes.sponsorCardWrap}>
+                        <div className={classes.sponsorCard}>
+                            <img src={s1CodingNinja} alt="sponsor" />
+                            <div className={classes.sponsorCardOverlay} />
+                        </div>
                     </div>
                 </div>
             </section>

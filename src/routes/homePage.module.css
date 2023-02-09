@@ -401,18 +401,25 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 8rem;
+    margin-top: 9rem;
     gap: 2rem;
 }
 
 .sponsorsSection img {
     width: 25rem;
+    margin-bottom: 1rem;
 }
 
 .sponsorCardWrap {
     filter: drop-shadow(0 3px 7px rgba(14, 8, 18, .44));
-    height: 250px;
-    width: 350px;
+    height: 220px;
+    width: 320px;
+}
+
+.sponsorsWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .sponsorCard {
@@ -421,7 +428,7 @@
     height: 200px;
     position: relative;
     transition: .3s;
-    clip-path: polygon(0 0, 100% 0, 100% 0, 100% 100%, 0 100%, 0 100%);
+    clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 20px, 100% 100%, 20px 100%, 0 calc(100% - 20px));
 }
 
 .sponsorCardOverlay {
@@ -430,7 +437,8 @@
     display: block;
     bottom: 0;
     position: absolute;
-    background: linear-gradient(180deg, rgba(34, 22, 46, 0) 0%, rgba(34, 22, 46, 1) 100%);
+    background: linear-gradient(180deg, rgba(34, 22, 46, 0) 0%, rgba(34, 22, 46, 0.8) 100%);
+    transition: .3s;
 }
 
 .sponsorCard img {
@@ -441,5 +449,44 @@
 
 .sponsorCardWrap:hover .sponsorCard {
     transform: translateY(-10px);
-    clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 20px, 100% 100%, 20px 100%, 0 calc(100% - 20px));
+}
+
+@media (max-width: 985px) {
+    .sponsorsSection img {
+        width: 85vw;
+        max-width: 25rem;
+    }
+
+    .sponsorCardWrap {
+        height: 20vw;
+        width: 30vw;
+    }
+
+    .sponsorCard {
+        width: 90%;
+        height: 90%;
+        clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px));
+    }
+
+    .sponsorCard img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 615px) {
+    .sponsorCardWrap {
+        height: 30vw;
+        width: 45vw;
+    }
+
+    .sponsorCard {
+        width: 90%;
+        height: 90%;
+    }
+
+    .sponsorCard img {
+        width: 100%;
+        height: 100%;
+    }
 }
