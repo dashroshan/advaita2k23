@@ -236,7 +236,8 @@ export default function HomePage() {
             </section>
 
             <section className={classes.footerSection}>
-
+                <div><span style={{ color: "#3c3556" }}>© 2K23</span> ADVAITA</div>
+                <div style={{ color: "#3c3556" }}>IIIT BBSR, GOTHAPATNA - 751003</div>
             </section>
         </div >
     );
