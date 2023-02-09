@@ -379,12 +379,12 @@
     .videosecTitle>div:nth-of-type(1) {
         font-size: 2rem;
         line-height: 2.5rem;
-        transform: translateX(1.6rem);
+        transform: translateX(1.4rem);
     }
 
     .videosecTitle>div:nth-of-type(2) {
         font-size: 1rem;
-        transform: translateY(2.5rem);
+        transform: translateY(2.3rem);
     }
 
     .videosection {
@@ -394,4 +394,52 @@
     .ytvideo {
         border-radius: 0;
     }
+}
+
+.sponsorsSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 8rem;
+    gap: 2rem;
+}
+
+.sponsorsSection img {
+    width: 25rem;
+}
+
+.sponsorCardWrap {
+    filter: drop-shadow(0 3px 7px rgba(14, 8, 18, .44));
+    height: 250px;
+    width: 350px;
+}
+
+.sponsorCard {
+    margin: auto auto;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    transition: .3s;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 100% 100%, 0 100%, 0 100%);
+}
+
+.sponsorCardOverlay {
+    width: 300px;
+    height: 100px;
+    display: block;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(34, 22, 46, 0) 0%, rgba(34, 22, 46, 1) 100%);
+}
+
+.sponsorCard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sponsorCardWrap:hover .sponsorCard {
+    transform: translateY(-10px);
+    clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 20px, 100% 100%, 20px 100%, 0 calc(100% - 20px));
 }

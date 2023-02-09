@@ -3,6 +3,8 @@ import iconIg from "../assets/instagram.svg";
 import iconTw from "../assets/twitter.svg";
 import iconYt from "../assets/youtube.svg";
 import dateImg from "../assets/date.png";
+import sponsorsImg from "../assets/sponsors.png";
+import s1CodingNinja from "../assets/s1coding-ninjas.jpg";
 
 import sliderImg from "../assets/videoThumb.jpg"
 
@@ -92,10 +94,10 @@ export default function HomePage() {
             </section>
 
             <section className={classes.videosection}>
-                <div className={classes.videosecTitle}>
+                <motion.div viewport={{ once: true }} initial={{ transform: 'translateX(6rem)', opacity: 0 }} whileInView={{ transform: 'translateX(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }} className={classes.videosecTitle}>
                     <div>A GLIMPSE INTO<br />THE HYMN OF PARADOX</div>
                     <div>#ADVAITA</div>
-                </div>
+                </motion.div>
                 <div className={classes.ytvideo}>
                     <div />
                     <div>
@@ -109,7 +111,7 @@ export default function HomePage() {
                         slidesPerView={slides1 ? 1 : 2}
                         spaceBetween={0}
                         autoplay={{
-                            delay: 5000,
+                            delay: 4000,
                             disableOnInteraction: false,
                         }}
                         pagination={{
@@ -147,7 +149,27 @@ export default function HomePage() {
                                 </div>
                             </div>
                         </SwiperSlide>
+                        <SwiperSlide key="slide-4" style={{ listStyle: "none" }}>
+                            <div className={classes.sliderCard}>
+                                <img src={sliderImg} alt="slider" />
+                                <div className={classes.sliderCardOverlay} />
+                                <div className={classes.sliderCardText}>
+                                    <div>Street drama play from Advaita 2k19</div>
+                                    <div><span className={classes.sliderTextLine} />NUKKAD ACT</div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
                     </Swiper>
+                </div>
+            </section>
+
+            <section className={classes.sponsorsSection}>
+                <img src={sponsorsImg} alt="Sponsors" />
+                <div className={classes.sponsorCardWrap}>
+                    <div className={classes.sponsorCard}>
+                        <img src={s1CodingNinja} alt="sponsor" />
+                        <div className={classes.sponsorCardOverlay} />
+                    </div>
                 </div>
             </section>
         </div >
