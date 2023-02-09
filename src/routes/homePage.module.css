@@ -307,7 +307,7 @@
 .sliderCardText>div:first-of-type {
     font-size: 1.1rem;
     font-weight: normal;
-    color: #f77685;
+    color: #f3223a;
     margin-bottom: -0.4rem
 }
 
@@ -356,4 +356,42 @@
     font-weight: bold;
     transform: translateY(7rem);
     color: #f3223a;
+}
+
+@media (max-width: 1050px) {
+
+    .swiperWrap,
+    .sliderCardOverlay,
+    .sliderCard,
+    .ytvideo>div:nth-of-type(1)::after,
+    .ytvideo {
+        max-width: 600px;
+        width: 100vw;
+    }
+
+    .videosecTitle {
+        max-width: 600px;
+        width: 100vw;
+        white-space: nowrap;
+        margin-bottom: 1.5rem;
+    }
+
+    .videosecTitle>div:nth-of-type(1) {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        transform: translateX(1.6rem);
+    }
+
+    .videosecTitle>div:nth-of-type(2) {
+        font-size: 1rem;
+        transform: translateY(2.5rem);
+    }
+
+    .videosection {
+        margin-top: 7rem;
+    }
+
+    .ytvideo {
+        border-radius: 0;
+    }
 }

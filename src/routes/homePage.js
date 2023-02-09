@@ -37,8 +37,7 @@ export default function HomePage() {
 
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true });
-    const slides2 = useMediaQuery({ query: '(min-width:700px) and (max-width:1022px)' });
-    const slides1 = useMediaQuery({ query: '(max-width:700px)' });
+    const slides1 = useMediaQuery({ query: '(max-width:1050px)' });
 
     return (
         <div className={classes.homePage}>
@@ -107,7 +106,7 @@ export default function HomePage() {
                     <Swiper
                         className={classes.swiper}
                         id="swiper"
-                        slidesPerView={2}
+                        slidesPerView={slides1 ? 1 : 2}
                         spaceBetween={0}
                         autoplay={{
                             delay: 5000,
