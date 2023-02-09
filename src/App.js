@@ -44,8 +44,8 @@ const AnimationLayout = () => {
 };
 
 export default function App() {
-    document.getElementById("loader_block").style.opacity = 0;
-    document.getElementById("loader_block").style.display = "none";
+    // document.getElementById("loader_block").style.opacity = 0;
+    // document.getElementById("loader_block").style.display = "none";
 
     useEffect(() => {
         const onPageLoad = () => {
