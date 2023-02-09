@@ -522,11 +522,11 @@
     text-decoration: inherit;
 }
 
-.contactsSection>div:first-of-type {
-    transform: translateY(0.25rem);
+.socialContact {
+    margin-top: 0.7rem;
 }
 
-.contactsSection>div:first-of-type>div::after {
+.socialContact::after {
     content: " ";
     display: block;
     height: 0.25rem;
@@ -536,7 +536,7 @@
     transition: .3s ease-in-out;
 }
 
-.contactsSection>div:first-of-type>div:hover::after {
+.socialContact:hover::after {
     transform: scaleX(1);
 }
 
@@ -551,6 +551,10 @@
 }
 
 @media (max-width: 725px) {
+    .socialContact {
+        margin-top: 0;
+    }
+
     .contactsSection {
         gap: 1rem;
     }
