@@ -566,3 +566,9 @@
         transform: translateX(-0.6rem);
     }
 }
+
+.footerSection {
+    display: block;
+    height: 10rem;
+    background-color: #100d12;
+}

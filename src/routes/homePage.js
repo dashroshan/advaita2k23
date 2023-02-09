@@ -234,6 +234,10 @@ export default function HomePage() {
                 </div>
                 <motion.div viewport={{ once: true }} initial={{ transform: 'translateX(10rem)', opacity: 0 }} whileInView={{ transform: 'translateX(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring", delay: 0.00 }}><AngleButton text="SEND US AN EMAIL" /></motion.div>
             </section>
+
+            <section className={classes.footerSection}>
+
+            </section>
         </div >
     );
 }
