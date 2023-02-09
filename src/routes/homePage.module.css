@@ -4,6 +4,21 @@
     background-position: center bottom;
     background-size: cover;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lottieAnim {
+    width: 75vw;
+    margin-top: 3rem;
+}
+
+.dateHero img {
+    width: 18vw;
+    rotate: 5deg;
+    margin-top: -2vw;
 }
 
 .leftVertical {
@@ -42,11 +57,24 @@
 
 @media (max-width: 850px) {
     .leftVertical {
-        transform: translateY(-6rem);
+        margin-left: -1.5rem;
+        margin-top: 15vh;
     }
 
     .rightVertical {
-        transform: translateY(5.8rem);
+        margin-right: -2.5rem;
+        margin-top: -15vh;
+    }
+
+    .lottieAnim {
+        width: 160vw;
+        max-width: 800px;
+        margin-top: -2rem;
+    }
+
+    .dateHero img {
+        width: 50vw;
+        max-width: 300px;
     }
 }
 
