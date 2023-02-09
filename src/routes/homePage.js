@@ -9,7 +9,9 @@ import logoAnim from "../assets/logoanim.json";
 
 import AngleButton from "../components/angleButton";
 
-import { motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
+import { useRef } from "react";
+import CountUp from 'react-countup';
 
 export default function HomePage() {
     const options = {
@@ -17,6 +19,9 @@ export default function HomePage() {
         loop: true
     };
     const { View } = useLottie(options);
+
+    const ref = useRef(null)
+    const isInView = useInView(ref)
 
     return (
         <div className={classes.homePage}>
@@ -51,23 +56,34 @@ export default function HomePage() {
                 </div>
             </section >
 
-            <section className={classes.countSection}>
-                <div className={classes.countWrap}>
-                    <div>15</div>
+            <section className={classes.countSection} ref={ref}>
+                <div className={classes.countWrap}  >
+                    <div>{isInView ? <CountUp end={15} duration={1} /> : null}</div>
                     <div>FUN<br />EVENTS</div>
                 </div>
                 <div className={classes.countWrap}>
-                    <div>3</div>
+                    <div>{isInView ? <CountUp end={3} duration={0.3} delay={0.2} /> : null}</div>
                     <div>PRO<br />SHOWS</div>
                 </div>
                 <div className={classes.countWrap}>
-                    <div>10</div>
+                    <div>{isInView ? <CountUp end={10} duration={1} delay={0.4} /> : null}</div>
                     <div>TECHNICAL<br />EVENTS</div>
                 </div>
                 <div className={classes.countWrap}>
-                    <div>10</div>
+                    <div>{isInView ? <CountUp end={10} duration={1} delay={0.6} /> : null}</div>
                     <div>CULTURAL<br />EVENTS</div>
                 </div>
+            </section>
+
+            <section className={classes.videosection}>
+                <div className={classes.ytvideo}>
+                    <div />
+                    <div>
+                        <img src={iconYt} alt="youtube" />
+                    </div>
+                </div>
+
+                <div></div>
             </section>
         </div >
     );
