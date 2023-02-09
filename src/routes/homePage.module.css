@@ -420,6 +420,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    cursor: pointer;
 }
 
 .sponsorCard {
@@ -427,7 +428,7 @@
     width: 300px;
     height: 200px;
     position: relative;
-    transition: .3s;
+    transition: .3s ease-in-out;
     clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 20px, 100% 100%, 20px 100%, 0 calc(100% - 20px));
 }
 
@@ -438,7 +439,7 @@
     bottom: 0;
     position: absolute;
     background: linear-gradient(180deg, rgba(34, 22, 46, 0) 0%, rgba(34, 22, 46, 0.8) 100%);
-    transition: .3s;
+    transition: .3s ease-in-out;
 }
 
 .sponsorCard img {

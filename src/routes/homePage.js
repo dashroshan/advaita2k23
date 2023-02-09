@@ -70,7 +70,7 @@ export default function HomePage() {
                         </motion.div>
                     </div>
                     <motion.div viewport={{ once: true }} initial={{ opacity: 0 }} whileInView={{ opacity: 0.75 }} transition={{ duration: 0.3, delay: 0.3 }}>Advaita, the annual techno-cultural fest of IIIT Bhubaneswar, is organized in the first week of March spanning over four days and four nights. Commenced with a motto of providing technocrats all over the country, a platform to showcase their technical skills and talent, Advaita has come a long way over the years since its inception.It is one of the eminent fests in the eastern region of the Indian subcontinent today which has made an impact on several college students across the country.</motion.div>
-                    <motion.div viewport={{ once: true }} initial={{ transform: 'translateX(-6rem)', opacity: 0 }} whileInView={{ transform: 'translateX(-0.5rem)', opacity: 1 }} transition={{ duration: 2, type: "spring", delay: 0.15 }}><AngleButton text="REGISTER" /></motion.div>
+                    <motion.div viewport={{ once: true }} initial={{ transform: 'translateX(-6rem)', opacity: 0 }} whileInView={{ transform: 'translateX(-0.5rem)', opacity: 1 }} transition={{ duration: 2, type: "spring", delay: 0.15 }}><AngleButton text="EVENTS SCHEDULE" /></motion.div>
                 </div>
             </section >
 
@@ -164,7 +164,7 @@ export default function HomePage() {
             </section>
 
             <section className={classes.sponsorsSection}>
-                <img src={sponsorsImg} alt="Sponsors" />
+                <motion.div viewport={{ once: false }} initial={{ transform: 'translateY(-10rem) scale(0)', opacity: 0 }} whileInView={{ transform: 'translateY(0rem) scale(1)', opacity: 1 }} transition={{ duration: 2, type: "spring" }}><img src={sponsorsImg} alt="Sponsors" /></motion.div>
                 <div className={classes.sponsorsWrap}>
                     <div className={classes.sponsorCardWrap}>
                         <div className={classes.sponsorCard}>
