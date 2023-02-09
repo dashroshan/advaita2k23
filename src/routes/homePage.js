@@ -50,6 +50,25 @@ export default function HomePage() {
                     <motion.div viewport={{ once: true }} initial={{ transform: 'translateX(-6rem)', opacity: 0 }} whileInView={{ transform: 'translateX(-0.5rem)', opacity: 1 }} transition={{ duration: 2, type: "spring", delay: 0.15 }}><AngleButton text="REGISTER" /></motion.div>
                 </div>
             </section >
+
+            <section className={classes.countSection}>
+                <div className={classes.countWrap}>
+                    <div>15</div>
+                    <div>FUN<br />EVENTS</div>
+                </div>
+                <div className={classes.countWrap}>
+                    <div>3</div>
+                    <div>PRO<br />SHOWS</div>
+                </div>
+                <div className={classes.countWrap}>
+                    <div>10</div>
+                    <div>TECHNICAL<br />EVENTS</div>
+                </div>
+                <div className={classes.countWrap}>
+                    <div>10</div>
+                    <div>CULTURAL<br />EVENTS</div>
+                </div>
+            </section>
         </div >
     );
 }
