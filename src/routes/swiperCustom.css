@@ -1,0 +1,25 @@
+.swiper-pagination {
+    scale: 2;
+    transform: translateX(-0.2rem);
+}
+
+.swiper-pagination-bullet {
+    background: white;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background: #f3223a;
+}
+
+@media (min-width:700px) and (max-width:1022px) {
+    .swiper-pagination {
+        transform: translateX(-0.4rem);
+    }
+}
+
+@media (max-width:700px) {
+    .swiper-pagination {
+        transform: translateX(0);
+    }
+}

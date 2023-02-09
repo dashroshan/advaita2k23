@@ -4,6 +4,8 @@ import iconTw from "../assets/twitter.svg";
 import iconYt from "../assets/youtube.svg";
 import dateImg from "../assets/date.png";
 
+import sliderImg from "../assets/videoThumb.jpg"
+
 import { useLottie } from "lottie-react";
 import logoAnim from "../assets/logoanim.json";
 
@@ -13,6 +15,19 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import CountUp from 'react-countup';
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, {
+    Navigation,
+    Pagination,
+    Autoplay,
+    Virtual
+} from "swiper/core";
+import "swiper/swiper-bundle.css";
+import "./swiperCustom.css";
+import { useMediaQuery } from 'react-responsive';
+
+SwiperCore.use([Navigation, Pagination, Autoplay, Virtual]);
+
 export default function HomePage() {
     const options = {
         animationData: logoAnim,
@@ -20,8 +35,10 @@ export default function HomePage() {
     };
     const { View } = useLottie(options);
 
-    const ref = useRef(null)
-    const isInView = useInView(ref)
+    const ref = useRef(null);
+    const isInView = useInView(ref, { once: true });
+    const slides2 = useMediaQuery({ query: '(min-width:700px) and (max-width:1022px)' });
+    const slides1 = useMediaQuery({ query: '(max-width:700px)' });
 
     return (
         <div className={classes.homePage}>
@@ -76,14 +93,63 @@ export default function HomePage() {
             </section>
 
             <section className={classes.videosection}>
+                <div className={classes.videosecTitle}>
+                    <div>A GLIMPSE INTO<br />THE HYMN OF PARADOX</div>
+                    <div>#ADVAITA</div>
+                </div>
                 <div className={classes.ytvideo}>
                     <div />
                     <div>
                         <img src={iconYt} alt="youtube" />
                     </div>
                 </div>
-
-                <div></div>
+                <div className={classes.swiperWrap}>
+                    <Swiper
+                        className={classes.swiper}
+                        id="swiper"
+                        slidesPerView={2}
+                        spaceBetween={0}
+                        autoplay={{
+                            delay: 5000,
+                            disableOnInteraction: false,
+                        }}
+                        pagination={{
+                            clickable: true,
+                        }}
+                        loop
+                    >
+                        <SwiperSlide key="slide-1" style={{ listStyle: "none" }}>
+                            <div className={classes.sliderCard}>
+                                <img src={sliderImg} alt="slider" />
+                                <div className={classes.sliderCardOverlay} />
+                                <div className={classes.sliderCardText}>
+                                    <div>Street drama play from Advaita 2k19</div>
+                                    <div><span className={classes.sliderTextLine} />NUKKAD ACT</div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide key="slide-2" style={{ listStyle: "none" }}>
+                            <div className={classes.sliderCard}>
+                                <img src={sliderImg} alt="slider" />
+                                <div className={classes.sliderCardOverlay} />
+                                <div className={classes.sliderCardText}>
+                                    <div>Street drama play from Advaita 2k19</div>
+                                    <div><span className={classes.sliderTextLine} />NUKKAD ACT</div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide key="slide-3" style={{ listStyle: "none" }}>
+                            <div className={classes.sliderCard}>
+                                <img src={sliderImg} alt="slider" />
+                                <div className={classes.sliderCardOverlay} />
+                                <div className={classes.sliderCardText}>
+                                    <div>Street drama play from Advaita 2k19</div>
+                                    <div><span className={classes.sliderTextLine} />NUKKAD ACT</div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                    </Swiper>
+                </div>
             </section>
         </div >
     );

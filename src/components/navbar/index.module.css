@@ -57,7 +57,7 @@
     align-items: center;
     position: fixed;
     top: 0;
-    background: rgba(26, 15, 34, .85);
+    background: rgba(26, 15, 34, .9);
     font-weight: bold;
     font-size: 4rem;
     z-index: 10;
