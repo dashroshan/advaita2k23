@@ -1,5 +1,5 @@
 .hero {
-    background-image: url(../assets/hero.png);
+    background-image: url(../assets/hero.webp);
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
@@ -256,7 +256,7 @@
     background-size: cover;
     background-position: center;
     transition: transform .5s;
-    background-image: url(../assets/videoThumb.jpg);
+    background-image: url(../assets/videoThumb.webp);
 }
 
 .ytvideo:hover>div:nth-of-type(1) {
@@ -289,9 +289,9 @@
 .sliderCardOverlay {
     background: linear-gradient(180deg, rgba(34, 22, 46, 0) 0%, rgba(34, 22, 46, 1) 100%);
     content: " ";
-    top: 0;
+    bottom: 0;
     width: 500px;
-    height: 350px;
+    height: 200px;
     display: block;
     position: absolute;
 }

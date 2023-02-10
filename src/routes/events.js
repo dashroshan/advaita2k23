@@ -1,7 +1,7 @@
 import classes from "./events.module.css";
 import classesHome from "./homePage.module.css";
-import bgpn from "../assets/bgpn.jpg";
-import eventsText from "../assets/events.png";
+import bgpn from "../assets/bgpn.webp";
+import eventsText from "../assets/events.webp";
 import { motion } from "framer-motion";
 import { eventsData } from "./eventsData";
 

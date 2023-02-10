@@ -10,7 +10,7 @@ body {
     background: black;
     color: white;
     display: block;
-    background-image: url(./assets/bg.jpg);
+    background-image: url(./assets/bg.webp);
     background-repeat: repeat-y;
     background-position: center 0;
     background-size: cover;

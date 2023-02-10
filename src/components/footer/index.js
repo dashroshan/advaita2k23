@@ -1,7 +1,7 @@
 import classes from "./index.module.css";
 import { motion } from "framer-motion";
 import AngleButton from "../angleButton";
-import connectImg from "../../assets/connect.png"
+import connectImg from "../../assets/connect.webp"
 
 export default function Footer(props) {
     return (
