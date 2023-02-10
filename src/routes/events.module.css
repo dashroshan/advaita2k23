@@ -1,13 +1,46 @@
-/* .pronights {
+body {
+    background-position: center -30rem;
+}
+
+.eventsPage {
     margin-top: 7rem;
-} */
+    height: 100vh;
+}
 
 .header {
     height: 23rem;
+    overflow: hidden;
+    padding-bottom: 5rem;
+    position: relative;
 }
 
-.header img {
+.bgimgheader {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.5);
+}
+
+.eventText {
+    margin: 0 auto;
+    display: block;
+    margin-top: -15.9rem;
+    width: 50rem;
+    position: relative;
+}
+
+
+@media (max-width: 850px) {
+    .eventsPage {
+        margin-top: calc(13vw + 2.3rem);
+    }
+
+    .header {
+        height: 15rem;
+    }
+
+    .eventText {
+        width: 85vw;
+        margin-top: calc(-5rem - 18.5vw);
+    }
 }
