@@ -1,7 +1,7 @@
-import classes from "./proNights.module.css";
+import classes from "./events.module.css";
 import bgpn from "../assets/bgpn.jpg"
 
-export default function ProNights(props) {
+export default function EventsPage(props) {
     return (
         <div className={classes.pronights}>
             <div className={classes.header}>
