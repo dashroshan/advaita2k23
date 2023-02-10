@@ -45,17 +45,19 @@ import { HashLink } from "react-router-hash-link";
 SwiperCore.use([Navigation, Pagination, Autoplay, Virtual]);
 
 let swiperCardCount = 0;
-function swiperCard(img, title, subtitle) {
+function swiperCard(img, linkto, title, subtitle) {
     return (
         <SwiperSlide key={`slide-${swiperCardCount}`} style={{ listStyle: "none" }}>
-            <div className={classes.sliderCard}>
-                <img src={img} alt="slider" />
-                <div className={classes.sliderCardOverlay} />
-                <div className={classes.sliderCardText}>
-                    <div>{subtitle}</div>
-                    <div><span className={classes.sliderTextLine} />{title}</div>
+            <HashLink style={{ textDecoration: 'inherit', color: 'inherit' }} to={linkto}>
+                <div className={classes.sliderCard}>
+                    <img src={img} alt="slider" />
+                    <div className={classes.sliderCardOverlay} />
+                    <div className={classes.sliderCardText}>
+                        <div>{subtitle}</div>
+                        <div><span className={classes.sliderTextLine} />{title}</div>
+                    </div>
                 </div>
-            </div>
+            </HashLink>
         </SwiperSlide>
     );
 }
@@ -164,14 +166,14 @@ export default function HomePage() {
                         }}
                         loop
                     >
-                        {swiperCard(e0thumb, "PRONIGHTS", "Unleash the fun at the concerts of some of India's finest musicians, comedians, and DJs")}
-                        {swiperCard(e1thumb, "TECHNICAL EVENTS", "Unravel the tech giant within you")}
-                        {swiperCard(e2thumb, "CULTURAL EVENTS", "Enchant the arena with your charming voice or set the stage on fire with your dazzling steps")}
-                        {swiperCard(e3thumb, "FILM AND THEATER", "Get ready to bring out your inner 'Kalakar'")}
-                        {swiperCard(e4thumb, "ART AND E-SPORTS", "They say art lies all around us, also hola gamers!! may the best say GG")}
-                        {swiperCard(e5thumb, "PHOTOGRAPHY", "Capture the world full of possibilities")}
-                        {swiperCard(e6thumb, "FOOD CSA", "Cook exotic delicacies or flaunt your eating skills with amazing flavours in our hands")}
-                        {swiperCard(e7thumb, "SOCIAL CONNECT", "Because soul needs our good deeds")}
+                        {swiperCard(e0thumb, "/#pronights", "PRONIGHTS", "Unleash the fun at the concerts of some of India's finest musicians, comedians, and DJs")}
+                        {swiperCard(e1thumb, "/events#technical_events", "TECHNICAL EVENTS", "Unravel the tech giant within you")}
+                        {swiperCard(e2thumb, "/events#cultural_events", "CULTURAL EVENTS", "Enchant the arena with your charming voice or set the stage on fire with your dazzling steps")}
+                        {swiperCard(e3thumb, "/events#litfest_events", "FILM AND THEATER", "Get ready to bring out your inner 'Kalakar'")}
+                        {swiperCard(e4thumb, "/events#art_events", "ART AND E-SPORTS", "They say art lies all around us, also hola gamers!! may the best say GG")}
+                        {swiperCard(e5thumb, "/events#photography_events", "PHOTOGRAPHY", "Capture the world full of possibilities")}
+                        {swiperCard(e6thumb, "/events#food_events", "FOOD AND CSR", "Enjoy the amazing flavours and feed your soul with exotic delicacies and good deeds")}
+                        {swiperCard(e7thumb, "/events#social_connect", "SOCIAL CONNECT", "Help support important causes and make a positive impact in the community")}
                     </Swiper>
                 </div>
             </section>

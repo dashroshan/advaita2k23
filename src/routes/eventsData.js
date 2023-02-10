@@ -142,6 +142,20 @@ export const eventsData = [
         ]
     },
     {
+        title: "PHOTO GRAPHY",
+        id: "photography_events",
+        subtitle: "HEART OF A PERFECT CLICK",
+        description: "Get ready to snap, shoot, and shine! Unleash your inner artist and your wildest imagination. Dive into the world of photography and learn the ins and outs of capturing stunning shots. Let's capture some unforgettable moments together!",
+        events: [
+            {
+                date: "2ND FEB",
+                time: "10:00 AM",
+                description: "",
+                image: "/event-images/robo-wars.webp"
+            },
+        ]
+    },
+    {
         title: "FOOD",
         id: "food_events",
         subtitle: "SAVOR THE TASTE",
