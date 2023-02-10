@@ -34,7 +34,7 @@ export default function NavBar() {
                         transition={{ duration: 0.5 }}
                         className={classes.nav}
                     >
-                        <img src={advaitaLogo} alt="Advaita" />
+                        <Link style={{ textDecoration: 'inherit', color: 'inherit' }} to="/"><img src={advaitaLogo} alt="Advaita" /></Link>
                         <div className={classes.btns} onClick={() => setMenuOpen(!menuOpen)}>
                             <div />
                             <div />

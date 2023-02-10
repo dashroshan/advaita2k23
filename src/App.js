@@ -6,6 +6,7 @@ import AnimatedCursor from "react-animated-cursor"
 import HomePage from './routes/homePage';
 import NavBar from './components/navbar';
 import Footer from './components/footer';
+import ProNights from './routes/proNights';
 
 const PageLayout = ({ children }) => children;
 
@@ -77,6 +78,7 @@ export default function App() {
             <Routes>
                 <Route element={<AnimationLayout />}>
                     <Route path="/" element={<HomePage />} />
+                    <Route path="/pronights" element={<ProNights />} />
                 </Route>
             </Routes>
             <Footer />

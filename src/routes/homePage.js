@@ -3,6 +3,7 @@ import iconIg from "../assets/instagram.svg";
 import iconTw from "../assets/twitter.svg";
 import iconYt from "../assets/youtube.svg";
 import dateImg from "../assets/date.png";
+import heroAdvImg from "../assets/stage.webp";
 import sponsorsImg from "../assets/sponsors.png";
 import s1CodingNinja from "../assets/s1coding-ninjas.jpg";
 
@@ -83,7 +84,7 @@ export default function HomePage() {
             </section>
 
             <section className={classes.aboutSection}>
-                <motion.div viewport={{ once: true }} initial={{ transform: 'translateY(6rem)', opacity: 0 }} whileInView={{ transform: 'translateY(0rem)', opacity: 1 }} transition={{ duration: 2, type: "spring", delay: 0.15 }}><img src="https://advaita-iiitbh.in/static/images/home/stage.webp" alt="advaita" /></motion.div>
+                <motion.div viewport={{ once: true }} initial={{ transform: 'translateY(6rem)', opacity: 0 }} whileInView={{ transform: 'translateY(0rem)', opacity: 1 }} transition={{ duration: 2, type: "spring", delay: 0.15 }}><img src={heroAdvImg} alt="advaita" /></motion.div>
                 <div className={classes.aboutText}>
                     <div>
                         <motion.div viewport={{ once: true }} initial={{ transform: 'translateX(-6rem)', opacity: 0 }} whileInView={{ transform: 'translateX(-0.5rem)', opacity: 1 }} transition={{ duration: 2, type: "spring", delay: 0.15 }}>2K23</motion.div>

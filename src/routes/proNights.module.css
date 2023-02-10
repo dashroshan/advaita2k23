@@ -1,0 +1,13 @@
+/* .pronights {
+    margin-top: 7rem;
+} */
+
+.header {
+    height: 23rem;
+}
+
+.header img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
