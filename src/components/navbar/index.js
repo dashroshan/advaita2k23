@@ -4,7 +4,7 @@ import advaitaLogo from "../../assets/logo.webp";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import TopBinary from "./topBinary";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 export default function NavBar() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -20,11 +20,11 @@ export default function NavBar() {
                         transition={{ duration: 0.5 }}
                         className={classes.overlay} onClick={() => setMenuOpen(!menuOpen)}
                     >
-                        <div><Link style={{ textDecoration: 'inherit', color: 'inherit' }} to="/events">EVENTS</Link></div>
-                        <div><a style={{ textDecoration: 'inherit', color: 'inherit' }} href="/#pronights">PRONIGHTS</a></div>
-                        <div><a style={{ textDecoration: 'inherit', color: 'inherit' }} href="/#sponsors">SPONSORS</a></div>
-                        <div><a style={{ textDecoration: 'inherit', color: 'inherit' }} href="/#contacts">CONTACTS</a></div>
-                        <div><a style={{ textDecoration: 'inherit', color: 'inherit' }} href="/">REGISTER</a></div>
+                        <div><HashLink style={{ textDecoration: 'inherit', color: 'inherit' }} to="/events#">EVENTS</HashLink ></div>
+                        <div><HashLink style={{ textDecoration: 'inherit', color: 'inherit' }} to="/#pronights">PRONIGHTS</HashLink ></div>
+                        <div><HashLink style={{ textDecoration: 'inherit', color: 'inherit' }} to="/#sponsors">SPONSORS</HashLink ></div>
+                        <div><HashLink style={{ textDecoration: 'inherit', color: 'inherit' }} to="/#contacts">CONTACTS</HashLink ></div>
+                        <div><a style={{ textDecoration: 'inherit', color: 'inherit' }} target="_blank" href="https://google.com">REGISTER</a></div>
                     </motion.div>
                     :
                     <motion.nav
@@ -34,7 +34,7 @@ export default function NavBar() {
                         transition={{ duration: 0.5 }}
                         className={classes.nav}
                     >
-                        <Link style={{ textDecoration: 'inherit', color: 'inherit' }} to="/"><img src={advaitaLogo} alt="Advaita" /></Link>
+                        <HashLink style={{ textDecoration: 'inherit', color: 'inherit' }} to="/#"><img src={advaitaLogo} alt="Advaita" /></HashLink >
                         <div className={classes.btns} onClick={() => setMenuOpen(!menuOpen)}>
                             <div />
                             <div />
