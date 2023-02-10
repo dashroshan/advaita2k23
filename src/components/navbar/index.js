@@ -4,6 +4,7 @@ import advaitaLogo from "../../assets/logo.webp";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import TopBinary from "./topBinary";
+import { Link } from "react-router-dom";
 
 export default function NavBar() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -19,11 +20,11 @@ export default function NavBar() {
                         transition={{ duration: 0.5 }}
                         className={classes.overlay} onClick={() => setMenuOpen(!menuOpen)}
                     >
-                        <div>EVENTS</div>
-                        <div>PRONIGHTS</div>
-                        <div>SPONSORS</div>
-                        <div>CONTACTS</div>
-                        <div>REGISTER</div>
+                        <div><Link style={{ textDecoration: 'inherit', color: 'inherit' }} to="#">EVENTS</Link></div>
+                        <div><Link style={{ textDecoration: 'inherit', color: 'inherit' }} to="#">PRONIGHTS</Link></div>
+                        <div><Link style={{ textDecoration: 'inherit', color: 'inherit' }} to="#">SPONSORS</Link></div>
+                        <div><Link style={{ textDecoration: 'inherit', color: 'inherit' }} to={{ hash: "go-contacts" }}>CONTACTS</Link></div>
+                        <div><Link style={{ textDecoration: 'inherit', color: 'inherit' }} to="#">REGISTER</Link></div>
                     </motion.div>
                     :
                     <motion.nav

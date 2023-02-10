@@ -7,8 +7,6 @@ import connectImg from "../assets/connect.png";
 import sponsorsImg from "../assets/sponsors.png";
 import s1CodingNinja from "../assets/s1coding-ninjas.jpg";
 
-import sliderImg from "../assets/videoThumb.jpg";
-
 import e0thumb from "../assets/e0thumb.jpg";
 import e1thumb from "../assets/e1thumb.jpg";
 import e2thumb from "../assets/e2thumb.jpg";
@@ -217,7 +215,7 @@ export default function HomePage() {
                 </div>
             </section>
 
-            <section className={classes.contactsSection}>
+            <section className={classes.contactsSection} id="go-contacts">
                 <motion.div viewport={{ once: true }} initial={{ transform: 'translateX(-10rem)', opacity: 0 }} whileInView={{ transform: 'translateX(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring", delay: 0.00 }}><img src={connectImg} alt="Connect" /></motion.div>
                 <div>
                     <motion.div viewport={{ once: true }} initial={{ transform: 'translateY(4rem)', opacity: 0 }} whileInView={{ transform: 'translateY(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring", delay: 0.2 }} className={classes.socialContact}>+91 9876543210</motion.div>

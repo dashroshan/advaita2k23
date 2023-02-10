@@ -36,7 +36,7 @@
     width: 1rem;
     margin-left: 1.5rem;
     filter: invert();
-    transition: .3s;
+    transition: .3s ease-in-out;
     rotate: 90deg;
 }
 
