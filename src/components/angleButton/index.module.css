@@ -23,6 +23,7 @@
     transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
     padding: 10px 50px;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .button::before {

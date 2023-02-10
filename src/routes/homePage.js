@@ -154,7 +154,7 @@ export default function HomePage() {
                 </div>
             </section>
 
-            <section className={classes.sponsorsSection}>
+            <section className={classes.sponsorsSection} id="sponsors">
                 <motion.div viewport={{ once: true }} initial={{ transform: 'translateY(-10rem) scale(0)', opacity: 0 }} whileInView={{ transform: 'translateY(0rem) scale(1)', opacity: 1 }} transition={{ duration: 2, type: "spring" }}><img src={sponsorsImg} alt="Sponsors" /></motion.div>
                 <div className={classes.sponsorsWrap}>
                     <div className={classes.sponsorCardWrap}>

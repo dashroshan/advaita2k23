@@ -1,5 +1,4 @@
 .contactsSection {
-    margin-top: 9rem;
     background: #150f1a;
     height: 18rem;
     display: block;
@@ -7,7 +6,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 9rem;
     padding: 0 5vw;
+    scroll-margin-top: 4rem;
 }
 
 .contactsSection img {
