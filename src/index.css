@@ -11,7 +11,7 @@ body {
     color: white;
     display: block;
     background-image: url(./assets/bg.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-position: center 0;
     background-size: cover;
 }

@@ -9,8 +9,8 @@ function proNightsCard(img, title, subtitle, desc) {
     return (
         <div className={classesHome.sliderCard + " " + classes.proCard}>
             <img src={img} alt="slider" />
-            <div className={classesHome.sliderCardOverlay} />
-            <div className={classesHome.sliderCardOverlay + " " + classes.proCardOverlay} />
+            <div className={classes.sliderCardOverlay} />
+            <div className={classes.sliderCardOverlay + " " + classes.sliderCardOverlay2 + " " + classes.proCardOverlay} />
             <div className={classes.sliderCardText}>
                 <div>{subtitle}</div>
                 <div><span className={classes.sliderTextLine} />{title}</div>

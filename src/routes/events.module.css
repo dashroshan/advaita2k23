@@ -63,6 +63,17 @@ body {
     }
 }
 
+
+.sliderCardOverlay {
+    background: linear-gradient(180deg, rgba(34, 22, 46, 0) 0%, rgba(34, 22, 46, 1) 100%);
+    content: " ";
+    width: 500px;
+    height: 150px;
+    bottom: 0;
+    display: block;
+    position: absolute;
+}
+
 .sliderTextLine {
     display: inline-block;
     width: 0;
@@ -113,7 +124,7 @@ body {
 }
 
 .proCard:hover .proCardOverlay {
-    transform: translateY(-150px);
+    transform: translateY(50px);
 }
 
 .proCard .sliderTextLine {
@@ -183,7 +194,13 @@ body {
     line-height: 1.5rem;
 }
 
+
 @media (max-width: 1050px) {
+    .sliderCardOverlay {
+        max-width: 600px;
+        width: 100vw;
+    }
+
     .proCardsWrap {
         justify-content: center;
         gap: 1.5rem;
