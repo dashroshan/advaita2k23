@@ -21,10 +21,10 @@ export default function NavBar() {
                         className={classes.overlay} onClick={() => setMenuOpen(!menuOpen)}
                     >
                         <div><Link style={{ textDecoration: 'inherit', color: 'inherit' }} to="/events">EVENTS</Link></div>
-                        <div><a style={{ textDecoration: 'inherit', color: 'inherit' }} href="#pronights">PRONIGHTS</a></div>
-                        <div><a style={{ textDecoration: 'inherit', color: 'inherit' }} href="#sponsors">SPONSORS</a></div>
-                        <div><a style={{ textDecoration: 'inherit', color: 'inherit' }} href="#contacts">CONTACTS</a></div>
-                        <div><Link style={{ textDecoration: 'inherit', color: 'inherit' }} to="#">REGISTER</Link></div>
+                        <div><a style={{ textDecoration: 'inherit', color: 'inherit' }} href="/#pronights">PRONIGHTS</a></div>
+                        <div><a style={{ textDecoration: 'inherit', color: 'inherit' }} href="/#sponsors">SPONSORS</a></div>
+                        <div><a style={{ textDecoration: 'inherit', color: 'inherit' }} href="/#contacts">CONTACTS</a></div>
+                        <div><a style={{ textDecoration: 'inherit', color: 'inherit' }} href="/">REGISTER</a></div>
                     </motion.div>
                     :
                     <motion.nav
