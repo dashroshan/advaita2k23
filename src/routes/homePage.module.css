@@ -585,6 +585,7 @@
     transform: translateY(0px);
     transition: .5s;
     margin: 0 2rem;
+    font-size: min(3.4vw, 1rem);
 }
 
 .proCard:hover .proCardDesc {
