@@ -109,6 +109,7 @@
         margin: 0;
         padding: 1rem;
         padding-bottom: 0.7rem;
+        background: linear-gradient(#1a0e22 20%, #1a0e2288 80%, #1a0e2200);
     }
 
     .nav img {
