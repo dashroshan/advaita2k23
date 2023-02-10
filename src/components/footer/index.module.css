@@ -1,0 +1,115 @@
+.contactsSection {
+    margin-top: 9rem;
+    background: #150f1a;
+    height: 18rem;
+    display: block;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+}
+
+.contactsSection img {
+    width: 286px;
+    scale: 0.7;
+}
+
+.contactsSection>div {
+    display: flex;
+    font-weight: bold;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    gap: max(4vw, 4rem);
+}
+
+.contactsSection a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.socialContact {
+    margin-top: 0.7rem;
+}
+
+.socialContact::after {
+    content: " ";
+    display: block;
+    height: 0.25rem;
+    transform: scaleX(0);
+    margin-top: 0.3rem;
+    background: #f3223a;
+    transition: .3s ease-in-out;
+}
+
+.socialContact:hover::after {
+    transform: scaleX(1);
+}
+
+@media (max-width: 1400px) {
+    .contactsSection {
+        flex-direction: column;
+        height: unset;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 725px) {
+    .socialContact {
+        margin-top: 0;
+    }
+
+    .contactsSection {
+        gap: 1rem;
+    }
+
+    .contactsSection>div {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+        margin-bottom: 1.7rem;
+    }
+
+    .contactsSection img {
+        transform: translateX(-0.6rem);
+    }
+}
+
+.footerSection {
+    height: 7rem;
+    background-color: #100d12;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5vw;
+    align-items: center;
+    position: relative;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+}
+
+.footerSection::before {
+    content: '';
+    display: block;
+    background-color: #150f1a;
+    width: 100%;
+    height: 23px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%);
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+
+@media (max-width: 725px) {
+    .footerSection {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+}

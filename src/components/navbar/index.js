@@ -23,7 +23,7 @@ export default function NavBar() {
                         <div><Link style={{ textDecoration: 'inherit', color: 'inherit' }} to="#">EVENTS</Link></div>
                         <div><Link style={{ textDecoration: 'inherit', color: 'inherit' }} to="#">PRONIGHTS</Link></div>
                         <div><Link style={{ textDecoration: 'inherit', color: 'inherit' }} to="#">SPONSORS</Link></div>
-                        <div><Link style={{ textDecoration: 'inherit', color: 'inherit' }} to={{ hash: "go-contacts" }}>CONTACTS</Link></div>
+                        <div><Link style={{ textDecoration: 'inherit', color: 'inherit' }} to="#">CONTACTS</Link></div>
                         <div><Link style={{ textDecoration: 'inherit', color: 'inherit' }} to="#">REGISTER</Link></div>
                     </motion.div>
                     :

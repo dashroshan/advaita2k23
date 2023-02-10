@@ -5,6 +5,7 @@ import AnimatedCursor from "react-animated-cursor"
 
 import HomePage from './routes/homePage';
 import NavBar from './components/navbar';
+import Footer from './components/footer';
 
 const PageLayout = ({ children }) => children;
 
@@ -66,18 +67,19 @@ export default function App() {
 
     return (
         <div className="App">
-            <NavBar />
-            <Routes>
-                <Route element={<AnimationLayout />}>
-                    <Route path="/" element={<HomePage />} />
-                </Route>
-            </Routes>
             <AnimatedCursor
                 innerSize={10}
                 outerSize={50}
                 outerScale={2}
                 color='237, 46, 68'
             />
+            <NavBar />
+            <Routes>
+                <Route element={<AnimationLayout />}>
+                    <Route path="/" element={<HomePage />} />
+                </Route>
+            </Routes>
+            <Footer />
         </div>
     );
 }
