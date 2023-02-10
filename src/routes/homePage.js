@@ -91,9 +91,9 @@ export default function HomePage() {
             <section className={classes.hero}>
                 <motion.div viewport={{ once: true }} initial={{ transform: 'translate(-12rem, -5.3rem)', opacity: 0 }} whileInView={{ transform: 'translate(0rem, -5.3rem)', opacity: 1 }} transition={{ duration: 2, type: "spring", delay: 0.3 }} className={classes.leftVertical}>
                     <div>FOLLOW US ON: </div>
-                    <a href="#"><img src={iconIg} alt="social" /></a>
-                    <a href="#"><img src={iconTw} alt="social" /></a>
-                    <a href="#"><img src={iconYt} alt="social" /></a>
+                    <a target="_blank" href="https://instagram.com/advaita_iiitbh"><img src={iconIg} alt="social" /></a>
+                    <a target="_blank" href="https://facebook.com/advaita.iiit"><img src={iconTw} alt="social" /></a>
+                    <a target="_blank" href="https://youtube.com/channel/UCkULTsUj0_Ukm9DWOtin5yw"><img src={iconYt} alt="social" /></a>
                 </motion.div>
 
                 <motion.div viewport={{ once: true }} initial={{ transform: 'translate(-12rem, 4.5rem)', opacity: 0 }} whileInView={{ transform: 'translate(0rem, 4.5rem)', opacity: 1 }} transition={{ duration: 2, type: "spring", delay: 0.6 }} className={classes.rightVertical}>
