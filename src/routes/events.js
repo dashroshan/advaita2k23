@@ -44,7 +44,7 @@ export default function EventsPage() {
                 <div className={classes.header}>
                     <img src={bgpn} alt="pronights" className={classes.bgimgheader} />
                 </div>
-                <motion.div viewport={{ once: false }} initial={{ transform: 'translateY(-10rem)', opacity: 0 }} whileInView={{ transform: 'translateY(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }}><img src={eventsText} alt="events schedule" className={classes.eventText} /></motion.div>
+                <motion.div viewport={{ once: true }} initial={{ transform: 'translateY(-10rem)', opacity: 0 }} whileInView={{ transform: 'translateY(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }}><img src={eventsText} alt="events schedule" className={classes.eventText} /></motion.div>
             </section>
             {eventsData.map(e => eventsSection(e))}
         </div>
