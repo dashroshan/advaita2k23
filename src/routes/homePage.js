@@ -7,7 +7,16 @@ import connectImg from "../assets/connect.png";
 import sponsorsImg from "../assets/sponsors.png";
 import s1CodingNinja from "../assets/s1coding-ninjas.jpg";
 
-import sliderImg from "../assets/videoThumb.jpg"
+import sliderImg from "../assets/videoThumb.jpg";
+
+import e0thumb from "../assets/e0thumb.jpg";
+import e1thumb from "../assets/e1thumb.jpg";
+import e2thumb from "../assets/e2thumb.jpg";
+import e3thumb from "../assets/e3thumb.jpg";
+import e4thumb from "../assets/e4thumb.jpg";
+import e5thumb from "../assets/e5thumb.jpg";
+import e6thumb from "../assets/e6thumb.jpg";
+import e7thumb from "../assets/e7thumb.jpg";
 
 import { useLottie } from "lottie-react";
 import logoAnim from "../assets/logoanim.json";
@@ -30,6 +39,22 @@ import "./swiperCustom.css";
 import { useMediaQuery } from 'react-responsive';
 
 SwiperCore.use([Navigation, Pagination, Autoplay, Virtual]);
+
+let swiperCardCount = 0;
+function swiperCard(img, title, subtitle) {
+    return (
+        <SwiperSlide key={`slide-${swiperCardCount}`} style={{ listStyle: "none" }}>
+            <div className={classes.sliderCard}>
+                <img src={img} alt="slider" />
+                <div className={classes.sliderCardOverlay} />
+                <div className={classes.sliderCardText}>
+                    <div>{subtitle}</div>
+                    <div><span className={classes.sliderTextLine} />{title}</div>
+                </div>
+            </div>
+        </SwiperSlide>
+    );
+}
 
 export default function HomePage() {
     const options = {
@@ -120,46 +145,14 @@ export default function HomePage() {
                         }}
                         loop
                     >
-                        <SwiperSlide key="slide-1" style={{ listStyle: "none" }}>
-                            <div className={classes.sliderCard}>
-                                <img src={sliderImg} alt="slider" />
-                                <div className={classes.sliderCardOverlay} />
-                                <div className={classes.sliderCardText}>
-                                    <div>Street drama play from Advaita 2k19</div>
-                                    <div><span className={classes.sliderTextLine} />NUKKAD ACT</div>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide key="slide-2" style={{ listStyle: "none" }}>
-                            <div className={classes.sliderCard}>
-                                <img src={sliderImg} alt="slider" />
-                                <div className={classes.sliderCardOverlay} />
-                                <div className={classes.sliderCardText}>
-                                    <div>Street drama play from Advaita 2k19</div>
-                                    <div><span className={classes.sliderTextLine} />NUKKAD ACT</div>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide key="slide-3" style={{ listStyle: "none" }}>
-                            <div className={classes.sliderCard}>
-                                <img src={sliderImg} alt="slider" />
-                                <div className={classes.sliderCardOverlay} />
-                                <div className={classes.sliderCardText}>
-                                    <div>Street drama play from Advaita 2k19</div>
-                                    <div><span className={classes.sliderTextLine} />NUKKAD ACT</div>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide key="slide-4" style={{ listStyle: "none" }}>
-                            <div className={classes.sliderCard}>
-                                <img src={sliderImg} alt="slider" />
-                                <div className={classes.sliderCardOverlay} />
-                                <div className={classes.sliderCardText}>
-                                    <div>Street drama play from Advaita 2k19</div>
-                                    <div><span className={classes.sliderTextLine} />NUKKAD ACT</div>
-                                </div>
-                            </div>
-                        </SwiperSlide>
+                        {swiperCard(e0thumb, "PRONIGHTS", "Unleash the fun at the concerts of some of India's finest musicians, comedians, and DJs")}
+                        {swiperCard(e1thumb, "TECHNICAL EVENTS", "Unravel the tech giant within you")}
+                        {swiperCard(e2thumb, "CULTURAL EVENTS", "Enchant the arena with your charming voice or set the stage on fire with your dazzling steps")}
+                        {swiperCard(e3thumb, "FILM AND THEATER", "Get ready to bring out your inner 'Kalakar'")}
+                        {swiperCard(e4thumb, "ART AND E-SPORTS", "They say art lies all around us, also hola gamers!! may the best say GG")}
+                        {swiperCard(e5thumb, "PHOTOGRAPHY", "Capture the world full of possibilities")}
+                        {swiperCard(e6thumb, "FOOD CSA", "Cook exotic delicacies or flaunt your eating skills with amazing flavours in our hands")}
+                        {swiperCard(e7thumb, "SOCIAL CONNECT", "Because soul needs our good deeds")}
                     </Swiper>
                 </div>
             </section>

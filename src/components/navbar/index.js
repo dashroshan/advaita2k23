@@ -20,7 +20,7 @@ export default function NavBar() {
                         className={classes.overlay} onClick={() => setMenuOpen(!menuOpen)}
                     >
                         <div>EVENTS</div>
-                        <div>PRONITES</div>
+                        <div>PRONIGHTS</div>
                         <div>SPONSORS</div>
                         <div>CONTACTS</div>
                         <div>REGISTER</div>
