@@ -276,6 +276,7 @@
     position: relative;
     overflow: hidden;
     margin-bottom: 3rem;
+    box-shadow: 3px 6px 21px 0 rgb(0 0 0 / 51%);
 }
 
 .sliderCard img {
@@ -497,5 +498,115 @@
     .sponsorCard img {
         width: 100%;
         height: 100%;
+    }
+}
+
+.proNights {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 9rem;
+    margin-bottom: 11rem;
+    gap: 3rem;
+}
+
+.proNightsTitle {
+    width: 1000px;
+}
+
+.proNightsTitle>div:nth-of-type(1) {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 5rem;
+}
+
+.proNightsTitle>div:nth-of-type(2) {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #f3223a;
+    margin-bottom: 1rem;
+}
+
+.proNightsTitle>div:nth-of-type(3) {
+    opacity: 0.75;
+    line-height: 1.5rem;
+}
+
+.swiperWrapPro {
+    width: 100vw;
+}
+
+.proCardsWrap {
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.proCard {
+    box-shadow: 3px 6px 21px 0 rgb(0 0 0 / 51%);
+    margin-bottom: 0;
+}
+
+.proCardOverlay {
+    background: linear-gradient(rgba(253, 49, 71, 0), #fd3147);
+    transform: translateY(350px);
+    height: 350px;
+    transition: .5s;
+}
+
+.proCard .sliderCardText {
+    transition: .5s;
+}
+
+.proCard:hover .sliderCardText {
+    transform: translateY(-130px);
+    color: white;
+}
+
+.proCard:hover .proCardOverlay {
+    transform: translateY(130px);
+}
+
+.proCard .sliderTextLine {
+    background: white;
+}
+
+.proCard:hover .sliderCardText>div:first-of-type {
+    color: white;
+}
+
+.proCard:hover img {
+    filter: blur(5px);
+}
+
+.proCardDesc {
+    transform: translateY(0px);
+    transition: .5s;
+    margin: 0 2rem;
+}
+
+.proCard:hover .proCardDesc {
+    transform: translateY(-140px);
+}
+
+@media (max-width: 1050px) {
+    .proCardsWrap {
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .proNightsTitle {
+        width: 90vw;
+    }
+
+    .proNightsTitle>div:nth-of-type(1) {
+        font-weight: bold;
+        font-size: 5rem;
+        line-height: 4rem;
+    }
+
+    .proNights {
+        margin-bottom: -7.4rem;
     }
 }

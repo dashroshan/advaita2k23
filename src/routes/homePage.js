@@ -214,6 +214,57 @@ export default function HomePage() {
                     </div>
                 </div>
             </section>
+
+
+            <section className={classes.proNights}>
+                <div className={classes.proNightsTitle}>
+                    <div>PRO-NIGHTS</div>
+                    <div><span style={{ color: "white" }}>#</span> UNLEASH THE FUN</div>
+                    <div>Vibe to the concerts of some of India's finest musicians, comedians, and DJs! Get ready to groove and make memories that'll last a lifetime. Not only will you breathe fun-filled flavours of air, and meet new people; but you'll also become a part of an ever-blossoming community of IIIT Bhubaneswar. So, buckle up and grab your squad and let the good vibes roll, adding an extra perfection to the hymn of your steps.</div>
+                </div>
+                <div className={classes.proCardsWrap}>
+                    <div className={classes.sliderCard + " " + classes.proCard}>
+                        <img src={e1thumb} alt="slider" />
+                        <div className={classes.sliderCardOverlay} />
+                        <div className={classes.sliderCardOverlay + " " + classes.proCardOverlay} />
+                        <div className={classes.sliderCardText}>
+                            <div>ROCK MUSIC</div>
+                            <div><span className={classes.sliderTextLine} />BAND PARASHARA</div>
+                        </div>
+                        <div className={classes.proCardDesc}>Band PARASHARA are a progressive Delhi-based band. The rock atmospshere conceived by them is sure to leave everyone pumped up and asking for more. Using a great amount of flavors from multiple playing styles and genres, they'll surely take the night high with us.</div>
+                    </div>
+                    <div className={classes.sliderCard + " " + classes.proCard}>
+                        <img src={e1thumb} alt="slider" />
+                        <div className={classes.sliderCardOverlay} />
+                        <div className={classes.sliderCardOverlay + " " + classes.proCardOverlay} />
+                        <div className={classes.sliderCardText}>
+                            <div>ROCK MUSIC</div>
+                            <div><span className={classes.sliderTextLine} />BAND PARASHARA</div>
+                        </div>
+                        <div className={classes.proCardDesc}>Band PARASHARA are a progressive Delhi-based band. The rock atmospshere conceived by them is sure to leave everyone pumped up and asking for more. Using a great amount of flavors from multiple playing styles and genres, they'll surely take the night high with us.</div>
+                    </div>
+                    <div className={classes.sliderCard + " " + classes.proCard}>
+                        <img src={e1thumb} alt="slider" />
+                        <div className={classes.sliderCardOverlay} />
+                        <div className={classes.sliderCardOverlay + " " + classes.proCardOverlay} />
+                        <div className={classes.sliderCardText}>
+                            <div>ROCK MUSIC</div>
+                            <div><span className={classes.sliderTextLine} />BAND PARASHARA</div>
+                        </div>
+                        <div className={classes.proCardDesc}>Band PARASHARA are a progressive Delhi-based band. The rock atmospshere conceived by them is sure to leave everyone pumped up and asking for more. Using a great amount of flavors from multiple playing styles and genres, they'll surely take the night high with us.</div>
+                    </div>
+                    <div className={classes.sliderCard + " " + classes.proCard}>
+                        <img src={e1thumb} alt="slider" />
+                        <div className={classes.sliderCardOverlay} />
+                        <div className={classes.sliderCardOverlay + " " + classes.proCardOverlay} />
+                        <div className={classes.sliderCardText}>
+                            <div>ROCK MUSIC</div>
+                            <div><span className={classes.sliderTextLine} />BAND PARASHARA</div>
+                        </div>
+                        <div className={classes.proCardDesc}>Band PARASHARA are a progressive Delhi-based band. The rock atmospshere conceived by them is sure to leave everyone pumped up and asking for more. Using a great amount of flavors from multiple playing styles and genres, they'll surely take the night high with us.</div>
+                    </div>
+                </div>
+            </section>
         </div >
     );
 }
