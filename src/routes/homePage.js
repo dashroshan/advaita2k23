@@ -156,7 +156,7 @@ export default function HomePage() {
             </section>
 
             <section className={classes.sponsorsSection} id="sponsors">
-                <motion.div viewport={{ once: true }} initial={{ transform: 'translateY(-10rem) scale(0)', opacity: 0 }} whileInView={{ transform: 'translateY(0rem) scale(1)', opacity: 1 }} transition={{ duration: 2, type: "spring" }}><img src={sponsorsImg} alt="Sponsors" /></motion.div>
+                <motion.div viewport={{ once: true }} initial={{ transform: 'translateY(6rem)', opacity: 0 }} whileInView={{ transform: 'translateY(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }}><img src={sponsorsImg} alt="Sponsors" /></motion.div>
                 <div className={classes.sponsorsWrap}>
                     <div className={classes.sponsorCardWrap}>
                         <div className={classes.sponsorCard}>
@@ -218,9 +218,9 @@ export default function HomePage() {
 
             <section className={classes.proNights}>
                 <div className={classes.proNightsTitle}>
-                    <div>PRO-NIGHTS</div>
-                    <div><span style={{ color: "white" }}>#</span> UNLEASH THE FUN</div>
-                    <div>Vibe to the concerts of some of India's finest musicians, comedians, and DJs! Get ready to groove and make memories that'll last a lifetime. Not only will you breathe fun-filled flavours of air, and meet new people; but you'll also become a part of an ever-blossoming community of IIIT Bhubaneswar. So, buckle up and grab your squad and let the good vibes roll, adding an extra perfection to the hymn of your steps.</div>
+                    <motion.div viewport={{ once: true }} initial={{ transform: 'translateX(6rem)', opacity: 0 }} whileInView={{ transform: 'translateX(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }}>PRO-NIGHTS</motion.div>
+                    <motion.div viewport={{ once: true }} initial={{ transform: 'translateY(3rem)', opacity: 0 }} whileInView={{ transform: 'translateY(0rem)', opacity: 1 }} transition={{ duration: 1.2, type: "spring", delay: 0.2 }}><span style={{ color: "white" }}>#</span> UNLEASH THE FUN</motion.div>
+                    <motion.div viewport={{ once: true }} initial={{ transform: 'translateX(-6rem)', opacity: 0 }} whileInView={{ transform: 'translateX(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }}>Vibe to the concerts of some of India's finest musicians, comedians, and DJs! Get ready to groove and make memories that'll last a lifetime. Not only will you breathe fun-filled flavours of air, and meet new people; but you'll also become a part of an ever-blossoming community of IIIT Bhubaneswar. So, buckle up and grab your squad and let the good vibes roll, adding an extra perfection to the hymn of your steps.</motion.div>
                 </div>
                 <div className={classes.proCardsWrap}>
                     <div className={classes.sliderCard + " " + classes.proCard}>
