@@ -506,7 +506,8 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 9rem;
+    margin-top: 1rem;
+    padding-top: 8rem;
     margin-bottom: 11rem;
     gap: 3rem;
 }
