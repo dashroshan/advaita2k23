@@ -51,7 +51,7 @@ export const eventsData = [
                 date: "2ND FEB",
                 time: "10:00 AM",
                 description: "Remember the golden old days of science exhibition in school? Well, we’re bringing back that nostalgia through this event! This amazing event is going to be a day long exhibition of the most interesting and useful projects contributed by the students and community.",
-                image: "/event-images/not-made.webp"
+                image: "/event-images/tech-nova.webp"
             },
             {
                 date: "2ND FEB",
@@ -75,7 +75,7 @@ export const eventsData = [
                 date: "2ND FEB",
                 time: "10:00 AM",
                 description: "Ever made a team and worked individually? Well, this event will test your code as well as team compatibility. It is a coding contest with a single coding round for teams made of two. ICPC format of contest will be followed with some different rules. Both the team members will solve the same question but not together, they will solve the question individually and after a time limit, they will switch their positions and continue till the time reaches for that particular question. So, work on the live problem in a disjointed team of two and switch your positions after half the total time.",
-                image: "/event-images/not-made.webp"
+                image: "/event-images/switch-code.webp"
             },
             {
                 date: "2ND FEB",
