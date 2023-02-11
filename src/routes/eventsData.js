@@ -95,7 +95,31 @@ export const eventsData = [
                 date: "2ND FEB",
                 time: "10:00 AM",
                 description: "",
-                image: "/event-images/robo-wars.webp"
+                image: "/event-images/acoustica.webp"
+            },
+            {
+                date: "2ND FEB",
+                time: "10:00 AM",
+                description: "",
+                image: "/event-images/cypher.webp"
+            },
+            {
+                date: "2ND FEB",
+                time: "10:00 AM",
+                description: "",
+                image: "/event-images/footloose.webp"
+            },
+            {
+                date: "2ND FEB",
+                time: "10:00 AM",
+                description: "",
+                image: "/event-images/lamode.webp"
+            },
+            {
+                date: "2ND FEB",
+                time: "10:00 AM",
+                description: "",
+                image: "/event-images/rockathon.webp"
             },
         ]
     },
@@ -108,9 +132,21 @@ export const eventsData = [
             {
                 date: "2ND FEB",
                 time: "10:00 AM",
-                description: "",
-                image: "/event-images/robo-wars.webp"
+                description: "“Bringing the best out of you, one stage at a time.” Whether you're an experienced thespian or just starting out, this is your chance to shine and impress a panel of pros. From monologues to scenes and short plays, this talent show will give you the opportunity to showcase your range and versatility as an actor. Participants will compete for cash prizes and the chance to discover your hidden talent. ‘Mai Kalakaar’ is not just about showcasing talent, it's about fostering a community of actors and encouraging them to grow and evolve. ",
+                image: "/event-images/mai-kalakar.webp"
             },
+            {
+                date: "2ND FEB",
+                time: "10:00 AM",
+                description: "Rangbhumi - where inner feelings will be expressed through art, culture and visual arts. A place where the audience is transported to a whole new world and becomes a part of the story that unfolds on stage. So evoke the actor inside you because every scene you will ever act in begins in the middle, and it is up to you, the actor, to provide what comes before. Put on your acting hats and bring what's in your mind into reality. Become the one you have dreamed of and turn all impossibilities into possibilities. Come together to experience something truly magical.",
+                image: "/event-images/rangbhumi.webp"
+            },
+            {
+                date: "2ND FEB",
+                time: "10:00 AM",
+                description: "Change! Reform! Badlaav! Nukkad is a street corner gathering where people come together to discuss social, cultural, and political issues. These events often involve performances such as plays, skits, and music, and can be used to raise awareness about important issues or to bring a community together. Nukkad events are a great way to engage with your community and make a positive impact on the issues that matter to you. Experience the power of collective voices as we come together to raise awareness and bring about positive change.",
+                image: "/event-images/nukkad-show.webp"
+            }
         ]
     },
     {
@@ -122,23 +158,53 @@ export const eventsData = [
             {
                 date: "2ND FEB",
                 time: "10:00 AM",
-                description: "",
-                image: "/event-images/robo-wars.webp"
+                description: "No, it's not a drawing competition, but a game like Chinese Whisper. Yes, Chinese Whisper, it was fun - Shall we take it to the Next level and double the fun and excitement! Join us in this fun and creative event where we will be drawing on each other's backs in teams of 3, wherein the Chinese whisper is replaced with a pen and paper. The first person has to draw a piece of any art on the back of the other person and that person is required to draw the art that he is perceiving, passing on to the third one. Just make it as right as possible.",
+                image: "/event-images/draw-it-right.webp"
+            },
+            {
+                date: "2ND FEB",
+                time: "10:00 AM",
+                description: "We don't make mistakes, we have happy accidents. ~Bob Ross Do you love the process of making art and get engrossed in the realm of paintings? Making art is no less than magic. It is one of those creations that allows for interpretation of any kind. We have all of that in stock for you to showcase your talent but with a TWIST. ADVAITA presents \"PICASSO\", a relay race in which you and your teammates will make use of the paint brushes to add paint strokes one by one to make a meaningful work of art. Join us in this battle of creativity and show off your artistic prowess to the world.",
+                image: "/event-images/picasso.webp"
+            },
+            {
+                date: "2ND FEB",
+                time: "10:00 AM",
+                description: "Treasure hunting has always been an activity of adrenaline, intelligence and bravery. People have been searching for gold and precious stones in the form of treasure for centuries. But what if we introduce a twist by bringing in artistic treasure and creating an universe of creative brilliance? ADVAITA brings to you \"TREAVENGER HUNT\". Within a set amount of time, locate the hidden art supplies and use them to create your masterpiece. Set your heart ablaze and go beyond your limits during the search and win the battle with all the tools at your disposal.",
+                image: "/event-images/treavenger-hunt.webp"
+            },
+            {
+                date: "2ND FEB",
+                time: "10:00 AM",
+                description: "How accurately can you make art? An art testing skill competition \"ART-CURRACY\" which will test your art skills and your descriptive abilities. Only good words are not enough, being able to draw accurate things is also a challenging part of itself. It will be fun and thrilling to witness this competition. Also for those artistic friends, it gives you a platform to showcase and test your art skills. The participants will compete in teams of two where one of them will be given a picture that he/she will see and describe to the other, and the other participant needs to draw it accurately based on the description provided.",
+                image: "/event-images/art-curacy.webp"
             },
         ]
     },
     {
-        title: "E-SPORTS",
-        id: "esports_events",
+        title: "GAMES",
+        id: "game_events",
         subtitle: "STEP YOUR GAME UP",
-        description: "Hola gamers!!! How can we start the party without ya all. We are officially sending the invitation to you for the ultimate battle  let's see if you have what it takes to win it. May the best say Gg.",
+        description: "Hola gamers and fun seekers!!! How can we start the party without ya all. We are officially sending the invitation to you for the ultimate battles. Let's see if you have what it takes to win. May the best say GG!",
         events: [
             {
                 date: "2ND FEB",
                 time: "10:00 AM",
                 description: "",
-                image: "/event-images/robo-wars.webp"
+                image: "/event-images/esports.webp"
             },
+            {
+                date: "2ND FEB",
+                time: "10:00 AM",
+                description: "",
+                image: "/event-images/bbdm.webp"
+            },
+            {
+                date: "2ND FEB",
+                time: "10:00 AM",
+                description: "",
+                image: "/event-images/scrambling-dart.webp"
+            }
         ]
     },
     {
@@ -150,9 +216,27 @@ export const eventsData = [
             {
                 date: "2ND FEB",
                 time: "10:00 AM",
-                description: "",
-                image: "/event-images/robo-wars.webp"
+                description: "Step into the world of photography and freeze your memories at A STILL IN TIME - the ultimate photo exhibition! Join us at #Advaita2023 and discover the beauty of capturing a moment in time through the lens. From stunning landscapes to candid shots, we've curated some of the best works from photographers of our college. Not only will you get to admire the art, but you'll also get the chance to snap your own memories at our photo booth. Don't miss out on this one-of-a-kind experience.",
+                image: "/event-images/a-still-in-time.webp"
             },
+            {
+                date: "2ND FEB",
+                time: "10:00 AM",
+                description: "Get ready to snap, shoot, and shine with IMAGEN—the ultimate destination for photography and videography enthusiasts! Whether you're a seasoned pro or just starting out, our specially curated competitions will inspire and challenge you to bring your creative vision to life. With IMAGEN, the world is your canvas and the camera is your brush—so let's capture some unforgettable moments together!",
+                image: "/event-images/imagen.webp"
+            },
+            {
+                date: "2ND FEB",
+                time: "10:00 AM",
+                description: "Ready to unleash your inner artist and wildest imagination? Look no further, because this event is just for you! Imagine being able to transform your friend's face into a monkey or creating a poster that's out of this world. With our hands-on experience using pro graphics editing softwares, the possibilities are endless. You'll learn all the tricks of the trade, from image selection and composition to color correction and retouching. You'll also learn how to layer and blend images to create unique and eye-catching compositions. Be ready to wow the world with your digital art creations!",
+                image: "/event-images/photo-manipulation.webp"
+            },
+            {
+                date: "2ND FEB",
+                time: "10:00 AM",
+                description: "Unleash your inner shutterbug and join us for a thrilling photography workshop! Led by renowned experts in the field, this workshop is a must-attend for anyone looking to up their photography game. Dive into the world of photography and learn the ins and outs of capturing stunning shots. From composition to lighting, this workshop will provide you with the tools and knowledge to take your photography to the next level. Don't miss out on this opportunity to learn from the best and become a master of the lens!",
+                image: "/event-images/photography-workshop.webp"
+            }
         ]
     },
     {
@@ -164,9 +248,27 @@ export const eventsData = [
             {
                 date: "2ND FEB",
                 time: "10:00 AM",
-                description: "",
-                image: "/event-images/robo-wars.webp"
+                description: "Prepare yourself for an unparalleled culinary experience! Introducing the stringed delicacy, a playful and exhilarating event that will tantalize your taste buds and bring some fun to your mealtime. Take a bite and let the flavors dance on your tongue as you savor the tender delicacies. The delicacies are expertly crafted and suspended from a string, creating a unique and visually appealing treat. The string adds a playful touch, making it a perfect snack for just a fun day with friends. Whether you're looking for a tasty appetizer or a fun and unique main course, the stringed delicacy is sure to be a hit. So go ahead, give it a try and get ready for a deliciously fun experience.",
+                image: "/event-images/stringed-delicacy.webp"
             },
+            {
+                date: "2ND FEB",
+                time: "10:00 AM",
+                description: "Get ready for a mouth-watering, gastronomic adventure! The Golgappa Eating Competition is here, and it's sure to be a blast. Contestants will have to devour as many crispy and tangy golgappas as they can within a set time limit. These golgappas will be filled with a variety of fillings such as potato, chana, and tamarind chutney. This event is open to all the foodies with diverse tastes, and the winner will be the one who eats the most golgappas in the given time limit and is awarded the title of 'Golgappa King/Queen' along with a prize.",
+                image: "/event-images/golgappa-king.webp"
+            },
+            {
+                date: "2ND FEB",
+                time: "10:00 AM",
+                description: "Brace yourself for a fiery culinary challenge! The Parantha Eating Competition with Hot Chilli Sauce is back, and it's going to be hotter than ever. Contestants will have to chow down as many delicious, piping-hot paranthas smothered in fiery hot chili sauce as they can within a set time limit. The heat is on as participants compete to see who can handle the hottest sauce and eat the most paranthas. The winner will be the one who can eat the most paranthas in the given time limit and will be rewarded with a prize. Don't miss out on the thrilling action and the chance to taste some of the spiciest paranthas around. Mark your calendars and come join us to cheer on your favorite contestant and enjoy the delicious food.",
+                image: "/event-images/shole-paranthe.webp"
+            },
+            {
+                date: "2ND FEB",
+                time: "10:00 AM",
+                description: "Get ready for a Maggie-making extravaganza!!! Cook Maggie with a delicious punch. The competition will be a test of skill, creativity, and speed as participants race against the clock to create the most delicious and visually stunning Maggie. The rules are simple: each chef must use only the ingredients provided and complete their dish within the allotted time. The judges will be looking for originality, taste, and presentation. The stakes are high, as the winner will receive bragging rights as the ultimate Maggie master. Don't miss out on this Maggie-making action!",
+                image: "/event-images/maggie-chef.webp"
+            }
         ]
     },
     {
@@ -178,8 +280,26 @@ export const eventsData = [
             {
                 date: "2ND FEB",
                 time: "10:00 AM",
-                description: "",
-                image: "/event-images/robo-wars.webp"
+                description: "SPIC MACAY (Society for the Promotion of Indian Classical Music And Culture Amongst Youth) is a voluntary youth movement which promotes intangible aspects of Indian cultural heritage by promoting Indian classical music, classical dance, folk music, yoga, meditation, crafts and other aspects of Indian culture. Professional artists will be gracing the inaugural ceremony with their precious presentation under this program. Don't miss the chance to enjoy the opening ceremony wholeheartedly as well as witness the mesmerizing performance by magnolious professionals.",
+                image: "/event-images/spicmacay.webp"
+            },
+            {
+                date: "2ND FEB",
+                time: "10:00 AM",
+                description: "What is running in our veins throughout our life, can't we run for it one day. Thousands of people suffering from surgeries, cancer treatment, chronic illness, Thalassemia, traumatic injuries require blood for themselves once or in case multiple times. 12,000 individuals die every day due to lack of quality blood. Hence, it has been planned to create awareness among people through a marathon as an innovative effort. Make sure to be an exemplary citizen and participate in this marathon to make people aware of this crucial topic.",
+                image: "/event-images/marathon.webp"
+            },
+            {
+                date: "2ND FEB",
+                time: "10:00 AM",
+                description: "As per swami vivekananda: Service to man is service to God. The truth of this adage also applies in case of blood donation. Saving lives by donating blood is no less meritorious than any act of God. Realizing this, a blood donation camp will be organised in the college campus to contribute to the urgent need for patients confronting trauma and other life-saving treatments, such as blood transfusions. It reduces the risk of heart attack and blood pressure in the donor while meeting the receiver's vital needs. As it is rightly said: Show an act of care, your Blood-Donation can keep one’s prayer.",
+                image: "/event-images/blood-donation.webp"
+            },
+            {
+                date: "2ND FEB",
+                time: "10:00 AM",
+                description: "It is man's curiosity that widens the scope of his knowledge. But it is not possible to achieve everything on one's own in the short span of human life. As it is rightly said: Learn from the experts; you will not live long enough to figure it all out by yourself. Umang is where renowned and accomplished speakers enlighten the students and help them form a broader perspective about various aspects of life. The objective is to arouse enthusiasm and motivate students to step outside their comfort zone and feel confident. So don't miss this golden opportunity and satiate your curiosity appetite by getting plenty of knowledge.",
+                image: "/event-images/umang.webp"
             },
         ]
     },
