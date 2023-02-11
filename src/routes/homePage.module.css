@@ -126,6 +126,11 @@
     color: #ED2E44;
 }
 
+.headerBtns {
+    display: flex;
+    gap: 1.5rem;
+}
+
 @media (max-width: 1310px) {
     .aboutSection {
         flex-direction: column;
@@ -152,6 +157,13 @@
 
     .aboutText>div:nth-of-type(1)>div:nth-of-type(1) {
         font-size: 3rem;
+    }
+}
+
+@media (max-width: 690px) {
+    .headerBtns {
+        flex-direction: column;
+        gap: 1rem;
     }
 }
 
