@@ -7,6 +7,7 @@ import HomePage from './routes/homePage';
 import NavBar from './components/navbar';
 import Footer from './components/footer';
 import EventsPage from './routes/events';
+import ContactsPage from './routes/contacts';
 
 const PageLayout = ({ children }) => children;
 
@@ -79,6 +80,7 @@ export default function App() {
                 <Route element={<AnimationLayout />}>
                     <Route path="/" element={<HomePage />} />
                     <Route path="/events" element={<EventsPage />} />
+                    <Route path="/contacts" element={<ContactsPage />} />
                 </Route>
             </Routes>
             <Footer />
