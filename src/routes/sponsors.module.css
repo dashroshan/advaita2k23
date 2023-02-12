@@ -63,15 +63,21 @@ body {
     }
 }
 
+
 .contact {
     margin: 0 auto;
-    margin-top: 10rem;
     display: flex;
+    margin-top: 1rem;
+    padding-top: 9rem;
     flex-direction: column;
     align-items: center;
     width: 615px;
     font-size: 1.05rem;
-    margin-bottom: -1.5rem;
+}
+
+.contact img {
+    width: 615px;
+    margin-bottom: -1.8rem;
 }
 
 .contact textarea {
@@ -149,11 +155,21 @@ body {
     width: 100%;
 }
 
-@media (max-width: 640px) {
+.contact button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+@media (max-width: 650px) {
     .contact {
         width: 90vw;
         margin-top: 7rem;
-        margin-bottom: -3rem;
+        padding-top: 1rem;
+        margin-bottom: -2rem;
     }
 
     .nameemail {

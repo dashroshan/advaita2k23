@@ -104,8 +104,8 @@ export default function HomePage() {
             body: JSON.stringify(data)
         };
         try {
-            await fetch("https://api.advaita-iiitbh.in/contact/", settings);
-            setcontactBtnText("MESSAGE SENT ✅");
+            const res = await fetch("https://api.advaita-iiitbh.in/contact/", settings);
+            setcontactBtnText(res.status === 200 ? "MESSAGE SENT ✅" : "ERROR ⛔");
         }
         catch (e) {
             setcontactBtnText("ERROR ⛔")
@@ -142,8 +142,8 @@ export default function HomePage() {
                     </div>
                     <motion.div viewport={{ once: true }} initial={{ opacity: 0 }} whileInView={{ opacity: 0.75 }} transition={{ duration: 0.3, delay: 0.3 }}>Advaita, the annual techno-cultural fest of IIIT Bhubaneswar, is organized in the first week of March spanning over four days and four nights. Commenced with a motto of providing technocrats all over the country, a platform to showcase their technical skills and talent, Advaita has come a long way over the years since its inception.It is one of the eminent fests in the eastern region of the Indian subcontinent today which has made an impact on several college students across the country.</motion.div>
                     <div className={classes.headerBtns}>
-                        <motion.div viewport={{ once: false }} initial={{ transform: 'translateX(-6rem)', opacity: 0 }} whileInView={{ transform: 'translateX(-0.5rem)', opacity: 1 }} transition={{ duration: 2, type: "spring", delay: 0.15 }}><HashLink to="/events#"><AngleButton text="EVENTS SCHEDULE" /></HashLink></motion.div>
-                        <motion.div viewport={{ once: false }} initial={{ transform: 'translateX(6rem)', opacity: 0 }} whileInView={{ transform: 'translateX(-0.5rem)', opacity: 1 }} transition={{ duration: 2, type: "spring", delay: 0.15 }}><a target="_blank" href="https://google.com"><AngleButton text="REGISTER" /></a></motion.div>
+                        <motion.div viewport={{ once: true }} initial={{ transform: 'translateX(-6rem)', opacity: 0 }} whileInView={{ transform: 'translateX(-0.5rem)', opacity: 1 }} transition={{ duration: 2, type: "spring", delay: 0.15 }}><HashLink to="/events#"><AngleButton text="EVENTS SCHEDULE" /></HashLink></motion.div>
+                        <motion.div viewport={{ once: true }} initial={{ transform: 'translateX(6rem)', opacity: 0 }} whileInView={{ transform: 'translateX(-0.5rem)', opacity: 1 }} transition={{ duration: 2, type: "spring", delay: 0.15 }}><a target="_blank" href="https://google.com"><AngleButton text="REGISTER" /></a></motion.div>
                     </div>
                 </div>
             </section >
@@ -263,6 +263,7 @@ export default function HomePage() {
                         </div>
                     </div>
                 </div>
+                <motion.div viewport={{ once: true }} initial={{ transform: 'translateY(6rem)', opacity: 0 }} whileInView={{ transform: 'translateY(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }}><HashLink to="/sponsors#"><AngleButton text="SPONSOR US" /></HashLink></motion.div>
             </section>
 
             <section className={classes.proNights} id="pronights">
@@ -287,8 +288,8 @@ export default function HomePage() {
                     <textarea name="message" cols="40" rows="5" required placeholder="Write your message" />
                 </div>
                 <div className={classes.nameemail}>
-                    <div className={classes.textArea}><input name="name" type="text" size="40" maxLength="150" required placeholder="Your Name" /></div>
-                    <div className={classes.textArea}><input name="email" type="text" size="40" maxLength="150" required placeholder="Your Email" /></div>
+                    <div className={classes.textArea}><input name="name" type="text" size="40" maxLength="150" required placeholder="Your name" /></div>
+                    <div className={classes.textArea}><input name="email" type="email" size="40" maxLength="150" required placeholder="Your email" /></div>
                 </div>
                 <motion.div viewport={{ once: true }} initial={{ transform: 'translateX(-6rem)', opacity: 0 }} whileInView={{ transform: 'translateX(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }}><button type="submit"><AngleButton text={contactBtnText} /></button></motion.div>
             </form>
