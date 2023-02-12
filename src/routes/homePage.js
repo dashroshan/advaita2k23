@@ -241,7 +241,6 @@ export default function HomePage() {
                 </div>
             </section>
 
-
             <section className={classes.proNights} id="pronights">
                 <div className={classes.proNightsTitle}>
                     <motion.div viewport={{ once: true }} initial={{ transform: 'translateX(6rem)', opacity: 0 }} whileInView={{ transform: 'translateX(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }}>PRO-NIGHTS</motion.div>
@@ -255,6 +254,21 @@ export default function HomePage() {
                     {proNightsCard(pn_ak, "ASEES KAUR", "MUSIC", "Asees Kaur is famous all over India for her major hits like Raataan Lambiyan, Jaan Nisar, and Makhna to name a few. Whether she's belting out Bollywood hits or giving a new spin to classic songs, she'll leave you mesmerized. So, get ready to dance and sing as you experience her electrifying performance.")}
                 </div>
             </section>
+
+            <iframe name="dummySubmitFrame" style={{ display: "none" }}></iframe>
+            <form className={classes.contact} id="contacts" target="dummySubmitFrame" method="post" action="https://api.advaita-iiitbh.in/contact/">
+                <div className={classes.contactBar} />
+                <motion.div viewport={{ once: true }} initial={{ transform: 'translateX(6rem)', opacity: 0 }} whileInView={{ transform: 'translateX(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }} className={classes.contactHeader}>CONTACT US</motion.div>
+                <div className={classes.textArea}><input name="subject" type="text" size="40" maxLength="200" required placeholder="Subject" /></div>
+                <div className={classes.textArea}>
+                    <textarea name="message" cols="40" rows="5" required placeholder="Write your message" />
+                </div>
+                <div className={classes.nameemail}>
+                    <div className={classes.textArea}><input name="name" type="text" size="40" maxLength="150" required placeholder="Your Name" /></div>
+                    <div className={classes.textArea}><input name="email" type="text" size="40" maxLength="150" required placeholder="Your Email" /></div>
+                </div>
+                <motion.div viewport={{ once: true }} initial={{ transform: 'translateX(-6rem)', opacity: 0 }} whileInView={{ transform: 'translateX(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }}><button type="submit"><AngleButton text="SEND MESSAGE" /></button></motion.div>
+            </form>
         </div >
     );
 }
