@@ -41,6 +41,22 @@ export default function SponsorsPage() {
             </section>
 
             <form className={classes.contact} onSubmit={sendMessage}>
+                <div className={classes.sponsorDesc}>
+                    <span>Ten years ago, the sole idea of organizing a techno-cultural festival was
+                        conceived. It was named <b>ADVAITA</b>, meaning <b>non-duality</b>, which was
+                        the intention, to fuse both technology and culture into one. Nine years have seen a mercurial rise in the fest, expanding and
+                        establishing itself as one of the biggest and most anticipated events in
+                        the state of Odisha. The standard of the events is
+                        always top-notch, which reflects the magnanimous participation
+                        strength every year. With eminent celebrities attending our events and
+                        attracting a huge crowd, ADVAITA always aims for the best.</span>
+                    <br />
+                    <br />
+                    <span>As a sponsor, you will have the opportunity to showcase your brand and products to a captive audience of thousands of tech-savvy and culturally diverse students. Our fest will provide a platform for you to engage with this dynamic demographic, build brand awareness, and create a lasting impression on the minds of the next generation of innovators and leaders.</span>
+                    <br />
+                    <br />
+                    <span>Interesed to collaborate as a sponsor? Fill the form below and we will get in touch with you soon. <b style={{ color: "#e8384c" }}><a download href="/Advaita 2023 - brochure.pdf" style={{ textDecoration: 'inherit', color: 'inherit' }}>Download our sponsorship brouchre to know more.</a></b></span>
+                </div>
                 <div className={classes.textArea}><input name="cname" type="text" size="40" maxLength="200" required placeholder="Company name" /></div>
                 <div className={classes.textArea}>
                     <textarea name="proposal" cols="40" rows="5" required placeholder="Write your proposal" />
