@@ -70,7 +70,7 @@ function proNightsCard(img, title, subtitle, desc) {
             <div className={classes.sliderCardOverlay} />
             <div className={classes.sliderCardOverlay + " " + classes.proCardOverlay} />
             <div className={classes.sliderCardText}>
-                <div><span>{subtitle}</span><br /><b style={{ color: "white" }}>2ND FEB - 10:00AM</b></div>
+                <div><span>{subtitle}</span><br /><b style={{ color: "white" }}>XTH FEB - XX:00PM</b></div>
                 <div><span className={classes.sliderTextLine} />{title}</div>
             </div>
             <div className={classes.proCardDesc}>{desc}</div>
@@ -143,7 +143,7 @@ export default function HomePage() {
                     <motion.div viewport={{ once: true }} initial={{ opacity: 0 }} whileInView={{ opacity: 0.75 }} transition={{ duration: 0.3, delay: 0.3 }}>Advaita, the annual techno-cultural fest of IIIT Bhubaneswar, is organized in the first week of March spanning over four days and four nights. Commenced with a motto of providing technocrats all over the country, a platform to showcase their technical skills and talent, Advaita has come a long way over the years since its inception.It is one of the eminent fests in the eastern region of the Indian subcontinent today which has made an impact on several college students across the country.</motion.div>
                     <div className={classes.headerBtns}>
                         <motion.div viewport={{ once: true }} initial={{ transform: 'translateX(-6rem)', opacity: 0 }} whileInView={{ transform: 'translateX(-0.5rem)', opacity: 1 }} transition={{ duration: 2, type: "spring", delay: 0.15 }}><HashLink to="/events#"><AngleButton text="EVENTS SCHEDULE" /></HashLink></motion.div>
-                        <motion.div viewport={{ once: true }} initial={{ transform: 'translateX(6rem)', opacity: 0 }} whileInView={{ transform: 'translateX(-0.5rem)', opacity: 1 }} transition={{ duration: 2, type: "spring", delay: 0.15 }}><a target="_blank" href="https://google.com"><AngleButton text="REGISTER" /></a></motion.div>
+                        <motion.div viewport={{ once: true }} initial={{ transform: 'translateX(6rem)', opacity: 0 }} whileInView={{ transform: 'translateX(-0.5rem)', opacity: 1 }} transition={{ duration: 2, type: "spring", delay: 0.15 }}><a target="_blank" href="/"><AngleButton text="REGISTER" /></a></motion.div>
                     </div>
                 </div>
             </section >
