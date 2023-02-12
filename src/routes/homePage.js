@@ -172,12 +172,14 @@ export default function HomePage() {
                     <div>A GLIMPSE INTO<br />THE HYMN OF PARADOX</div>
                     <div>#ADVAITA</div>
                 </motion.div>
-                <div className={classes.ytvideo}>
-                    <div />
-                    <div>
-                        <img src={iconYt} alt="youtube" />
+                <a target="_blank" href="https://www.youtube.com/watch?v=u0b-hg_gLsI">
+                    <div className={classes.ytvideo}>
+                        <div />
+                        <div>
+                            <img src={iconYt} alt="youtube" />
+                        </div>
                     </div>
-                </div>
+                </a>
                 <div className={classes.swiperWrap}>
                     <Swiper
                         className={classes.swiper}
