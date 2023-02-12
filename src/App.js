@@ -1,4 +1,4 @@
-import { Route, Routes, useLocation, Outlet } from 'react-router-dom';
+import { Route, Routes, useLocation, Outlet, Navigate } from 'react-router-dom';
 import { motion } from "framer-motion";
 import { useEffect } from 'react';
 import AnimatedCursor from "react-animated-cursor"
@@ -8,6 +8,7 @@ import NavBar from './components/navbar';
 import Footer from './components/footer';
 import EventsPage from './routes/events';
 import SponsorsPage from './routes/sponsors';
+import { Redirect } from 'react-router-dom';
 
 const PageLayout = ({ children }) => children;
 
@@ -81,6 +82,7 @@ export default function App() {
                     <Route path="/" element={<HomePage />} />
                     <Route path="/events" element={<EventsPage />} />
                     <Route path="/sponsors" element={<SponsorsPage />} />
+                    <Route path="*" element={<Navigate to="/" />} />
                 </Route>
             </Routes>
             <Footer />
