@@ -164,6 +164,14 @@ body {
     outline: none;
 }
 
+.contactAlert {
+    opacity: 0.75;
+    border-left: 0.4rem solid #00d26a;
+    padding-left: 0.7rem;
+    margin-bottom: 0.5rem;
+    align-self: flex-start;
+}
+
 @media (max-width: 650px) {
     .contact {
         width: 90vw;

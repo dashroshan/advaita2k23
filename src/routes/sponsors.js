@@ -50,6 +50,7 @@ export default function SponsorsPage() {
                     <div className={classes.textArea}><input name="designation" type="text" size="40" maxLength="150" required placeholder="Designation" /></div>
                     <div className={classes.textArea}><input name="email" type="email" size="40" maxLength="150" required placeholder="Email" /></div>
                 </div>
+                {(contactBtnText === "SEND PROPOSAL" || contactBtnText === "SENDING...") ? null : <div className={classes.contactAlert} style={{ borderLeft: contactBtnText === "PROPOSAL SENT ✅" ? "0.4rem solid #00d26a" : "0.4rem solid #f3223a" }}>{contactBtnText === "PROPOSAL SENT ✅" ? "Thank you for contacting us. We've received your proposal and will get back to you supersoon!" : "Something went wrong! Please send us an email instead to advaita@iiit-bh.ac.in"}</div>}
                 <motion.div viewport={{ once: true }} initial={{ transform: 'translateY(6rem)', opacity: 0 }} whileInView={{ transform: 'translateY(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }}><button type="submit"><AngleButton text={contactBtnText} /></button></motion.div>
             </form>
         </div>

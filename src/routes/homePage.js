@@ -291,6 +291,7 @@ export default function HomePage() {
                     <div className={classes.textArea}><input name="name" type="text" size="40" maxLength="150" required placeholder="Your name" /></div>
                     <div className={classes.textArea}><input name="email" type="email" size="40" maxLength="150" required placeholder="Your email" /></div>
                 </div>
+                {(contactBtnText === "SEND MESSAGE" || contactBtnText === "SENDING...") ? null : <div className={classes.contactAlert} style={{ borderLeft: contactBtnText === "MESSAGE SENT ✅" ? "0.4rem solid #00d26a" : "0.4rem solid #f3223a" }}>{contactBtnText === "MESSAGE SENT ✅" ? "Your message has been sent. The Advaita Mail Man is on the way :)" : "Something went wrong! Please send us an email instead to advaita@iiit-bh.ac.in"}</div>}
                 <motion.div viewport={{ once: true }} initial={{ transform: 'translateX(-6rem)', opacity: 0 }} whileInView={{ transform: 'translateX(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }}><button type="submit"><AngleButton text={contactBtnText} /></button></motion.div>
             </form>
         </div >
