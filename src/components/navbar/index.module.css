@@ -12,7 +12,17 @@
     z-index: 9;
 }
 
+.navBarWrap {
+    transition: .5s ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+}
+
 .navWrap {
+    transition: .5s ease-in-out;
     display: block;
     background: linear-gradient(#1a0e22 20%, #1a0e2288 80%, #1a0e2200);
     height: 8rem;
@@ -121,7 +131,7 @@
         margin: 0;
         padding: 1rem;
         padding-bottom: 0.7rem;
-        background: linear-gradient(#1a0e22 20%, #1a0e2288 80%, #1a0e2200);
+        /* background: linear-gradient(#1a0e22 20%, #1a0e2288 80%, #1a0e2200); */
     }
 
     .nav img {
