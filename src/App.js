@@ -8,6 +8,14 @@ import NavBar from './components/navbar';
 import Footer from './components/footer';
 import EventsPage from './routes/events';
 import SponsorsPage from './routes/sponsors';
+import { eventsData } from "./routes/eventsData";
+
+// For preloading images start
+import events1 from "./assets/bgpn.webp";
+import events2 from "./assets/events.webp";
+import sponsors1 from "./assets/bgcu.webp";
+import sponsors2 from "./assets/contacts.webp";
+// For preloading images end
 
 const PageLayout = ({ children }) => children;
 
@@ -47,8 +55,16 @@ const AnimationLayout = () => {
 };
 
 export default function App() {
-    // document.getElementById("loader_block").style.opacity = 0;
-    // document.getElementById("loader_block").style.display = "none";
+    const preloadImgs = () => {
+        let imgs = [events1, events2, sponsors1, sponsors2];
+        for (const et of eventsData)
+            for (const e of et.events) imgs.push(e.image);
+        imgs.forEach((image) => {
+            const newImage = new Image();
+            newImage.src = image;
+            window[image] = newImage;
+        });
+    }
 
     useEffect(() => {
         const onPageLoad = () => {
@@ -57,6 +73,7 @@ export default function App() {
                 setTimeout(() => {
                     document.getElementById("loader_block").style.display = "none";
                 }, 310);
+                preloadImgs();
             }, 200);
         };
         if (document.readyState === 'complete') {

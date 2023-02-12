@@ -13,7 +13,6 @@ export default function SponsorsPage() {
         e.preventDefault();
         setcontactBtnText("SENDING...")
         const data = { company_name: e.target[0].value, proposal: e.target[1].value, contact_person: e.target[2].value, designation: e.target[3].value, email: e.target[4].value };
-        console.log(data);
         const settings = {
             method: 'POST',
             headers: {
