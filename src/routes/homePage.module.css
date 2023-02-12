@@ -179,11 +179,19 @@
 .countWrap {
     text-align: center;
     width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .countWrap>div:nth-of-type(1) {
     font-weight: bold;
     font-size: 6rem;
+    height: 110px;
+    width: 122px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .countWrap>div:nth-of-type(2) {
@@ -197,14 +205,16 @@
     .countSection {
         flex-direction: column;
         gap: 2rem;
-        padding-top: 2rem;
+        padding-top: 2.5rem;
     }
 
     .countWrap {
         display: flex;
         align-items: center;
         text-align: start;
+        flex-direction: row;
         width: 15.5rem;
+        margin-bottom: 1.1rem;
     }
 
     .countWrap>div:nth-of-type(1) {
@@ -212,7 +222,7 @@
         display: block;
         text-align: right;
         margin-right: 0.5rem;
-        margin-top: -0.7rem;
+        margin-top: -1.6rem;
     }
 }
 
