@@ -94,25 +94,25 @@ export const eventsData = [
             {
                 date: "2ND FEB",
                 time: "10:00 AM",
-                description: "",
+                description: "They say that you can touch a soul with a melody and Acoustica is where the souls come for their rhythm of life. A number of amazing singers compete together and you'd really wish it continues on and on and on.",
                 image: "/event-images/acoustica.webp"
             },
             {
                 date: "2ND FEB",
                 time: "10:00 AM",
-                description: "",
+                description: "Cypher, as is the vibe of the name, it is a bang on street style dance competition with dancers across a number of universities joining to boast their raw moves on a single battleground and creating the authentic artist feels. This, my friends, is a sight to behold and an even better experience to enjoy.",
                 image: "/event-images/cypher.webp"
             },
             {
                 date: "2ND FEB",
                 time: "10:00 AM",
-                description: "",
+                description: "Letting yourself lose to the beats is the best flow of dance. Footloose has seen dancers of all styles come and perform their heart out on the stage. And as a matter of fact this is one of the most amusing competitions of Advaita.",
                 image: "/event-images/footloose.webp"
             },
             {
                 date: "2ND FEB",
                 time: "10:00 AM",
-                description: "",
+                description: "A statement can be ordinary but a fashion statement made strongly can turn heads. Fashion is the medium expression and the team who best represent the theme win hearts.",
                 image: "/event-images/lamode.webp"
             },
             {
@@ -120,6 +120,12 @@ export const eventsData = [
                 time: "10:00 AM",
                 description: "",
                 image: "/event-images/rockathon.webp"
+            },
+            {
+                date: "2ND FEB",
+                time: "10:00 AM",
+                description: "A mic is just a mic until something strong unsaid has been said aloud..and that..is when the mic is dropped. An intense rap battle where rappers shout their heart out to the beat and the best one drops the mic and gets the audience to go boom.",
+                image: "/event-images/mic-drop.webp"
             },
         ]
     },
@@ -190,19 +196,19 @@ export const eventsData = [
             {
                 date: "2ND FEB",
                 time: "10:00 AM",
-                description: "",
+                description: "There would be tournaments in popular games like Valorant PC, COD mobile etc. Also there would be a wide range of tournaments and leagues for all skill levels. Whether you’re a beginner or a pro, you can find the perfect competition to challenge yourself and show off your skills. Not to mention there would be a variety of rewards and prizes for the top players.",
                 image: "/event-images/esports.webp"
             },
             {
                 date: "2ND FEB",
                 time: "10:00 AM",
-                description: "",
+                description: "Someone said sports and books are not related. Well we don't agree much on that and thats why we introduced the BBDM. An event where you get to flaunt how good you are at basket ball but only if you can prove your mettle of being a bookworm. The event is the perfect test of the athelete as well as the scholar in you.",
                 image: "/event-images/bbdm.webp"
             },
             {
                 date: "2ND FEB",
                 time: "10:00 AM",
-                description: "",
+                description: "Hola actors, we hope you are prepared for this one. All you need to do is immitate someone. Easy right? Well just a small twist. You have to imitate \"someone\" but the someone will be determined by throwing darts and then unscrambling whatever you get under it.",
                 image: "/event-images/scrambling-dart.webp"
             }
         ]
