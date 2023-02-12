@@ -13,7 +13,6 @@
 }
 
 .navBarWrap {
-    transition: .5s ease-in-out;
     position: fixed;
     top: 0;
     left: 0;
@@ -22,7 +21,6 @@
 }
 
 .navWrap {
-    transition: .5s ease-in-out;
     display: block;
     background: linear-gradient(#1a0e22 20%, #1a0e2288 80%, #1a0e2200);
     height: 8rem;

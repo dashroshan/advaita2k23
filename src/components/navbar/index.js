@@ -8,33 +8,6 @@ import { useMediaQuery } from 'react-responsive';
 
 export default function NavBar() {
     const [menuOpen, setMenuOpen] = useState(false);
-    const [show, setShow] = useState(true);
-    const [lastScrollY, setLastScrollY] = useState(0);
-    const desktop = useMediaQuery({ query: '(max-width:850px)' });
-
-    const controlNavbar = () => {
-        if (typeof window !== 'undefined') {
-            if (window.scrollY > lastScrollY) { // if scroll down hide the navbar
-                if (show) setShow(false);
-            } else { // if scroll up show the navbar
-                if (!show) setShow(true);
-            }
-
-            // remember current page location to use in the next move
-            setLastScrollY(window.scrollY);
-        }
-    };
-
-    useEffect(() => {
-        if (typeof window !== 'undefined') {
-            window.addEventListener('scroll', controlNavbar);
-
-            // cleanup function
-            return () => {
-                window.removeEventListener('scroll', controlNavbar);
-            };
-        }
-    }, [lastScrollY]);
 
     return (
         <>
@@ -54,8 +27,8 @@ export default function NavBar() {
                         <div><a style={{ textDecoration: 'inherit', color: 'inherit' }} target="_blank" href="/">REGISTER</a></div>
                     </motion.div>
                     :
-                    <div className={classes.navBarWrap} style={{ transform: show ? "translateY(0rem)" : "translateY(-8rem)" }}>
-                        <div className={classes.navWrap} style={{ opacity: (lastScrollY < 50 && !desktop) ? 0 : 1 }} />
+                    <div className={classes.navBarWrap}>
+                        <div className={classes.navWrap} />
                         <motion.nav
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
