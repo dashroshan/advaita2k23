@@ -12,6 +12,18 @@
     z-index: 9;
 }
 
+.navWrap {
+    display: block;
+    background: linear-gradient(#1a0e22 20%, #1a0e2288 80%, #1a0e2200);
+    height: 8rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    opacity: 1;
+}
+
 .nav img {
     width: 20rem;
 }
