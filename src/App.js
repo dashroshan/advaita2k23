@@ -8,7 +8,6 @@ import NavBar from './components/navbar';
 import Footer from './components/footer';
 import EventsPage from './routes/events';
 import SponsorsPage from './routes/sponsors';
-import { Redirect } from 'react-router-dom';
 
 const PageLayout = ({ children }) => children;
 

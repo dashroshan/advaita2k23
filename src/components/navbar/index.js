@@ -2,9 +2,8 @@ import classes from "./index.module.css";
 import advaitaLogo from "../../assets/logo.webp";
 
 import { motion, AnimatePresence } from "framer-motion";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { HashLink } from "react-router-hash-link";
-import { useMediaQuery } from 'react-responsive';
 
 export default function NavBar() {
     const [menuOpen, setMenuOpen] = useState(false);
