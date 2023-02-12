@@ -29,6 +29,7 @@ import AngleButton from "../components/angleButton";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import CountUp from 'react-countup';
+import { useState } from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, {
@@ -88,8 +89,11 @@ export default function HomePage() {
     const isInView = useInView(ref, { once: true });
     const slides1 = useMediaQuery({ query: '(max-width:1050px)' });
 
+    const [contactBtnText, setcontactBtnText] = useState("SEND MESSAGE");
+
     const sendMessage = async (e) => {
         e.preventDefault();
+        setcontactBtnText("SENDING...")
         const data = { subject: e.target[0].value, message: e.target[1].value, name: e.target[2].value, email: e.target[3].value };
         const settings = {
             method: 'POST',
@@ -101,9 +105,10 @@ export default function HomePage() {
         };
         try {
             await fetch("https://api.advaita-iiitbh.in/contact/", settings);
+            setcontactBtnText("MESSAGE SENT ✅");
         }
         catch (e) {
-            console.log("ERROR!")
+            setcontactBtnText("ERROR ⛔")
         }
     }
 
@@ -285,7 +290,7 @@ export default function HomePage() {
                     <div className={classes.textArea}><input name="name" type="text" size="40" maxLength="150" required placeholder="Your Name" /></div>
                     <div className={classes.textArea}><input name="email" type="text" size="40" maxLength="150" required placeholder="Your Email" /></div>
                 </div>
-                <motion.div viewport={{ once: true }} initial={{ transform: 'translateX(-6rem)', opacity: 0 }} whileInView={{ transform: 'translateX(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }}><button type="submit"><AngleButton text="SEND MESSAGE" /></button></motion.div>
+                <motion.div viewport={{ once: true }} initial={{ transform: 'translateX(-6rem)', opacity: 0 }} whileInView={{ transform: 'translateX(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }}><button type="submit"><AngleButton text={contactBtnText} /></button></motion.div>
             </form>
         </div >
     );
