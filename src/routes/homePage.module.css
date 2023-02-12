@@ -450,7 +450,7 @@
 
 .sponsorCardOverlay {
     width: 300px;
-    height: 100px;
+    height: 80px;
     display: block;
     bottom: 0;
     position: absolute;
@@ -479,6 +479,10 @@
         width: 30vw;
     }
 
+    .sponsorCardOverlay {
+        height: 7vw;
+    }
+
     .sponsorCard {
         width: 90%;
         height: 90%;
@@ -500,6 +504,10 @@
     .sponsorCardWrap {
         height: 30vw;
         width: 45vw;
+    }
+
+    .sponsorCardOverlay {
+        height: 10vw;
     }
 
     .sponsorCard {
