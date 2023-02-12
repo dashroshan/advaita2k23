@@ -88,6 +88,25 @@ export default function HomePage() {
     const isInView = useInView(ref, { once: true });
     const slides1 = useMediaQuery({ query: '(max-width:1050px)' });
 
+    const sendMessage = async (e) => {
+        e.preventDefault();
+        const data = { subject: e.target[0].value, message: e.target[1].value, name: e.target[2].value, email: e.target[3].value };
+        const settings = {
+            method: 'POST',
+            headers: {
+                Accept: 'application/json',
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data)
+        };
+        try {
+            await fetch("https://api.advaita-iiitbh.in/contact/", settings);
+        }
+        catch (e) {
+            console.log("ERROR!")
+        }
+    }
+
     return (
         <div className={classes.homePage}>
             <section className={classes.hero}>
@@ -255,8 +274,7 @@ export default function HomePage() {
                 </div>
             </section>
 
-            <iframe name="dummySubmitFrame" style={{ display: "none" }}></iframe>
-            <form className={classes.contact} id="contacts" target="dummySubmitFrame" method="post" action="https://api.advaita-iiitbh.in/contact/">
+            <form className={classes.contact} id="contacts" onSubmit={sendMessage}>
                 <div className={classes.contactBar} />
                 <motion.div viewport={{ once: true }} initial={{ transform: 'translateX(6rem)', opacity: 0 }} whileInView={{ transform: 'translateX(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }} className={classes.contactHeader}>CONTACT US</motion.div>
                 <div className={classes.textArea}><input name="subject" type="text" size="40" maxLength="200" required placeholder="Subject" /></div>
