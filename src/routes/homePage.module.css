@@ -17,7 +17,7 @@
 
 .dateHero img {
     width: 18vw;
-    rotate: 5deg;
+    transform: rotate(5deg);
     margin-top: -2vw;
 }
 
@@ -27,9 +27,8 @@
     letter-spacing: 0.2rem;
     display: flex;
     align-items: center;
-    rotate: -90deg;
     left: 0;
-    transform: translateY(-5.3rem);
+    transform: translate(-5.2rem, -1.3rem) rotate(-90deg);
 }
 
 .leftVertical img {
@@ -37,7 +36,7 @@
     margin-left: 1.5rem;
     filter: invert();
     transition: .3s ease-in-out;
-    rotate: 90deg;
+    transform: rotate(90deg);
 }
 
 .leftVertical img:hover {
@@ -50,9 +49,8 @@
     letter-spacing: 0.2rem;
     display: flex;
     align-items: center;
-    rotate: -90deg;
     right: 0;
-    transform: translateY(4.5rem);
+    transform: translate(5.2rem, -1rem) rotate(-90deg);
 }
 
 @media (max-width: 850px) {
@@ -62,7 +60,7 @@
     }
 
     .rightVertical {
-        margin-right: -2.5rem;
+        margin-right: -1.5rem;
         margin-top: -15vh;
     }
 
@@ -94,9 +92,8 @@
 
 .aboutText>div:nth-of-type(1)>div:nth-of-type(1) {
     font-weight: bold;
-    rotate: -90deg;
     font-size: 4rem;
-    transform: translateX(-0.5rem);
+    transform: translate(-0.5rem, 0.3rem) rotate(-90deg);
 }
 
 .aboutText>div:nth-of-type(1) {
@@ -376,10 +373,9 @@
 }
 
 .videosecTitle>div:nth-of-type(2) {
-    rotate: -90deg;
     font-size: 2rem;
     font-weight: bold;
-    transform: translateY(7rem);
+    transform: translate(7rem, 0rem) rotate(-90deg);
     color: #f3223a;
 }
 
@@ -409,7 +405,7 @@
 
     .videosecTitle>div:nth-of-type(2) {
         font-size: 1rem;
-        transform: translateY(2.3rem);
+        transform: translate(2.3rem, 0rem) rotate(-90deg);
     }
 
     .videosection {
