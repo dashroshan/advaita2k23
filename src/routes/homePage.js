@@ -117,9 +117,9 @@ export default function HomePage() {
             <section className={classes.hero}>
                 <div className={classes.leftVertical}>
                     <div>FOLLOW US ON: </div>
-                    <a target="_blank" href="https://instagram.com/advaita_iiitbh"><img src={iconIg} alt="social" /></a>
-                    <a target="_blank" href="https://facebook.com/advaita.iiit"><img src={iconTw} alt="social" /></a>
-                    <a target="_blank" href="https://youtube.com/channel/UCkULTsUj0_Ukm9DWOtin5yw"><img src={iconYt} alt="social" /></a>
+                    <a rel="noreferrer" target="_blank" href="https://instagram.com/advaita_iiitbh"><img src={iconIg} alt="social" /></a>
+                    <a rel="noreferrer" target="_blank" href="https://facebook.com/advaita.iiit"><img src={iconTw} alt="social" /></a>
+                    <a rel="noreferrer" target="_blank" href="https://youtube.com/channel/UCkULTsUj0_Ukm9DWOtin5yw"><img src={iconYt} alt="social" /></a>
                 </div>
 
                 <div className={classes.rightVertical}>
@@ -172,7 +172,7 @@ export default function HomePage() {
                     <div>A GLIMPSE INTO<br />THE HYMN OF PARADOX</div>
                     <div>#ADVAITA</div>
                 </motion.div>
-                <a target="_blank" href="https://www.youtube.com/watch?v=u0b-hg_gLsI">
+                <a rel="noreferrer" target="_blank" href="https://www.youtube.com/watch?v=u0b-hg_gLsI">
                     <div className={classes.ytvideo}>
                         <div />
                         <div>

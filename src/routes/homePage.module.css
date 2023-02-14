@@ -21,6 +21,13 @@
     margin-top: -2vw;
 }
 
+@keyframes alver {
+    100% {
+        transform: translate(-5.2rem, -1.3rem) rotate(-90deg);
+        opacity: 1;
+    }
+}
+
 .leftVertical {
     position: absolute;
     top: 50%;
@@ -28,7 +35,9 @@
     display: flex;
     align-items: center;
     left: 0;
-    transform: translate(-5.2rem, -1.3rem) rotate(-90deg);
+    transform: translate(-5.2rem, 9.3rem) rotate(-90deg);
+    opacity: 0;
+    animation: alver 1.5s forwards .4s;
 }
 
 .leftVertical img {
@@ -43,6 +52,13 @@
     scale: 1.5;
 }
 
+@keyframes arver {
+    100% {
+        transform: translate(5.2rem, -1rem) rotate(-90deg);
+        opacity: 1;
+    }
+}
+
 .rightVertical {
     position: absolute;
     top: 50%;
@@ -50,7 +66,9 @@
     display: flex;
     align-items: center;
     right: 0;
-    transform: translate(5.2rem, -1rem) rotate(-90deg);
+    transform: translate(5.2rem, 9rem) rotate(-90deg);
+    opacity: 0;
+    animation: arver 1.5s forwards .8s;
 }
 
 @media (max-width: 850px) {
