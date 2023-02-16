@@ -105,6 +105,7 @@ body {
 .proCard {
     box-shadow: 3px 6px 21px 0 rgb(0 0 0 / 51%);
     margin-bottom: 0;
+    transform: translate3d(0, 0, 0);
 }
 
 .proCardOverlay {
