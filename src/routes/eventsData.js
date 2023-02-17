@@ -230,7 +230,7 @@ export const eventsData = [
                 time: "XX:00 AM",
                 description: "Get ready to snap, shoot, and shine with IMAGEN—the ultimate destination for photography and videography enthusiasts! Whether you're a seasoned pro or just starting out, our specially curated competitions will inspire and challenge you to bring your creative vision to life. With IMAGEN, the world is your canvas and the camera is your brush—so let's capture some unforgettable moments together!",
                 image: "/event-images/imagen.webp",
-                link: "/",
+                link: "https://forms.gle/1WqWpxqFEQbXZkSM7",
                 linkText: "Register"
             },
             {
