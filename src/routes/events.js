@@ -5,7 +5,10 @@ import eventsText from "../assets/events.webp";
 import { motion } from "framer-motion";
 import { eventsData } from "./eventsData";
 
-function proNightsCard(img, title, subtitle, desc) {
+import AngleButton from "../components/angleButton";
+
+
+function proNightsCard(img, title, subtitle, desc, link, linkText) {
     return (
         <div className={classesHome.sliderCard + " " + classes.proCard}>
             <img src={img} alt="slider" />
@@ -15,7 +18,14 @@ function proNightsCard(img, title, subtitle, desc) {
                 <div>{subtitle}</div>
                 <div><span className={classes.sliderTextLine} />{title}</div>
             </div>
-            <div className={classes.proCardDesc}>{desc}</div>
+            <div className={classes.proCardDesc}>
+                {link ?
+                    <>
+                        <a style={{ textDecoration: 'inherit', color: 'inherit' }} rel="noreferrer" target="_blank" href={link}><div style={{ fontSize: "1.4rem", fontWeight: "bold", border: "0.2rem solid white", width: "fit-content", padding: "0.5rem 1.5rem", borderRadius: "0.4rem", marginBottom: "-0.4rem" }}>{linkText}</div></a>
+                        <br />
+                    </> : null}
+                {desc}
+            </div>
         </div>
     );
 }
@@ -31,7 +41,7 @@ function eventsSection(data) {
                 <motion.div viewport={{ once: true }} initial={{ transform: `translateX(${eventsSectionCount % 2 ? -6 : 6}rem)`, opacity: 0 }} whileInView={{ transform: 'translateX(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }}>{data.description}</motion.div>
             </div>
             <div className={classes.proCardsWrap}>
-                {data.events.map(e => proNightsCard(e.image, e.date, e.time, e.description))}
+                {data.events.map(e => proNightsCard(e.image, e.date, e.time, e.description, e.link, e.linkText))}
             </div>
         </section>
     );
