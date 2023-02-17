@@ -23,7 +23,7 @@ export default function NavBar() {
                         <div><HashLink style={{ textDecoration: 'inherit', color: 'inherit' }} to="/#pronights">PRONIGHTS</HashLink ></div>
                         <div><HashLink style={{ textDecoration: 'inherit', color: 'inherit' }} to="/#sponsors">SPONSORS</HashLink ></div>
                         <div><HashLink style={{ textDecoration: 'inherit', color: 'inherit' }} to="/#contacts">CONTACTS</HashLink ></div>
-                        <div><a style={{ textDecoration: 'inherit', color: 'inherit' }} rel="noreferrer" target="_blank" href="/">REGISTER</a></div>
+                        <div><a style={{ textDecoration: 'inherit', color: 'inherit', opacity: 0.4, pointerEvents: "none" }} rel="noreferrer">REGISTER</a></div>
                     </motion.div>
                     :
                     <div className={classes.navBarWrap}>
