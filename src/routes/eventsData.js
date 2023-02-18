@@ -57,7 +57,9 @@ export const eventsData = [
                 date: "XTH FEB",
                 time: "XX:00 AM",
                 description: "Can you imagine a Tech-fest without a Hackathon? Obviously not. So, here we bring in our hackathon which is going to be the flagship tech event of Advaita- Hackfest 23, a software and hardware hackathon which is open to all. Hackfest-Advaita will begin with its first round of idea submission from 23rd to 27th Jan on the platform of Devpost. The second round will be held offline at the IIIT-BH campus on 16th and 17th of Feb.",
-                image: "/event-images/intra-hackathon.webp"
+                image: "/event-images/intra-hackathon.webp",
+                link: "https://hackfest-advaita.devpost.com",
+                linkText: "Register"
             },
             {
                 date: "XTH FEB",
