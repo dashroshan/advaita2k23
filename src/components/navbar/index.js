@@ -5,11 +5,15 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import { HashLink } from "react-router-hash-link";
 
+import PopBox from "../popbox";
+
 export default function NavBar() {
     const [menuOpen, setMenuOpen] = useState(false);
+    const [popUp, setPopUp] = useState(false);
 
     return (
         <>
+            <PopBox setPopUp={setPopUp} popUp={popUp} />
             <AnimatePresence>
                 {menuOpen ?
                     <motion.div
@@ -23,7 +27,7 @@ export default function NavBar() {
                         <div><HashLink style={{ textDecoration: 'inherit', color: 'inherit' }} to="/#pronights">PRONIGHTS</HashLink ></div>
                         <div><HashLink style={{ textDecoration: 'inherit', color: 'inherit' }} to="/#sponsors">SPONSORS</HashLink ></div>
                         <div><HashLink style={{ textDecoration: 'inherit', color: 'inherit' }} to="/#contacts">CONTACTS</HashLink ></div>
-                        <div><a style={{ textDecoration: 'inherit', color: 'inherit', opacity: 0.4, pointerEvents: "none" }} rel="noreferrer">REGISTER</a></div>
+                        <div onClick={() => setPopUp(true)}>REGISTER</div>
                     </motion.div>
                     :
                     <div className={classes.navBarWrap}>
