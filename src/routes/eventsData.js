@@ -32,8 +32,8 @@ export const eventsData = [
             {
                 date: "XTH FEB",
                 time: "XX:00 AM",
-                description: "We live in an era where things are replaced by their virtual counterparts, meets have been replaced by virtual meets, letters by WhatsApp texts and so on. We decided to use this flavour and implement it in sports too and this is what lead to \"FPV racing\". FPV, also called first person view drones, are aerial vehicles fitted with cameras that live stream the video to the operator’s headset. The participants have to control these drones as race through a course and compete against each other to determine the best.",
-                image: "/event-images/fpv-racing.webp"
+                description: "Drone racing is a fast-growing sport that combines technology, skill, and excitement, making it an incredible experience for both participants and onlookers. Pilots race small, agile drones through an obstacle course at high speeds which is typically set up with gates, hoops, and other obstacles that challenge the pilots' precision and control as they maneuver through the course.",
+                image: "/event-images/drone-racing.webp"
             },
             {
                 date: "XTH FEB",
