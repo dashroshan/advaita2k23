@@ -1,0 +1,68 @@
+.trigger {
+    text-align: center;
+    padding: 7px 13px;
+    background: #3e3e3e;
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-family: cursive;
+}
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.15);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+    z-index: 100;
+}
+
+.modal_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(2, 2, 2);
+    padding: 1.5rem 2rem;
+    width: 28rem;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+.close_button {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: #ED2E44;
+    color: white;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.show_modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.buttonWrap {
+    margin-top: 1.3rem;
+    margin-bottom: 0.6rem;
+}
+
+@media (max-width: 480px) {
+    .modal_content {
+        width: 95vw;
+    }
+}

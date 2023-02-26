@@ -4,11 +4,11 @@ import bgpn from "../assets/bgpn.webp";
 import eventsText from "../assets/events.webp";
 import { motion } from "framer-motion";
 import { eventsData } from "./eventsData";
+import { useState } from "react";
 
-import AngleButton from "../components/angleButton";
+import EventModal from "../components/eventModal";
 
-
-function proNightsCard(img, title, subtitle, desc, link, linkText) {
+function proNightsCard(img, title, subtitle, desc, link, linkText, setPopUp, customPopUp) {
     return (
         <div className={classesHome.sliderCard + " " + classes.proCard}>
             <img src={img} alt="slider" />
@@ -21,7 +21,7 @@ function proNightsCard(img, title, subtitle, desc, link, linkText) {
             <div className={classes.proCardDesc}>
                 {link ?
                     <>
-                        <a style={{ textDecoration: 'inherit', color: 'inherit' }} rel="noreferrer" target="_blank" href={link}><div style={{ fontSize: "1.4rem", fontWeight: "bold", border: "0.2rem solid white", width: "fit-content", padding: "0.5rem 1.5rem", borderRadius: "0.4rem", marginBottom: "-0.4rem" }}>{linkText}</div></a>
+                        <div onClick={() => setPopUp({ open: true, link: link, desc: customPopUp })} style={{ cursor: 'pointer' }} ><div style={{ fontSize: "1.4rem", fontWeight: "bold", border: "0.2rem solid white", width: "fit-content", padding: "0.5rem 1.5rem", borderRadius: "0.4rem", marginBottom: "-0.4rem" }}>{linkText}</div></div>
                         <br />
                     </> : null}
                 {desc}
@@ -31,7 +31,7 @@ function proNightsCard(img, title, subtitle, desc, link, linkText) {
 }
 
 let eventsSectionCount = 0;
-function eventsSection(data) {
+function eventsSection(data, setPopUp) {
     eventsSectionCount += 1;
     return (
         <section className={classes.proNights} id={data.id}>
@@ -41,22 +41,25 @@ function eventsSection(data) {
                 <motion.div viewport={{ once: true }} initial={{ transform: `translateX(${eventsSectionCount % 2 ? -6 : 6}rem)`, opacity: 0 }} whileInView={{ transform: 'translateX(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }}>{data.description}</motion.div>
             </div>
             <div className={classes.proCardsWrap}>
-                {data.events.map(e => proNightsCard(e.image, e.date, e.time, e.description, e.link, e.linkText))}
+                {data.events.map(e => proNightsCard(e.image, e.date, e.time, e.description, e.link, e.linkText, setPopUp, e.customPopUp))}
             </div>
         </section>
     );
 }
 
 export default function EventsPage() {
+    const [popUp, setPopUp] = useState({ open: false, link: "", desc: "" });
+
     return (
         <div className={classes.eventsPage}>
+            <EventModal setPopUp={setPopUp} popUp={popUp} />
             <section className={classes.headerSection}>
                 <div className={classes.header}>
                     <img src={bgpn} alt="pronights" className={classes.bgimgheader} />
                 </div>
                 <motion.div viewport={{ once: true }} initial={{ transform: 'translateY(-10rem)', opacity: 0 }} whileInView={{ transform: 'translateY(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }}><img src={eventsText} alt="events schedule" className={classes.eventText} /></motion.div>
             </section>
-            {eventsData.map(e => eventsSection(e))}
+            {eventsData.map(e => eventsSection(e, setPopUp))}
         </div>
     );
 }

@@ -8,7 +8,6 @@ export default function PopBox(props) {
     const [count, setCount] = useState(10);
 
     useEffect(() => {
-        console.log("ran")
         if (count > 0 && props.popUp)
             setTimeout(() => setCount(count - 1), 1000);
     })
