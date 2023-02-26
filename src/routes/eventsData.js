@@ -75,12 +75,6 @@ export const eventsData = [
             },
             {
                 date: "5TH MARCH",
-                time: "2:00 PM - 5:00 PM",
-                description: "This is a cyber security event where the participants will have to compromise servers, PCs, firewalls and some other networking device to get access to sensitive information, data and exfiltrating to some other locations.",
-                image: "/event-images/capture-the-flag.webp"
-            },
-            {
-                date: "5TH MARCH",
                 time: "2:30 PM - 5:00 PM",
                 description: "You must be thinking \"Well here's another one of those robo events\", don't be so quick to judge this one is entirely different.Remember the childhood games when we had to follow some lines and patterns while walking.This event helps you relive that very moment of your childhood with a small twist: This time it's not you but your robot \"the line follower robot\" who has to follow the line. The line follower robot is an autonomous mobile machine that can detect and follow a black line or a strip made on the floor within a specified margin of error. The robots compete against time and the one finishing in the least time wins.",
                 image: "/event-images/line-follower.webp",
