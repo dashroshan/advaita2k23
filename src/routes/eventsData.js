@@ -21,6 +21,8 @@ export const eventsData = [
                 image: "/event-images/swig-n-code.webp",
                 link: "https://docs.google.com/forms/d/e/1FAIpQLSfL5nEci0igHBr8sluN5VJhIHwFu1LUIhwZSRcXojQlx8K5OQ/viewform",
                 linkText: "Register",
+                ruleBook: "https://hackfest-advaita.devpost.com",
+                prize: 20000,
             },
             {
                 date: "3RD MARCH",
