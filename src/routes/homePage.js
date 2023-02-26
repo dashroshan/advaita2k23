@@ -5,7 +5,18 @@ import iconYt from "../assets/youtube.svg";
 import dateImg from "../assets/date.webp";
 import heroAdvImg from "../assets/stage.webp";
 import sponsorsImg from "../assets/sponsors.webp";
-import s1CodingNinja from "../assets/s1coding-ninjas.webp";
+
+import s_biswas from "../assets/s-biswas.webp";
+import s_csm from "../assets/s-csm.webp";
+import s_edevlop from "../assets/s-edevlop.webp";
+import s_jyotemotors from "../assets/s-jyotemotors.webp";
+import s_navbharat from "../assets/s-navbharat.webp";
+import s_ocac from "../assets/s-ocac.webp";
+import s_omc from "../assets/s-omc.webp";
+import s_pantaloons from "../assets/s-pantaloons.webp";
+import s_printlink from "../assets/s-printlink.webp";
+import s_rungta from "../assets/s-rungta.webp";
+import s_wizertech from "../assets/s-wizertech.webp";
 
 import e0thumb from "../assets/e0thumb.webp";
 import e1thumb from "../assets/e1thumb.webp";
@@ -78,6 +89,28 @@ function proNightsCard(img, details, title, subtitle, desc) {
         </div>
     );
 }
+
+function sponsorCard(img) {
+    return (
+        <div className={classes.sponsorCardWrap}>
+            <div className={classes.sponsorCard}>
+                <img src={img} alt="sponsor" />
+                <div className={classes.sponsorCardOverlay} />
+            </div>
+        </div>
+    );
+}
+
+let sponsorData = [s_biswas, s_csm, s_edevlop, s_jyotemotors, s_navbharat, s_ocac, s_omc, s_pantaloons, s_printlink, s_rungta, s_wizertech];
+
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
+shuffleArray(sponsorData);
 
 export default function HomePage() {
     const options = {
@@ -213,60 +246,7 @@ export default function HomePage() {
             <section className={classes.sponsorsSection} id="sponsors">
                 <motion.div viewport={{ once: true }} initial={{ transform: 'translateY(6rem)', opacity: 0 }} whileInView={{ transform: 'translateY(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }}><img src={sponsorsImg} alt="Sponsors" /></motion.div>
                 <div className={classes.sponsorsWrap}>
-                    <div className={classes.sponsorCardWrap}>
-                        <div className={classes.sponsorCard}>
-                            <img src={s1CodingNinja} alt="sponsor" />
-                            <div className={classes.sponsorCardOverlay} />
-                        </div>
-                    </div>
-                    <div className={classes.sponsorCardWrap}>
-                        <div className={classes.sponsorCard}>
-                            <img src={s1CodingNinja} alt="sponsor" />
-                            <div className={classes.sponsorCardOverlay} />
-                        </div>
-                    </div>
-                    <div className={classes.sponsorCardWrap}>
-                        <div className={classes.sponsorCard}>
-                            <img src={s1CodingNinja} alt="sponsor" />
-                            <div className={classes.sponsorCardOverlay} />
-                        </div>
-                    </div>
-                    <div className={classes.sponsorCardWrap}>
-                        <div className={classes.sponsorCard}>
-                            <img src={s1CodingNinja} alt="sponsor" />
-                            <div className={classes.sponsorCardOverlay} />
-                        </div>
-                    </div>
-                    <div className={classes.sponsorCardWrap}>
-                        <div className={classes.sponsorCard}>
-                            <img src={s1CodingNinja} alt="sponsor" />
-                            <div className={classes.sponsorCardOverlay} />
-                        </div>
-                    </div>
-                    <div className={classes.sponsorCardWrap}>
-                        <div className={classes.sponsorCard}>
-                            <img src={s1CodingNinja} alt="sponsor" />
-                            <div className={classes.sponsorCardOverlay} />
-                        </div>
-                    </div>
-                    <div className={classes.sponsorCardWrap}>
-                        <div className={classes.sponsorCard}>
-                            <img src={s1CodingNinja} alt="sponsor" />
-                            <div className={classes.sponsorCardOverlay} />
-                        </div>
-                    </div>
-                    <div className={classes.sponsorCardWrap}>
-                        <div className={classes.sponsorCard}>
-                            <img src={s1CodingNinja} alt="sponsor" />
-                            <div className={classes.sponsorCardOverlay} />
-                        </div>
-                    </div>
-                    <div className={classes.sponsorCardWrap}>
-                        <div className={classes.sponsorCard}>
-                            <img src={s1CodingNinja} alt="sponsor" />
-                            <div className={classes.sponsorCardOverlay} />
-                        </div>
-                    </div>
+                    {sponsorData.map(e => sponsorCard(e))}
                 </div>
                 <motion.div viewport={{ once: true }} initial={{ transform: 'translateY(6rem)', opacity: 0 }} whileInView={{ transform: 'translateY(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }}><HashLink to="/sponsors#"><AngleButton text="SPONSOR US" /></HashLink></motion.div>
             </section>
