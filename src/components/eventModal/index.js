@@ -8,7 +8,7 @@ export default function EventModal(props) {
     return (
         <div className={props.popUp.open ? visTrue : visFalse}>
             <div className={classes.modal_content}>
-                <span className={classes.close_button} onClick={() => props.setPopUp({ open: false })}>x</span>
+                <span className={classes.close_button} onClick={() => props.setPopUp({ ...props.popUp, open: false })}>x</span>
                 <h2>Please note</h2>
                 {
                     props.popUp.desc ?
