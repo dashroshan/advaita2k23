@@ -17,7 +17,9 @@ export const eventsData = [
                 date: "3RD MARCH",
                 time: "10:00 AM - 1:00 PM",
                 description: "Coding is great but penalties are not and moreover when it’s bitter or worse. Couldn’t understand? Well, this fun event will test your skills through guts! It is an interesting fun coding competition which is formatted into two rounds. The first online round will select the top 50 coders who will compete in different groups. Each group will get a single question and failing to complete it within the given decreasing time limit will result in a penalty. The penalty will be in the form of a not-so-good drink. So, code your way out within time to escape the penalty of a dreadful drink.",
-                image: "/event-images/swig-n-code.webp"
+                image: "/event-images/swig-n-code.webp",
+                link: "https://docs.google.com/forms/d/e/1FAIpQLSfL5nEci0igHBr8sluN5VJhIHwFu1LUIhwZSRcXojQlx8K5OQ/viewform",
+                linkText: "Register",
             },
             {
                 date: "3RD MARCH",
@@ -29,13 +31,17 @@ export const eventsData = [
                 date: "4TH MARCH",
                 time: "9:00 AM - 1:00 PM",
                 description: "Robots are taking over a lot of our departments. We can sit and relax as they do our work. Signs of concern perhaps, but not in this case. \"Robo race\" is an event where not only your robot but also you have to do the work. The participants have to design a robot either wired or wireless within specified dimensions that operates manually and can traverse through all turns of the track. They race against time and other competitors in an attempt to emerge as the ultimate robo racer.",
-                image: "/event-images/robot-race.webp"
+                image: "/event-images/robot-race.webp",
+                link: "https://forms.gle/xW2MW4qAwRYjrddv9",
+                linkText: "Register",
             },
             {
                 date: "4TH MARCH",
                 time: "9:00 AM - 5:00 PM",
                 description: "Remember the golden old days of science exhibition in school? Well, we’re bringing back that nostalgia through this event! This amazing event is going to be a day long exhibition of the most interesting and useful projects contributed by the students and community.",
-                image: "/event-images/tech-nova.webp"
+                image: "/event-images/tech-nova.webp",
+                link: "https://forms.gle/ukn3F1FHLFLR1VRj7",
+                linkText: "Register",
             },
             {
                 date: "4TH MARCH",
@@ -47,19 +53,25 @@ export const eventsData = [
                 date: "4TH MARCH",
                 time: "2:00 PM - 5:00 PM",
                 description: "Drone racing is a fast-growing sport that combines technology, skill, and excitement, making it an incredible experience for both participants and onlookers. Pilots race small, agile drones through an obstacle course at high speeds which is typically set up with gates, hoops, and other obstacles that challenge the pilots' precision and control as they maneuver through the course.",
-                image: "/event-images/drone-racing.webp"
+                image: "/event-images/drone-racing.webp",
+                link: "https://forms.gle/h1f9GYoCLVyx6d5t5",
+                linkText: "Register",
             },
             {
                 date: "5TH MARCH",
                 time: "9:00 AM - 1:00 PM",
                 description: "Ever went on hunting? Nope it’s not a normal hunt, here you need to hunt down the hackers instead of the animals! This thrilling event is a proper red teaming event where the participants will emulate real life black hat hackers and understand their tactics and techniques.",
-                image: "/event-images/cyber-hunt.webp"
+                image: "/event-images/cyber-hunt.webp",
+                link: "https://surveyheart.com/form/63fb67a693973e26c42ab51a",
+                linkText: "Register",
             },
             {
                 date: "5TH MARCH",
                 time: "10:00 AM - 1:00 PM",
                 description: "Who doesn't love car races- a tournaments where the drivers showcase their skills and their cars as they race against each other through multiple obstacles and difficult tracks. Sounds amazing doesn't it? Well, you can be a part of it too. We bring to you the \"Dirt Rush\" a form of Remote-Controlled car racing that takes place on dirt tracks where you have to navigate through obstacles such as jumps, berms, and whoops in the least time possible.",
-                image: "/event-images/dirt-rush.webp"
+                image: "/event-images/dirt-rush.webp",
+                link: "https://forms.gle/gzt1M96r1CZeRFT87",
+                linkText: "Register",
             },
             {
                 date: "5TH MARCH",
@@ -71,13 +83,17 @@ export const eventsData = [
                 date: "5TH MARCH",
                 time: "2:30 PM - 5:00 PM",
                 description: "You must be thinking \"Well here's another one of those robo events\", don't be so quick to judge this one is entirely different.Remember the childhood games when we had to follow some lines and patterns while walking.This event helps you relive that very moment of your childhood with a small twist: This time it's not you but your robot \"the line follower robot\" who has to follow the line. The line follower robot is an autonomous mobile machine that can detect and follow a black line or a strip made on the floor within a specified margin of error. The robots compete against time and the one finishing in the least time wins.",
-                image: "/event-images/line-follower.webp"
+                image: "/event-images/line-follower.webp",
+                link: "https://forms.gle/mymG5YT2fDuFS7e66",
+                linkText: "Register",
             },
             {
                 date: "4TH MARCH",
                 time: "2:30 PM - 5:00 PM",
                 description: "Ever made a team and worked individually? Well, this event will test your code as well as team compatibility. It is a coding contest with a single coding round for teams made of two. ICPC format of contest will be followed with some different rules. Both the team members will solve the same question but not together, they will solve the question individually and after a time limit, they will switch their positions and continue till the time reaches for that particular question. So, work on the live problem in a disjointed team of two and switch your positions after half the total time.",
-                image: "/event-images/switch-code.webp"
+                image: "/event-images/switch-code.webp",
+                link: "https://forms.gle/2HzEYK4XdQ36WvKb9",
+                linkText: "Register",
             },
         ]
     },
