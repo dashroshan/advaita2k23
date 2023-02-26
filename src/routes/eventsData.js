@@ -22,8 +22,8 @@ export const eventsData = [
             {
                 date: "3RD MARCH",
                 time: "10:00 AM - 1:00 PM",
-                description: "Drone racing is a fast-growing sport that combines technology, skill, and excitement, making it an incredible experience for both participants and onlookers. Pilots race small, agile drones through an obstacle course at high speeds which is typically set up with gates, hoops, and other obstacles that challenge the pilots' precision and control as they maneuver through the course.",
-                image: "/event-images/drone-racing.webp"
+                description: "If you have watched transformers then you are definitely going to love this one. Robo Wars is a thrilling event in which robots built by competitors fight against each other in controlled arenas. Robots are usually armed and the goal is to disable or destroy the opponents’ robots. Be a part of this unique event and witness yourself as the robots battle it out to survive and become the best.",
+                image: "/event-images/robo-wars.webp"
             },
             {
                 date: "3RD MARCH",
@@ -52,8 +52,8 @@ export const eventsData = [
             {
                 date: "4TH MARCH",
                 time: "2:00 PM - 5:00 PM",
-                description: "If you have watched transformers then you are definitely going to love this one. Robo Wars is a thrilling event in which robots built by competitors fight against each other in controlled arenas. Robots are usually armed and the goal is to disable or destroy the opponents’ robots. Be a part of this unique event and witness yourself as the robots battle it out to survive and become the best.",
-                image: "/event-images/robo-wars.webp"
+                description: "Drone racing is a fast-growing sport that combines technology, skill, and excitement, making it an incredible experience for both participants and onlookers. Pilots race small, agile drones through an obstacle course at high speeds which is typically set up with gates, hoops, and other obstacles that challenge the pilots' precision and control as they maneuver through the course.",
+                image: "/event-images/drone-racing.webp"
             },
             {
                 date: "5TH MARCH",
