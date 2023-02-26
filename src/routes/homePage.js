@@ -64,14 +64,14 @@ function swiperCard(img, linkto, title, subtitle) {
     );
 }
 
-function proNightsCard(img, title, subtitle, desc) {
+function proNightsCard(img, details, title, subtitle, desc) {
     return (
         <div className={classes.sliderCard + " " + classes.proCard}>
             <img src={img} alt="slider" />
             <div className={classes.sliderCardOverlay} />
             <div className={classes.sliderCardOverlay + " " + classes.proCardOverlay} />
             <div className={classes.sliderCardText}>
-                <div><span>{subtitle}</span><br /><b style={{ color: "white" }}>XTH FEB - XX:00PM</b></div>
+                <div><span>{subtitle}</span><br /><b style={{ color: "white" }}>{details}</b></div>
                 <div><span className={classes.sliderTextLine} />{title}</div>
             </div>
             <div className={classes.proCardDesc}>{desc}</div>
@@ -278,10 +278,10 @@ export default function HomePage() {
                     <motion.div viewport={{ once: true }} initial={{ transform: 'translateX(-6rem)', opacity: 0 }} whileInView={{ transform: 'translateX(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }}>Vibe to the concerts of some of India's finest musicians, comedians, and DJs! Get ready to groove and make memories that'll last a lifetime. Not only will you breathe fun-filled flavours of air, and meet new people; but you'll also become a part of an ever-blossoming community of IIIT Bhubaneswar. So, buckle up and grab your squad and let the good vibes roll, adding an extra perfection to the hymn of your steps.</motion.div>
                 </div>
                 <div className={classes.proCardsWrap}>
-                    {proNightsCard(pn_bp, "BAND PARASHARA", "CONCERT", "Band PARASHARA are a progressive Delhi-based band. The rock atmospshere conceived by them is sure to leave everyone pumped up and asking for more. Using a great amount of flavors from multiple playing styles and genres, they'll surely take the night high with us.")}
-                    {proNightsCard(pn_dc, "DJ CARNIVORE", "EDM", "DJ Carnivore - an EDM artist - is ready to take Advaita to the next level! With his electrifying mixes and heart-pumping beats, he is guaranteed to have all your movements in sync to his beats. So, grab your friends and get ready to let loose as you experience the wild hymns of DJ Carnivore!")}
-                    {proNightsCard(pn_ss, "SWATI SACHDEVA", "COMEDY", "Get ready for a night of belly laughs and endless giggles. Swati Sachdeva with her quick-witted sets and unique perspective is taking the stand-up comedy scene by storm. Whether she's poking fun at everyday situations or sharing hilarious anecdotes of her life, Swati's comedy is sure to have you in stitches.")}
-                    {proNightsCard(pn_ak, "ASEES KAUR", "MUSIC", "Asees Kaur is famous all over India for her major hits like Raataan Lambiyan, Jaan Nisar, and Makhna to name a few. Whether she's belting out Bollywood hits or giving a new spin to classic songs, she'll leave you mesmerized. So, get ready to dance and sing as you experience her electrifying performance.")}
+                    {proNightsCard(pn_ss, "2ND MARCH - 7:00 PM", "SWATI SACHDEVA", "COMEDY", "Get ready for a night of belly laughs and endless giggles. Swati Sachdeva with her quick-witted sets and unique perspective is taking the stand-up comedy scene by storm. Whether she's poking fun at everyday situations or sharing hilarious anecdotes of her life, Swati's comedy is sure to have you in stitches.")}
+                    {proNightsCard(pn_bp, "3RD MARCH - 7:00 PM", "BAND PARASHARA", "CONCERT", "Band PARASHARA are a progressive Delhi-based band. The rock atmospshere conceived by them is sure to leave everyone pumped up and asking for more. Using a great amount of flavors from multiple playing styles and genres, they'll surely take the night high with us.")}
+                    {proNightsCard(pn_dc, "4TH MARCH - 7:00 PM", "DJ CARNIVORE", "EDM", "DJ Carnivore - an EDM artist - is ready to take Advaita to the next level! With his electrifying mixes and heart-pumping beats, he is guaranteed to have all your movements in sync to his beats. So, grab your friends and get ready to let loose as you experience the wild hymns of DJ Carnivore!")}
+                    {proNightsCard(pn_ak, "5TH MARCH - 7:00 PM", "ASEES KAUR", "MUSIC", "Asees Kaur is famous all over India for her major hits like Raataan Lambiyan, Jaan Nisar, and Makhna to name a few. Whether she's belting out Bollywood hits or giving a new spin to classic songs, she'll leave you mesmerized. So, get ready to dance and sing as you experience her electrifying performance.")}
                 </div>
             </section>
 
