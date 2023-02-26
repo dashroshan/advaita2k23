@@ -21,12 +21,6 @@ export const eventsData = [
             },
             {
                 date: "3RD MARCH",
-                time: "10:00 AM - 1:00 PM",
-                description: "If you have watched transformers then you are definitely going to love this one. Robo Wars is a thrilling event in which robots built by competitors fight against each other in controlled arenas. Robots are usually armed and the goal is to disable or destroy the opponents’ robots. Be a part of this unique event and witness yourself as the robots battle it out to survive and become the best.",
-                image: "/event-images/robo-wars.webp"
-            },
-            {
-                date: "3RD MARCH",
                 time: "3:00 PM - 4:00 PM",
                 description: "The world around us is evolving rapidly and its best for us to evolve as well. With new tools and technologies surfacing every now and then, it’s a must for any person to know about them. Sounds quite daunting, doesn't it? Well, you won't be alone on this journey. We bring to you, something very different from your daily classroom lectures, a two hour long hands on workshop on the new technologies by tech experts where you can learn: - - open source - cracking best internships - grab more opportunities - insights on college life and further",
                 image: "/event-images/tech-workshop.webp"
