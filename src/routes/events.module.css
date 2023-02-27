@@ -234,3 +234,56 @@ body {
         line-height: 1.6rem;
     }
 }
+
+.rulebookWrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.rulebook {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 8rem;
+    margin-bottom: -6rem;
+    border: 0.3rem solid #f3223a;
+    width: fit-content;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    transition: .5s;
+}
+
+.rulebooktext {
+    margin-top: 8rem;
+    margin-bottom: -6rem;
+    font-size: 1rem;
+}
+
+.rulebook img {
+    display: inline-block;
+    width: 2rem;
+    filter: invert();
+    margin-right: 0.7rem;
+    transform: translateY(0.25rem);
+}
+
+.rulebook:hover {
+    background: #f3223a;
+}
+
+@media (max-width: 1050px) {
+    .rulebookWrap {
+        width: 90vw;
+    }
+
+
+    .rulebook {
+        font-size: 1.5rem;
+        border: 0.2rem solid #f3223a;
+        margin-top: 7rem;
+        margin-bottom: -7rem;
+    }
+
+    .rulebook img {
+        width: 1.6rem;
+    }
+}
