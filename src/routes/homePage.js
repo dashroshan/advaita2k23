@@ -17,6 +17,8 @@ import s_pantaloons from "../assets/s-pantaloons.webp";
 import s_printlink from "../assets/s-printlink.webp";
 import s_rungta from "../assets/s-rungta.webp";
 import s_wizertech from "../assets/s-wizertech.webp";
+import s_dell from "../assets/s-dell.webp";
+import s_hp from "../assets/s-hp.webp";
 
 import e0thumb from "../assets/e0thumb.webp";
 import e1thumb from "../assets/e1thumb.webp";
@@ -101,7 +103,7 @@ function sponsorCard(img) {
     );
 }
 
-let sponsorData = [s_biswas, s_csm, s_edevlop, s_jyotemotors, s_navbharat, s_ocac, s_omc, s_pantaloons, s_printlink, s_rungta, s_wizertech];
+let sponsorData = [s_biswas, s_csm, s_edevlop, s_jyotemotors, s_navbharat, s_ocac, s_omc, s_pantaloons, s_printlink, s_rungta, s_wizertech, s_hp, s_dell];
 
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
