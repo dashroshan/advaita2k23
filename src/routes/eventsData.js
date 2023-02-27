@@ -255,12 +255,6 @@ export const eventsData = [
                 link: "https://docs.google.com/forms/d/e/1FAIpQLSdBFdU5hbU_8RHjZE6al1TUhmbMyVMPAfzMrEbX1r5Sk9WKNw/viewform",
                 linkText: "Register"
             },
-            {
-                date: "XTH MARCH",
-                time: "XX:00 AM",
-                description: "Ready to unleash your inner artist and wildest imagination? Look no further, because this event is just for you! Imagine being able to transform your friend's face into a monkey or creating a poster that's out of this world. With our hands-on experience using pro graphics editing softwares, the possibilities are endless. You'll learn all the tricks of the trade, from image selection and composition to color correction and retouching. You'll also learn how to layer and blend images to create unique and eye-catching compositions. Be ready to wow the world with your digital art creations!",
-                image: "/event-images/photo-manipulation.webp"
-            },
         ]
     },
     {
