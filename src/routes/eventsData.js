@@ -26,18 +26,18 @@ export const eventsData = [
             },
             {
                 date: "3RD MARCH",
-                time: "3:00 PM - 4:00 PM",
-                description: "The world around us is evolving rapidly and its best for us to evolve as well. With new tools and technologies surfacing every now and then, it’s a must for any person to know about them. Sounds quite daunting, doesn't it? Well, you won't be alone on this journey. We bring to you, something very different from your daily classroom lectures, a two hour long hands on workshop on the new technologies by tech experts where you can learn: - - open source - cracking best internships - grab more opportunities - insights on college life and further",
-                image: "/event-images/tech-workshop.webp"
-            },
-            {
-                date: "4TH MARCH",
                 time: "9:00 AM - 1:00 PM",
                 description: "Robots are taking over a lot of our departments. We can sit and relax as they do our work. Signs of concern perhaps, but not in this case. \"Robo race\" is an event where not only your robot but also you have to do the work. The participants have to design a robot either wired or wireless within specified dimensions that operates manually and can traverse through all turns of the track. They race against time and other competitors in an attempt to emerge as the ultimate robo racer.",
                 image: "/event-images/robot-race.webp",
                 link: "https://forms.gle/xW2MW4qAwRYjrddv9",
                 linkText: "Register",
-                prize: 10000,
+                prize: 20000,
+            },
+            {
+                date: "3RD MARCH",
+                time: "3:00 PM - 4:00 PM",
+                description: "The world around us is evolving rapidly and its best for us to evolve as well. With new tools and technologies surfacing every now and then, it’s a must for any person to know about them. Sounds quite daunting, doesn't it? Well, you won't be alone on this journey. We bring to you, something very different from your daily classroom lectures, a two hour long hands on workshop on the new technologies by tech experts where you can learn: - - open source - cracking best internships - grab more opportunities - insights on college life and further",
+                image: "/event-images/tech-workshop.webp"
             },
             {
                 date: "4TH MARCH",
@@ -56,12 +56,12 @@ export const eventsData = [
             },
             {
                 date: "4TH MARCH",
-                time: "2:00 PM - 5:00 PM",
+                time: "10:00 PM - 1:00 PM",
                 description: "Drone racing is a fast-growing sport that combines technology, skill, and excitement, making it an incredible experience for both participants and onlookers. Pilots race small, agile drones through an obstacle course at high speeds which is typically set up with gates, hoops, and other obstacles that challenge the pilots' precision and control as they maneuver through the course.",
                 image: "/event-images/drone-racing.webp",
                 link: "https://forms.gle/h1f9GYoCLVyx6d5t5",
                 linkText: "Register",
-                prize: 16000,
+                prize: 30000,
             },
             {
                 date: "5TH MARCH",
@@ -79,7 +79,7 @@ export const eventsData = [
                 image: "/event-images/dirt-rush.webp",
                 link: "https://forms.gle/gzt1M96r1CZeRFT87",
                 linkText: "Register",
-                prize: 16000,
+                prize: 30000,
             },
             {
                 date: "5TH MARCH",
@@ -88,7 +88,7 @@ export const eventsData = [
                 image: "/event-images/line-follower.webp",
                 link: "https://forms.gle/mymG5YT2fDuFS7e66",
                 linkText: "Register",
-                prize: 10000,
+                prize: 21000,
             },
             {
                 date: "4TH MARCH",
