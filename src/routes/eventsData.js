@@ -21,8 +21,8 @@ export const eventsData = [
                 image: "/event-images/swig-n-code.webp",
                 link: "https://docs.google.com/forms/d/e/1FAIpQLSfL5nEci0igHBr8sluN5VJhIHwFu1LUIhwZSRcXojQlx8K5OQ/viewform",
                 linkText: "Register",
+                prize: 16000,
                 // ruleBook: "https://hackfest-advaita.devpost.com",
-                // prize: 20000,
             },
             {
                 date: "3RD MARCH",
@@ -37,6 +37,7 @@ export const eventsData = [
                 image: "/event-images/robot-race.webp",
                 link: "https://forms.gle/xW2MW4qAwRYjrddv9",
                 linkText: "Register",
+                prize: 10000,
             },
             {
                 date: "4TH MARCH",
@@ -45,6 +46,7 @@ export const eventsData = [
                 image: "/event-images/tech-nova.webp",
                 link: "https://forms.gle/ukn3F1FHLFLR1VRj7",
                 linkText: "Register",
+                prize: 16000,
             },
             {
                 date: "4TH MARCH",
@@ -59,6 +61,7 @@ export const eventsData = [
                 image: "/event-images/drone-racing.webp",
                 link: "https://forms.gle/h1f9GYoCLVyx6d5t5",
                 linkText: "Register",
+                prize: 16000,
             },
             {
                 date: "5TH MARCH",
@@ -67,6 +70,7 @@ export const eventsData = [
                 image: "/event-images/cyber-hunt.webp",
                 link: "https://surveyheart.com/form/63fb67a693973e26c42ab51a",
                 linkText: "Register",
+                prize: 14000,
             },
             {
                 date: "5TH MARCH",
@@ -75,6 +79,7 @@ export const eventsData = [
                 image: "/event-images/dirt-rush.webp",
                 link: "https://forms.gle/gzt1M96r1CZeRFT87",
                 linkText: "Register",
+                prize: 16000,
             },
             {
                 date: "5TH MARCH",
@@ -83,6 +88,7 @@ export const eventsData = [
                 image: "/event-images/line-follower.webp",
                 link: "https://forms.gle/mymG5YT2fDuFS7e66",
                 linkText: "Register",
+                prize: 10000,
             },
             {
                 date: "4TH MARCH",
@@ -91,6 +97,7 @@ export const eventsData = [
                 image: "/event-images/switch-code.webp",
                 link: "https://forms.gle/2HzEYK4XdQ36WvKb9",
                 linkText: "Register",
+                prize: 14500,
             },
         ]
     },
