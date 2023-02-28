@@ -173,6 +173,7 @@ export const eventsData = [
                 image: "/event-images/rangbhumi.webp",
                 link: "https://docs.google.com/forms/d/e/1FAIpQLSd1ZpCPB94H4q2aanXlbqZQHAw8oj_6tBp5z1bJtMN9sNOLfA/viewform",
                 linkText: "Register",
+                prize: 25000,
             },
             {
                 date: "4TH MARCH",
