@@ -57,7 +57,7 @@ export const eventsData = [
             },
             {
                 date: "4TH MARCH",
-                time: "10:00 PM - 1:00 PM",
+                time: "10:00 AM - 1:00 PM",
                 description: "Drone racing is a fast-growing sport that combines technology, skill, and excitement, making it an incredible experience for both participants and onlookers. Pilots race small, agile drones through an obstacle course at high speeds which is typically set up with gates, hoops, and other obstacles that challenge the pilots' precision and control as they maneuver through the course.",
                 image: "/event-images/drone-racing.webp",
                 link: "https://docs.google.com/forms/d/e/1FAIpQLScv1o9HeMcCqjBvDbYKTwHjRRCCKKLyEEjAbsltJ7ef96BN6g/viewform",
