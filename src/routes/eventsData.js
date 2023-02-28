@@ -154,6 +154,7 @@ export const eventsData = [
                 image: "/event-images/cypher.webp",
                 link: "https://docs.google.com/forms/d/e/1FAIpQLSeOAOFZaxlOdo4iTCirVRLarrh-E92sXyKHrTR10YSnH7S4Og/viewform",
                 linkText: "Register",
+                prize: 15000,
             },
         ]
     },
@@ -175,7 +176,8 @@ export const eventsData = [
                 date: "5TH MARCH",
                 time: "2:00 PM - 4:00 PM",
                 description: "“Bringing the best out of you, one stage at a time.” Whether you're an experienced thespian or just starting out, this is your chance to shine and impress a panel of pros. From monologues to scenes and short plays, this talent show will give you the opportunity to showcase your range and versatility as an actor. Participants will compete for cash prizes and the chance to discover your hidden talent. ‘Mai Kalakaar’ is not just about showcasing talent, it's about fostering a community of actors and encouraging them to grow and evolve. ",
-                image: "/event-images/mai-kalakar.webp"
+                image: "/event-images/mai-kalakar.webp",
+                prize: 10000,
             },
             {
                 date: "4TH MARCH",
