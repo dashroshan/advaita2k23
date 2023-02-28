@@ -18,7 +18,7 @@ export default function PopBox(props) {
             <div className={classes.modal_content}>
                 <span className={classes.close_button} onClick={() => props.setPopUp(false)}>x</span>
                 <h2>Please note</h2>
-                <div style={{ opacity: 0.75 }}>The 4 day pass includes access to ProNites along with all the other events. Accomodation costs extra which can be availed as an add-on while purchasing your pass.<br /><br />If you wish to pay using UPI, please select one of the wallet options like PhonePe in our payment gateway.</div>
+                <div style={{ opacity: 0.75, textAlign: 'justify' }}>If you wish to attend Advaita only on certain days, daily passes can be availed physically on-spot for ₹300 on 2nd, 3rd, 4th, and for ₹500 on 5th of March.<br /><br />Click continue to buy the discounted 4 day epass which includes access to Pronites and all other events. Accomodation costs extra which you can purchase as an addon. Select one of the wallet options like PhonePe in our payment gateway to pay using UPI.</div>
                 <div className={classes.buttonWrap}>
                     <a href="https://iiit.edevlop.com" rel="noreferrer" target="_blank" style={count === 0 ? {} : { opacity: 0.3, pointerEvents: "none" }}><AngleButton text={count === 0 ? "CONTINUE" : `WAITING: ${count}`} /></a>
                 </div>
