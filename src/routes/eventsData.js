@@ -21,7 +21,7 @@ export const eventsData = [
                 image: "/event-images/swig-n-code.webp",
                 link: "https://docs.google.com/forms/d/e/1FAIpQLSfL5nEci0igHBr8sluN5VJhIHwFu1LUIhwZSRcXojQlx8K5OQ/viewform",
                 linkText: "Register",
-                prize: 16000,
+                prize: 20000,
                 // ruleBook: "https://hackfest-advaita.devpost.com",
             },
             {
@@ -46,7 +46,7 @@ export const eventsData = [
                 image: "/event-images/tech-nova.webp",
                 link: "https://docs.google.com/forms/d/e/1FAIpQLSeQfQwfrXd-gvYhcD9SV7MOL79nBkfcZvheg_rVNZUTAzeAFg/viewform",
                 linkText: "Register",
-                prize: 16000,
+                prize: 20000,
             },
             {
                 date: "4TH MARCH",
@@ -70,7 +70,7 @@ export const eventsData = [
                 image: "/event-images/cyber-hunt.webp",
                 link: "https://surveyheart.com/form/63fb67a693973e26c42ab51a",
                 linkText: "Register",
-                prize: 14000,
+                prize: 20000,
             },
             {
                 date: "5TH MARCH",
@@ -97,7 +97,7 @@ export const eventsData = [
                 image: "/event-images/switch-code.webp",
                 link: "https://docs.google.com/forms/d/e/1FAIpQLSc7m8LFP0_OmGBz_Ux_tTDJ_tUlJwcog8nE40L9PnnA9zH-AQ/viewform",
                 linkText: "Register",
-                prize: 14500,
+                prize: 20000,
             },
         ]
     },
@@ -209,6 +209,7 @@ export const eventsData = [
                 image: "/event-images/picasso.webp",
                 link: "https://docs.google.com/forms/d/e/1FAIpQLSdj4Cs6PSd37XOvcRCz0vkVVofj7xc82pPQYyapAT_ivWD8dw/viewform",
                 linkText: "Register",
+                prize: 5000,
             },
             {
                 date: "5TH MARCH",
@@ -226,6 +227,7 @@ export const eventsData = [
                 image: "/event-images/draw-it-right.webp",
                 link: "https://docs.google.com/forms/d/e/1FAIpQLSeIkxVrG16AqD10drTXIHT1u7g0HeitS5o8oHxa2Slpe8OxsA/viewform",
                 linkText: "Register",
+                prize: 5000,
             },
         ]
     },
@@ -325,6 +327,7 @@ export const eventsData = [
                 image: "/event-images/golgappa-king.webp",
                 link: "https://docs.google.com/forms/d/e/1FAIpQLScPx8OP__L4TmW3XltkXoCF5aTFD00aGp5vC-2KeR1tleY96w/viewform",
                 linkText: "Register",
+                prize: 2000,
             },
             {
                 date: "5TH MARCH",
