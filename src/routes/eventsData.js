@@ -166,6 +166,14 @@ export const eventsData = [
         description: "Haven't had enough chances to show off your acting skills? Scared that people might judge you? Don't have enough confidence? Don't worry we will set the stage for you but the main question is ARE YOU READY to bring out the \"kalakar\" ?",
         events: [
             {
+                date: "3RD MARCH",
+                time: "7:00 PM - 10:00 PM",
+                description: "Rangbhumi - where inner feelings will be expressed through art, culture and visual arts. A place where the audience is transported to a whole new world and becomes a part of the story that unfolds on stage. So evoke the actor inside you because every scene you will ever act in begins in the middle, and it is up to you, the actor, to provide what comes before. Put on your acting hats and bring what's in your mind into reality. Become the one you have dreamed of and turn all impossibilities into possibilities. Come together to experience something truly magical.",
+                image: "/event-images/rangbhumi.webp",
+                link: "https://docs.google.com/forms/d/e/1FAIpQLSd1ZpCPB94H4q2aanXlbqZQHAw8oj_6tBp5z1bJtMN9sNOLfA/viewform",
+                linkText: "Register",
+            },
+            {
                 date: "4TH MARCH",
                 time: "9:00 AM - 1:00 PM",
                 description: "Change! Reform! Badlaav! Nukkad is a street corner gathering where people come together to discuss social, cultural, and political issues. These events often involve performances such as plays, skits, and music, and can be used to raise awareness about important issues or to bring a community together. Nukkad events are a great way to engage with your community and make a positive impact on the issues that matter to you. Experience the power of collective voices as we come together to raise awareness and bring about positive change.",
@@ -179,14 +187,6 @@ export const eventsData = [
                 description: "“Bringing the best out of you, one stage at a time.” Whether you're an experienced thespian or just starting out, this is your chance to shine and impress a panel of pros. From monologues to scenes and short plays, this talent show will give you the opportunity to showcase your range and versatility as an actor. Participants will compete for cash prizes and the chance to discover your hidden talent. ‘Mai Kalakaar’ is not just about showcasing talent, it's about fostering a community of actors and encouraging them to grow and evolve. ",
                 image: "/event-images/mai-kalakar.webp",
                 prize: 10000,
-            },
-            {
-                date: "4TH MARCH",
-                time: "XX:00 AM",
-                description: "Rangbhumi - where inner feelings will be expressed through art, culture and visual arts. A place where the audience is transported to a whole new world and becomes a part of the story that unfolds on stage. So evoke the actor inside you because every scene you will ever act in begins in the middle, and it is up to you, the actor, to provide what comes before. Put on your acting hats and bring what's in your mind into reality. Become the one you have dreamed of and turn all impossibilities into possibilities. Come together to experience something truly magical.",
-                image: "/event-images/rangbhumi.webp",
-                link: "https://docs.google.com/forms/d/e/1FAIpQLSd1ZpCPB94H4q2aanXlbqZQHAw8oj_6tBp5z1bJtMN9sNOLfA/viewform",
-                linkText: "Register",
             },
         ]
     },
