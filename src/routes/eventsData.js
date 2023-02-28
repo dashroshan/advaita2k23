@@ -139,6 +139,7 @@ export const eventsData = [
                 image: "/event-images/lamode.webp",
                 link: "https://docs.google.com/forms/d/e/1FAIpQLSfHPa_GD5FHIm5ZEF0CGHAriH4jT-qat8AO1VEbK6fzkAM_zA/viewform",
                 linkText: "Register",
+                prize: 30000,
             },
             {
                 date: "5TH MARCH",
