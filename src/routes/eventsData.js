@@ -12,7 +12,8 @@ export const eventsData = [
                 image: "/event-images/intra-hackathon.webp",
                 link: "https://hackfest-advaita.devpost.com",
                 linkText: "Visit Page",
-                customPopUp: "Round 1 selections for the Hackathon is already over. You can look around the hackathon page, but new registrations are not allowed."
+                customPopUp: "Round 1 selections for the Hackathon is already over. You can look around the hackathon page, but new registrations are not allowed.",
+                prize: 244000,
             },
             {
                 date: "3RD MARCH",
