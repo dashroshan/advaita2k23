@@ -111,37 +111,49 @@ export const eventsData = [
                 date: "3RD & 5TH MARCH",
                 time: "9:00 AM - 1:00 PM",
                 description: "Letting yourself lose to the beats is the best flow of dance. Footloose has seen dancers of all styles come and perform their heart out on the stage. And as a matter of fact this is one of the most amusing competitions of Advaita.",
-                image: "/event-images/footloose.webp"
+                image: "/event-images/footloose.webp",
+                link: "https://docs.google.com/forms/d/e/1FAIpQLSficxBodOsUFnOrS4cPU2xkcYAfhKSEjBdeybbsLmaUchCaLw/viewform",
+                linkText: "Register",
             },
             {
                 date: "3RD & 5TH MARCH",
                 time: "12 - 4 PM (3rd), 9 - 1 PM (5th)",
                 description: "Championing the unusual, unorthodox and unheard, our annual Battle of the Bands competition is back. Whether you’re looking to showcase new adventures into electronica or dip your toe into experimental waters, ROCKATHON, a resplendent musical band event is a chance for soloists, ensembles, improvisers and performance artists to showcase their talents. We invite musical bands – who chime with our ethos to perform and compete among themselves in an informal setting in front of a legion to emerge as the best one. So get the band together and take on the world in this battle of bands.",
-                image: "/event-images/rockathon.webp"
+                image: "/event-images/rockathon.webp",
+                link: "https://docs.google.com/forms/d/e/1FAIpQLScr8RhJK6PKIt7ymbZFRmqmGla9sfEHLGiaiscHIFDuDyY3nw/viewform",
+                linkText: "Register",
             },
             {
                 date: "4TH MARCH",
                 time: "10:00 AM - 12:00 PM",
                 description: "A mic is just a mic until something strong unsaid has been said aloud..and that..is when the mic is dropped. This event has two categories raping and beatboxing. An intense rap battle where rappers shout their heart out to the beat and the best one drops the mic and gets the audience to go boom. Get to showcase your beatboxing skills and blast the stage with drums and crazy musical effects.",
-                image: "/event-images/mic-drop.webp"
+                image: "/event-images/mic-drop.webp",
+                link: "https://docs.google.com/forms/d/e/1FAIpQLScD9M54Tq54OaTXOiExNHeQ6hALDd1rgM_RodgZI9htFm5Hcw/viewform",
+                linkText: "Register",
             },
             {
                 date: "4TH MARCH",
                 time: "4:30 PM - 7:30 PM",
                 description: "A statement can be ordinary but a fashion statement made strongly can turn heads. Fashion is the medium expression and the team who best represent the theme win hearts.",
-                image: "/event-images/lamode.webp"
+                image: "/event-images/lamode.webp",
+                link: "https://docs.google.com/forms/d/e/1FAIpQLSfHPa_GD5FHIm5ZEF0CGHAriH4jT-qat8AO1VEbK6fzkAM_zA/viewform",
+                linkText: "Register",
             },
             {
                 date: "5TH MARCH",
                 time: "11:00 AM - 3:00 PM",
                 description: "They say that you can touch a soul with a melody and Acoustica is where the souls come for their rhythm of life. A number of amazing singers compete together and you'd really wish it continues on and on and on.",
-                image: "/event-images/acoustica.webp"
+                image: "/event-images/acoustica.webp",
+                link: "https://docs.google.com/forms/d/e/1FAIpQLSfiCAB_rSusS1gTc4F7Jj56gzxr0Xje0vGVDefLVF16jTjEZQ/viewform",
+                linkText: "Register",
             },
             {
                 date: "5TH MARCH",
                 time: "1:00 PM - 5:00 PM",
                 description: "Cypher, as is the vibe of the name, it is a bang on street style dance competition with dancers across a number of universities joining to boast their raw moves on a single battleground and creating the authentic artist feels. This, my friends, is a sight to behold and an even better experience to enjoy.",
-                image: "/event-images/cypher.webp"
+                image: "/event-images/cypher.webp",
+                link: "https://docs.google.com/forms/d/e/1FAIpQLSeOAOFZaxlOdo4iTCirVRLarrh-E92sXyKHrTR10YSnH7S4Og/viewform",
+                linkText: "Register",
             },
         ]
     },
@@ -155,7 +167,9 @@ export const eventsData = [
                 date: "4TH MARCH",
                 time: "9:00 AM - 1:00 PM",
                 description: "Change! Reform! Badlaav! Nukkad is a street corner gathering where people come together to discuss social, cultural, and political issues. These events often involve performances such as plays, skits, and music, and can be used to raise awareness about important issues or to bring a community together. Nukkad events are a great way to engage with your community and make a positive impact on the issues that matter to you. Experience the power of collective voices as we come together to raise awareness and bring about positive change.",
-                image: "/event-images/nukkad-show.webp"
+                image: "/event-images/nukkad-show.webp",
+                link: "https://docs.google.com/forms/d/e/1FAIpQLSeTKpj30Ff8gac3Ay34K78U2MHnBXaz4fKVqPrfe7kANP9azg/viewform",
+                linkText: "Register",
             },
             {
                 date: "5TH MARCH",
@@ -167,7 +181,9 @@ export const eventsData = [
                 date: "4TH MARCH",
                 time: "XX:00 AM",
                 description: "Rangbhumi - where inner feelings will be expressed through art, culture and visual arts. A place where the audience is transported to a whole new world and becomes a part of the story that unfolds on stage. So evoke the actor inside you because every scene you will ever act in begins in the middle, and it is up to you, the actor, to provide what comes before. Put on your acting hats and bring what's in your mind into reality. Become the one you have dreamed of and turn all impossibilities into possibilities. Come together to experience something truly magical.",
-                image: "/event-images/rangbhumi.webp"
+                image: "/event-images/rangbhumi.webp",
+                link: "https://docs.google.com/forms/d/e/1FAIpQLSd1ZpCPB94H4q2aanXlbqZQHAw8oj_6tBp5z1bJtMN9sNOLfA/viewform",
+                linkText: "Register",
             },
         ]
     },
@@ -187,19 +203,25 @@ export const eventsData = [
                 date: "3RD MARCH",
                 time: "4:30 PM - 6:30 PM",
                 description: "We don't make mistakes, we have happy accidents. ~Bob Ross Do you love the process of making art and get engrossed in the realm of paintings? Making art is no less than magic. It is one of those creations that allows for interpretation of any kind. We have all of that in stock for you to showcase your talent but with a TWIST. ADVAITA presents \"PICASSO\", a relay race in which you and your teammates will make use of the paint brushes to add paint strokes one by one to make a meaningful work of art. Join us in this battle of creativity and show off your artistic prowess to the world.",
-                image: "/event-images/picasso.webp"
+                image: "/event-images/picasso.webp",
+                link: "https://docs.google.com/forms/d/e/1FAIpQLSdj4Cs6PSd37XOvcRCz0vkVVofj7xc82pPQYyapAT_ivWD8dw/viewform",
+                linkText: "Register",
             },
             {
                 date: "5TH MARCH",
                 time: "12:00 PM - 3:00 PM",
                 description: "Treasure hunting has always been an activity of adrenaline, intelligence and bravery. People have been searching for gold and precious stones in the form of treasure for centuries. But what if we introduce a twist by bringing in artistic treasure and creating an universe of creative brilliance? ADVAITA brings to you \"TREAVENGER HUNT\". Within a set amount of time, locate the hidden art supplies and use them to create your masterpiece. Set your heart ablaze and go beyond your limits during the search and win the battle with all the tools at your disposal.",
-                image: "/event-images/treavenger-hunt.webp"
+                image: "/event-images/treavenger-hunt.webp",
+                link: "https://docs.google.com/forms/d/e/1FAIpQLSfU711OwBbT_IKXrtsCeMX6fwi7gv59djw5berz7Qeevx64bA/viewform",
+                linkText: "Register",
             },
             {
                 date: "5TH MARCH",
                 time: "5:00 PM - 7:00 PM",
                 description: "No, it's not a drawing competition, but a game like Chinese Whisper. Yes, Chinese Whisper, it was fun - Shall we take it to the Next level and double the fun and excitement! Join us in this fun and creative event where we will be drawing on each other's backs in teams of 3, wherein the Chinese whisper is replaced with a pen and paper. The first person has to draw a piece of any art on the back of the other person and that person is required to draw the art that he is perceiving, passing on to the third one. Just make it as right as possible.",
-                image: "/event-images/draw-it-right.webp"
+                image: "/event-images/draw-it-right.webp",
+                link: "https://docs.google.com/forms/d/e/1FAIpQLSeIkxVrG16AqD10drTXIHT1u7g0HeitS5o8oHxa2Slpe8OxsA/viewform",
+                linkText: "Register",
             },
         ]
     },
@@ -210,22 +232,42 @@ export const eventsData = [
         description: "Hola gamers and fun seekers!!! How can we start the party without ya all. We are officially sending the invitation to you for the ultimate battles. Let's see if you have what it takes to win. May the best say GG!",
         events: [
             {
-                date: "5TH MARCH",
-                time: "3:30 PM - 5:30 PM",
-                description: "Someone said sports and books are not related. Well we don't agree much on that and thats why we introduced the BBDM. An event where you get to flaunt how good you are at basket ball but only if you can prove your mettle of being a bookworm. The event is the perfect test of the athelete as well as the scholar in you.",
-                image: "/event-images/bbdm.webp"
-            },
-            {
-                date: "3RD MARCH",
-                time: "5:00 PM - 6:30 PM",
-                description: "Hola actors, we hope you are prepared for this one. All you need to do is immitate someone. Easy right? Well just a small twist. You have to imitate \"someone\" but the someone will be determined by throwing darts and then unscrambling whatever you get under it.",
-                image: "/event-images/scrambling-dart.webp"
-            },
-            {
                 date: "XTH MARCH",
                 time: "XX:00 AM",
                 description: "There would be tournaments in popular games like Valorant PC, COD mobile etc. Also there would be a wide range of tournaments and leagues for all skill levels. Whether you’re a beginner or a pro, you can find the perfect competition to challenge yourself and show off your skills. Not to mention there would be a variety of rewards and prizes for the top players.",
                 image: "/event-images/esports.webp"
+            },
+        ]
+    },
+    {
+        title: "LITERATURE",
+        id: "literature_events",
+        subtitle: "WORDS THAT IGNITE",
+        description: "The air is alive with the aroma of freshly printed pages and the buzz of excitement as book lovers from all walks of life gather to celebrate the written word. At this literature fest, imagination runs wild, creativity knows no bounds, and the power of storytelling reigns supreme.",
+        events: [
+            {
+                date: "3RD MARCH",
+                time: "5:00 PM - 6:30 PM",
+                description: "Hola actors, we hope you are prepared for this one. All you need to do is immitate someone. Easy right? Well just a small twist. You have to imitate \"someone\" but the someone will be determined by throwing darts and then unscrambling whatever you get under it.",
+                image: "/event-images/scrambling-dart.webp",
+                link: "https://docs.google.com/forms/d/e/1FAIpQLSewq-IguiTeLH5qtS1HVvFq5khnUp_zCTp4l6yLjbASP7yHGA/viewform",
+                linkText: "Register",
+            },
+            {
+                date: "4TH MARCH",
+                time: "11:00 AM - 1:00 PM",
+                description: "The mehfil of Advaita is going to be a lot more jaandaar as the News And Publication Society IIIT Bhubaneswar brings to you a workshop by none other than Miss Vanika Sangtani. So folks get ready on 4th March from 11 AM to 1 PM, and be a part of our mehfil to make it even more memorable. For better or for verse!",
+                image: "/event-images/vanika-workshop.webp",
+                link: "https://docs.google.com/forms/d/e/1FAIpQLScHSmzOcM1BvsmGo4dw4NixZJp-vfjcKzVJuLcth181EUMG2Q/viewform",
+                linkText: "Register",
+            },
+            {
+                date: "5TH MARCH",
+                time: "3:30 PM - 5:30 PM",
+                description: "Someone said sports and books are not related. Well we don't agree much on that and thats why we introduced the BBDM. An event where you get to flaunt how good you are at basket ball but only if you can prove your mettle of being a bookworm. The event is the perfect test of the athelete as well as the scholar in you.",
+                image: "/event-images/bbdm.webp",
+                link: "https://docs.google.com/forms/d/e/1FAIpQLSfufw5oL-PwwIGRmr8f-rSloM-gqBnj7Tq9JqzafmDorgqknA/viewform",
+                linkText: "Register",
             },
         ]
     },
@@ -267,25 +309,33 @@ export const eventsData = [
                 date: "4TH MARCH",
                 time: "9:00 AM - 1:00 PM",
                 description: "Get ready for a Maggie-making extravaganza!!! Cook Maggie with a delicious punch. The competition will be a test of skill, creativity, and speed as participants race against the clock to create the most delicious and visually stunning Maggie. The rules are simple: each chef must use only the ingredients provided and complete their dish within the allotted time. The judges will be looking for originality, taste, and presentation. The stakes are high, as the winner will receive bragging rights as the ultimate Maggie master. Don't miss out on this Maggie-making action!",
-                image: "/event-images/maggie-chef.webp"
+                image: "/event-images/maggie-chef.webp",
+                link: "https://docs.google.com/forms/d/e/1FAIpQLSdO0LpaJvGvQvU9WTquUxDGGAo-0RjnTGDQclOMVlEcGDyYdg/viewform",
+                linkText: "Register",
             },
             {
                 date: "4TH MARCH",
                 time: "3:00 PM - 5:00 PM",
                 description: "Get ready for a mouth-watering, gastronomic adventure! The Golgappa Eating Competition is here, and it's sure to be a blast. Contestants will have to devour as many crispy and tangy golgappas as they can within a set time limit. These golgappas will be filled with a variety of fillings such as potato, chana, and tamarind chutney. This event is open to all the foodies with diverse tastes, and the winner will be the one who eats the most golgappas in the given time limit and is awarded the title of 'Golgappa King/Queen' along with a prize.",
-                image: "/event-images/golgappa-king.webp"
+                image: "/event-images/golgappa-king.webp",
+                link: "https://docs.google.com/forms/d/e/1FAIpQLScPx8OP__L4TmW3XltkXoCF5aTFD00aGp5vC-2KeR1tleY96w/viewform",
+                linkText: "Register",
             },
             {
                 date: "5TH MARCH",
                 time: "10:00 AM - 12:00 PM",
                 description: "Brace yourself for a fiery culinary challenge! The Parantha Eating Competition with Hot Chilli Sauce is back, and it's going to be hotter than ever. Contestants will have to chow down as many delicious, piping-hot paranthas smothered in fiery hot chili sauce as they can within a set time limit. The heat is on as participants compete to see who can handle the hottest sauce and eat the most paranthas. The winner will be the one who can eat the most paranthas in the given time limit and will be rewarded with a prize. Don't miss out on the thrilling action and the chance to taste some of the spiciest paranthas around. Mark your calendars and come join us to cheer on your favorite contestant and enjoy the delicious food.",
-                image: "/event-images/shole-paranthe.webp"
+                image: "/event-images/shole-paranthe.webp",
+                link: "https://docs.google.com/forms/d/e/1FAIpQLSfFDo1obJiwjmMMowGmR8nXCp3GjO2fXZQFAC71pn4fGEUaWA/viewform",
+                linkText: "Register",
             },
             {
                 date: "5TH MARCH",
                 time: "5:30 PM - 7:30 PM",
                 description: "Prepare yourself for an unparalleled culinary experience! Introducing the stringed delicacy, a playful and exhilarating event that will tantalize your taste buds and bring some fun to your mealtime. Take a bite and let the flavors dance on your tongue as you savor the tender delicacies. The delicacies are expertly crafted and suspended from a string, creating a unique and visually appealing treat. The string adds a playful touch, making it a perfect snack for just a fun day with friends. Whether you're looking for a tasty appetizer or a fun and unique main course, the stringed delicacy is sure to be a hit. So go ahead, give it a try and get ready for a deliciously fun experience.",
-                image: "/event-images/stringed-delicacy.webp"
+                image: "/event-images/stringed-delicacy.webp",
+                link: "https://docs.google.com/forms/d/e/1FAIpQLScGGOxAj9ur_jifk0aEU0jNl1gjWJKDMqFaJOYjcYzmG-FP-w/viewform",
+                linkText: "Register",
             },
         ]
     },
