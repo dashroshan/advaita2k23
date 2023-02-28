@@ -284,18 +284,19 @@ export const eventsData = [
                 image: "/event-images/photography-workshop.webp"
             },
             {
-                date: "XTH MARCH",
-                time: "XX:00 AM",
+                date: "2ND - 5TH MARCH",
+                time: "9:00 AM - 9:00 PM",
                 description: "Step into the world of photography and freeze your memories at A STILL IN TIME - the ultimate photo exhibition! Join us at #Advaita2023 and discover the beauty of capturing a moment in time through the lens. From stunning landscapes to candid shots, we've curated some of the best works from photographers of our college. Not only will you get to admire the art, but you'll also get the chance to snap your own memories at our photo booth. Don't miss out on this one-of-a-kind experience.",
                 image: "/event-images/a-still-in-time.webp"
             },
             {
-                date: "XTH MARCH",
-                time: "XX:00 AM",
+                date: "4TH MARCH",
+                time: "2:00 PM - 5:00 PM",
                 description: "Get ready to snap, shoot, and shine with IMAGEN—the ultimate destination for photography and videography enthusiasts! Whether you're a seasoned pro or just starting out, our specially curated competitions will inspire and challenge you to bring your creative vision to life. With IMAGEN, the world is your canvas and the camera is your brush—so let's capture some unforgettable moments together!",
                 image: "/event-images/imagen.webp",
                 link: "https://docs.google.com/forms/d/e/1FAIpQLSdBFdU5hbU_8RHjZE6al1TUhmbMyVMPAfzMrEbX1r5Sk9WKNw/viewform",
-                linkText: "Register"
+                linkText: "Register",
+                prize: 30000,
             },
         ]
     },
@@ -358,16 +359,16 @@ export const eventsData = [
                 image: "/event-images/umang.webp"
             },
             {
-                date: "XTH MARCH",
-                time: "XX:00 AM",
-                description: "What is running in our veins throughout our life, can't we run for it one day. Thousands of people suffering from surgeries, cancer treatment, chronic illness, Thalassemia, traumatic injuries require blood for themselves once or in case multiple times. 12,000 individuals die every day due to lack of quality blood. Hence, it has been planned to create awareness among people through a marathon as an innovative effort. Make sure to be an exemplary citizen and participate in this marathon to make people aware of this crucial topic.",
-                image: "/event-images/marathon.webp"
+                date: "2ND - 5TH MARCH",
+                time: "9:00 AM - 9:00 PM",
+                description: "As per swami vivekananda: Service to man is service to God. The truth of this adage also applies in case of blood donation. Saving lives by donating blood is no less meritorious than any act of God. Realizing this, a blood donation camp will be organised in the college campus to contribute to the urgent need for patients confronting trauma and other life-saving treatments, such as blood transfusions. It reduces the risk of heart attack and blood pressure in the donor while meeting the receiver's vital needs. As it is rightly said: Show an act of care, your Blood-Donation can keep one’s prayer.",
+                image: "/event-images/blood-donation.webp"
             },
             {
                 date: "XTH MARCH",
                 time: "XX:00 AM",
-                description: "As per swami vivekananda: Service to man is service to God. The truth of this adage also applies in case of blood donation. Saving lives by donating blood is no less meritorious than any act of God. Realizing this, a blood donation camp will be organised in the college campus to contribute to the urgent need for patients confronting trauma and other life-saving treatments, such as blood transfusions. It reduces the risk of heart attack and blood pressure in the donor while meeting the receiver's vital needs. As it is rightly said: Show an act of care, your Blood-Donation can keep one’s prayer.",
-                image: "/event-images/blood-donation.webp"
+                description: "What is running in our veins throughout our life, can't we run for it one day. Thousands of people suffering from surgeries, cancer treatment, chronic illness, Thalassemia, traumatic injuries require blood for themselves once or in case multiple times. 12,000 individuals die every day due to lack of quality blood. Hence, it has been planned to create awareness among people through a marathon as an innovative effort. Make sure to be an exemplary citizen and participate in this marathon to make people aware of this crucial topic.",
+                image: "/event-images/marathon.webp"
             },
         ]
     },
