@@ -19,6 +19,8 @@ import s_rungta from "../assets/s-rungta.webp";
 import s_wizertech from "../assets/s-wizertech.webp";
 import s_dell from "../assets/s-dell.webp";
 import s_hp from "../assets/s-hp.webp";
+import s_insidefpv from "../assets/s-insidefpv.webp";
+
 
 import e0thumb from "../assets/e0thumb.webp";
 import e1thumb from "../assets/e1thumb.webp";
@@ -119,6 +121,7 @@ let sponsorData3 = [
     { img: s_wizertech, link: "https://wizertech.com" },
     { img: s_hp, link: "https://www.hp.com" },
     { img: s_dell, link: "https://www.dell.com" },
+    { img: s_insidefpv, link: "https://insidefpv.com" }
 ];
 
 function shuffleArray(array) {
