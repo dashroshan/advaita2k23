@@ -218,7 +218,7 @@ export const eventsData = [
             },
             {
                 date: "5TH MARCH",
-                time: "12:00 PM - 3:00 PM",
+                time: "2:00 PM - 5:00 PM",
                 description: "Treasure hunting has always been an activity of adrenaline, intelligence and bravery. People have been searching for gold and precious stones in the form of treasure for centuries. But what if we introduce a twist by bringing in artistic treasure and creating an universe of creative brilliance? ADVAITA brings to you \"TREAVENGER HUNT\". Within a set amount of time, locate the hidden art supplies and use them to create your masterpiece. Set your heart ablaze and go beyond your limits during the search and win the battle with all the tools at your disposal.",
                 image: "/event-images/treavenger-hunt.webp",
                 link: "https://docs.google.com/forms/d/e/1FAIpQLSfU711OwBbT_IKXrtsCeMX6fwi7gv59djw5berz7Qeevx64bA/viewform",
