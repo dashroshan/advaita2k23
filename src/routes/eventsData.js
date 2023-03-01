@@ -157,6 +157,7 @@ export const eventsData = [
                 link: "https://docs.google.com/forms/d/e/1FAIpQLSeOAOFZaxlOdo4iTCirVRLarrh-E92sXyKHrTR10YSnH7S4Og/viewform",
                 linkText: "Register",
                 prize: 15000,
+                extraInfo: "If you wish to just participate in Cypher during Advaita, you can purchase an event pass on the spot for ₹100 instead of the 1 or 4 day passes.",
             },
         ]
     },

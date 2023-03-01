@@ -13,7 +13,7 @@ export default function EventModal(props) {
                 {
                     props.popUp.desc ?
                         <div style={{ opacity: 0.75, textAlign: "justify" }}>{props.popUp.desc}</div> :
-                        <div style={{ opacity: 0.75, textAlign: "justify" }}>You need to have an Advaita pass inorder to participate in these events. <a style={{ textDecoration: 'inherit', color: '#ED2E44', fontWeight: 'bold' }} rel="noreferrer" target="_blank" href="https://iiit.edevlop.com">Purchase a pass</a> before continuing to register for this event if you don't have one already. If you have a valid pass, click Continue to proceed with your registration. Only one member from a team needs to register for team events.</div>
+                        <div style={{ opacity: 0.75, textAlign: "justify" }}>You need to have an Advaita pass inorder to participate in these events. Single day pass can be aviled on the spot, or you can purchase a discounted 4 day epass <a style={{ textDecoration: 'inherit', color: '#ED2E44', fontWeight: 'bold' }} rel="noreferrer" target="_blank" href="https://iiit.edevlop.com">from here</a>. Only one member from a team needs to register for team events. Click continue to proceed with your registration.{props.popUp.extraInfo ? <><br /><br /><span>{props.popUp.extraInfo}</span></> : null}</div>
                 }
                 <div className={classes.buttonWrap}>
                     <a href={props.popUp.link} rel="noreferrer" target="_blank" ><AngleButton text="CONTINUE" /></a>

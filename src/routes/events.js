@@ -9,7 +9,7 @@ import downloadIcon from "../assets/download.svg";
 
 import EventModal from "../components/eventModal";
 
-function proNightsCard(img, title, subtitle, desc, link, linkText, setPopUp, customPopUp, ruleBook, prize) {
+function proNightsCard(img, title, subtitle, desc, link, linkText, setPopUp, customPopUp, ruleBook, prize, extraInfo) {
     return (
         <div className={classesHome.sliderCard + " " + classes.proCard}>
             <img src={img} alt="slider" />
@@ -23,7 +23,7 @@ function proNightsCard(img, title, subtitle, desc, link, linkText, setPopUp, cus
                 {link ?
                     <>
                         <div style={{ display: 'flex', gap: "1rem" }}>
-                            <div onClick={() => setPopUp({ open: true, link: link, desc: customPopUp })} style={{ cursor: 'pointer', fontSize: "1.4rem", fontWeight: "bold", border: "0.2rem solid white", width: "fit-content", padding: "0.5rem 1.5rem", borderRadius: "0.4rem", marginBottom: "-0.4rem" }}>{linkText}</div>
+                            <div onClick={() => setPopUp({ open: true, link: link, desc: customPopUp, extraInfo: extraInfo })} style={{ cursor: 'pointer', fontSize: "1.4rem", fontWeight: "bold", border: "0.2rem solid white", width: "fit-content", padding: "0.5rem 1.5rem", borderRadius: "0.4rem", marginBottom: "-0.4rem" }}>{linkText}</div>
                             {ruleBook ? <a style={{ textDecoration: 'inherit', color: 'inherit' }} rel="noreferrer" target="_blank" href={ruleBook}><div style={{ fontSize: "1.4rem", fontWeight: "bold", border: "0.2rem solid white", width: "fit-content", padding: "0.5rem 1.5rem", borderRadius: "0.4rem", marginBottom: "-0.4rem" }}>Details</div></a> : null}
                         </div>
                         <br />
@@ -45,14 +45,14 @@ function eventsSection(data, setPopUp) {
                 <motion.div viewport={{ once: true }} initial={{ transform: `translateX(${eventsSectionCount % 2 ? -6 : 6}rem)`, opacity: 0 }} whileInView={{ transform: 'translateX(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }}>{data.description}</motion.div>
             </div>
             <div className={classes.proCardsWrap}>
-                {data.events.map(e => proNightsCard(e.image, e.date, e.time, e.description, e.link, e.linkText, setPopUp, e.customPopUp, e.ruleBook, e.prize))}
+                {data.events.map(e => proNightsCard(e.image, e.date, e.time, e.description, e.link, e.linkText, setPopUp, e.customPopUp, e.ruleBook, e.prize, e.extraInfo))}
             </div>
         </section>
     );
 }
 
 export default function EventsPage() {
-    const [popUp, setPopUp] = useState({ open: false, link: "", desc: "" });
+    const [popUp, setPopUp] = useState({ open: false, link: "", desc: "", extraInfo: "" });
 
     return (
         <div className={classes.eventsPage}>
