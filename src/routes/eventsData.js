@@ -324,6 +324,7 @@ export const eventsData = [
                 image: "/event-images/maggie-chef.webp",
                 link: "https://docs.google.com/forms/d/e/1FAIpQLSdO0LpaJvGvQvU9WTquUxDGGAo-0RjnTGDQclOMVlEcGDyYdg/viewform",
                 linkText: "Register",
+                prize: 2000,
             },
             {
                 date: "4TH MARCH",
@@ -341,6 +342,7 @@ export const eventsData = [
                 image: "/event-images/shole-paranthe.webp",
                 link: "https://docs.google.com/forms/d/e/1FAIpQLSfFDo1obJiwjmMMowGmR8nXCp3GjO2fXZQFAC71pn4fGEUaWA/viewform",
                 linkText: "Register",
+                prize: 2000,
             },
             {
                 date: "5TH MARCH",
@@ -349,6 +351,7 @@ export const eventsData = [
                 image: "/event-images/stringed-delicacy.webp",
                 link: "https://docs.google.com/forms/d/e/1FAIpQLScGGOxAj9ur_jifk0aEU0jNl1gjWJKDMqFaJOYjcYzmG-FP-w/viewform",
                 linkText: "Register",
+                prize: 2000,
             },
         ]
     },
