@@ -103,7 +103,10 @@ function sponsorCard(img) {
     );
 }
 
-let sponsorData = [s_biswas, s_csm, s_edevlop, s_jyotemotors, s_navbharat, s_ocac, s_omc, s_pantaloons, s_printlink, s_rungta, s_wizertech, s_hp, s_dell];
+let sponsorData1 = [s_ocac];
+let sponsorData2 = [s_omc];
+let sponsorData3 = [s_biswas, s_csm, s_edevlop, s_jyotemotors, s_navbharat, s_ocac, s_omc, s_pantaloons, s_printlink, s_rungta, s_wizertech, s_hp, s_dell];
+
 
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -112,7 +115,10 @@ function shuffleArray(array) {
     }
 }
 
-shuffleArray(sponsorData);
+shuffleArray(sponsorData1);
+shuffleArray(sponsorData2);
+shuffleArray(sponsorData3);
+
 
 export default function HomePage() {
     const options = {
@@ -247,8 +253,17 @@ export default function HomePage() {
 
             <section className={classes.sponsorsSection} id="sponsors">
                 <motion.div viewport={{ once: true }} initial={{ transform: 'translateY(6rem)', opacity: 0 }} whileInView={{ transform: 'translateY(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }}><img src={sponsorsImg} alt="Sponsors" /></motion.div>
+                <div className={classes.sponsorTitle}><span style={{ color: 'white' }}>TITLE</span><br /> SPONSOR</div>
+                <div className={classes.sponsorsWrap + " " + classes.fullWidth}>
+                    {sponsorData1.map(e => sponsorCard(e))}
+                </div>
+                <div className={classes.sponsorTitle}><span style={{ color: 'white' }}>CO-TITLE</span><br /> SPONSOR</div>
+                <div className={classes.sponsorsWrap + " " + classes.fullWidth}>
+                    {sponsorData2.map(e => sponsorCard(e))}
+                </div>
+                <div className={classes.sponsorTitle}><span style={{ color: 'white' }}>ASSOCIATE</span><br /> SPONSORS</div>
                 <div className={classes.sponsorsWrap}>
-                    {sponsorData.map(e => sponsorCard(e))}
+                    {sponsorData3.map(e => sponsorCard(e))}
                 </div>
                 <motion.div viewport={{ once: true }} initial={{ transform: 'translateY(6rem)', opacity: 0 }} whileInView={{ transform: 'translateY(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }}><HashLink to="/sponsors#"><AngleButton text="SPONSOR US" /></HashLink></motion.div>
             </section>
