@@ -127,7 +127,7 @@ export const eventsData = [
             {
                 date: "4TH MARCH",
                 time: "10:00 AM - 12:00 PM",
-                description: "A mic is just a mic until something strong unsaid has been said aloud..and that..is when the mic is dropped. This event has two categories raping and beatboxing. An intense rap battle where rappers shout their heart out to the beat and the best one drops the mic and gets the audience to go boom. Get to showcase your beatboxing skills and blast the stage with drums and crazy musical effects.",
+                description: "A mic is just a mic until something strong unsaid has been said aloud..and that..is when the mic is dropped. This event has two categories rapping and beatboxing. An intense rap battle where rappers shout their heart out to the beat and the best one drops the mic and gets the audience to go boom. Get to showcase your beatboxing skills and blast the stage with drums and crazy musical effects.",
                 image: "/event-images/mic-drop.webp",
                 link: "https://docs.google.com/forms/d/e/1FAIpQLScD9M54Tq54OaTXOiExNHeQ6hALDd1rgM_RodgZI9htFm5Hcw/viewform",
                 linkText: "Register",
