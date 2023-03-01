@@ -15,6 +15,7 @@ import events1 from "./assets/bgpn.webp";
 import events2 from "./assets/events.webp";
 import sponsors1 from "./assets/bgcu.webp";
 import sponsors2 from "./assets/contacts.webp";
+import downloadIcon from "./assets/download.svg";
 // For preloading images end
 
 const PageLayout = ({ children }) => children;
@@ -56,7 +57,7 @@ const AnimationLayout = () => {
 
 export default function App() {
     const preloadImgs = () => {
-        let imgs = [events1, events2, sponsors1, sponsors2];
+        let imgs = [events1, events2, sponsors1, sponsors2, downloadIcon];
         for (const et of eventsData)
             for (const e of et.events) imgs.push(e.image);
         imgs.forEach((image) => {
