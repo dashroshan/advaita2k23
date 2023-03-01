@@ -364,7 +364,7 @@ export const eventsData = [
             {
                 date: "2ND MARCH",
                 time: "4:00 PM - 6:00 PM",
-                description: "SPIC MACAY (Society for the Promotion of Indian Classical Music And Culture Amongst Youth) is a voluntary youth movement which promotes intangible aspects of Indian cultural heritage by promoting Indian classical music, classical dance, folk music, yoga, meditation, crafts and other aspects of Indian culture. Professional artists will be gracing the inaugural ceremony with their precious presentation under this program. Don't miss the chance to enjoy the opening ceremony wholeheartedly as well as witness the mesmerizing performance by magnolious professionals.",
+                description: "SPIC MACAY (Society for the Promotion of Indian Classical Music And Culture Amongst Youth) is a voluntary youth movement which promotes intangible aspects of Indian cultural heritage by promoting Indian classical music, classical dance, folk music, yoga, meditation, crafts and other aspects of Indian culture. Witness the performance of Sri Joydeep Mukherjee (Sarod, Mohanveena & Sursingar exponent, Sangeet Natak Academi Awardee, Regular Artist of All India Radio & Doordarshan, Empanelled Artiste of ICCR, New Delhi).",
                 image: "/event-images/spicmacay.webp"
             },
             {
