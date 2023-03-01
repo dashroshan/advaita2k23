@@ -92,21 +92,34 @@ function proNightsCard(img, details, title, subtitle, desc) {
     );
 }
 
-function sponsorCard(img) {
+function sponsorCard(img, link) {
     return (
         <div className={classes.sponsorCardWrap}>
-            <div className={classes.sponsorCard}>
-                <img src={img} alt="sponsor" />
-                <div className={classes.sponsorCardOverlay} />
-            </div>
+            <a rel="noreferrer" target="_blank" href={link}>
+                <div className={classes.sponsorCard}>
+                    <img src={img} alt="sponsor" />
+                    <div className={classes.sponsorCardOverlay} />
+                </div>
+            </a>
         </div>
     );
 }
 
-let sponsorData1 = [s_ocac];
-let sponsorData2 = [s_omc];
-let sponsorData3 = [s_biswas, s_csm, s_edevlop, s_jyotemotors, s_navbharat, s_ocac, s_omc, s_pantaloons, s_printlink, s_rungta, s_wizertech, s_hp, s_dell];
-
+let sponsorData1 = [{ img: s_ocac, link: "https://www.ocac.in" }];
+let sponsorData2 = [{ img: s_omc, link: "https://omcltd.in" }];
+let sponsorData3 = [
+    { img: s_biswas, link: "http://www.bssindia.in" },
+    { img: s_csm, link: "https://www.csm.tech" },
+    { img: s_edevlop, link: "https://edevlop.com" },
+    { img: s_jyotemotors, link: "https://jyote.com" },
+    { img: s_navbharat, link: "https://navbharattimes.indiatimes.com" },
+    { img: s_pantaloons, link: "https://www.pantaloons.com" },
+    { img: s_printlink, link: "https://www.printlinkindia.com" },
+    { img: s_rungta, link: "" },
+    { img: s_wizertech, link: "https://wizertech.com" },
+    { img: s_hp, link: "https://www.hp.com" },
+    { img: s_dell, link: "https://www.dell.com" },
+];
 
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -255,15 +268,15 @@ export default function HomePage() {
                 <motion.div viewport={{ once: true }} initial={{ transform: 'translateY(6rem)', opacity: 0 }} whileInView={{ transform: 'translateY(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }}><img src={sponsorsImg} alt="Sponsors" /></motion.div>
                 <div className={classes.sponsorTitle}><span style={{ color: 'white' }}>TITLE</span><br /> SPONSOR</div>
                 <div className={classes.sponsorsWrap + " " + classes.fullWidth}>
-                    {sponsorData1.map(e => sponsorCard(e))}
+                    {sponsorData1.map(e => sponsorCard(e.img, e.link))}
                 </div>
                 <div className={classes.sponsorTitle}><span style={{ color: 'white' }}>CO-TITLE</span><br /> SPONSOR</div>
                 <div className={classes.sponsorsWrap + " " + classes.fullWidth}>
-                    {sponsorData2.map(e => sponsorCard(e))}
+                    {sponsorData2.map(e => sponsorCard(e.img, e.link))}
                 </div>
                 <div className={classes.sponsorTitle}><span style={{ color: 'white' }}>ASSOCIATE</span><br /> SPONSORS</div>
                 <div className={classes.sponsorsWrap}>
-                    {sponsorData3.map(e => sponsorCard(e))}
+                    {sponsorData3.map(e => sponsorCard(e.img, e.link))}
                 </div>
                 <motion.div viewport={{ once: true }} initial={{ transform: 'translateY(6rem)', opacity: 0 }} whileInView={{ transform: 'translateY(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }}><HashLink to="/sponsors#"><AngleButton text="SPONSOR US" /></HashLink></motion.div>
             </section>
