@@ -135,7 +135,7 @@ export const eventsData = [
             {
                 date: "4TH MARCH",
                 time: "4:30 PM - 7:30 PM",
-                description: "A statement can be ordinary but a fashion statement made strongly can turn heads. Fashion is the medium expression and the team who best represent the theme win hearts.",
+                description: "A statement can be ordinary but a fashion statement made strongly can turn heads. Fashion is the medium of expression and the team that best represents the theme wins hearts.",
                 image: "/event-images/lamode.webp",
                 link: "https://docs.google.com/forms/d/e/1FAIpQLSfHPa_GD5FHIm5ZEF0CGHAriH4jT-qat8AO1VEbK6fzkAM_zA/viewform",
                 linkText: "Register",
