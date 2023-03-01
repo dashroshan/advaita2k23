@@ -151,7 +151,7 @@ export const eventsData = [
             },
             {
                 date: "5TH MARCH",
-                time: "1:00 PM - 5:00 PM",
+                time: "3:30 PM - 7:00 PM",
                 description: "Cypher, as is the vibe of the name, it is a bang on street style dance competition with dancers across a number of universities joining to boast their raw moves on a single battleground and creating the authentic artist feels. This, my friends, is a sight to behold and an even better experience to enjoy.",
                 image: "/event-images/cypher.webp",
                 link: "https://docs.google.com/forms/d/e/1FAIpQLSeOAOFZaxlOdo4iTCirVRLarrh-E92sXyKHrTR10YSnH7S4Og/viewform",
