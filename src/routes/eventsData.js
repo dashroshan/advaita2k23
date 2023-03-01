@@ -380,10 +380,11 @@ export const eventsData = [
                 image: "/event-images/blood-donation.webp"
             },
             {
-                date: "XTH MARCH",
-                time: "XX:00 AM",
-                description: "What is running in our veins throughout our life, can't we run for it one day. Thousands of people suffering from surgeries, cancer treatment, chronic illness, Thalassemia, traumatic injuries require blood for themselves once or in case multiple times. 12,000 individuals die every day due to lack of quality blood. Hence, it has been planned to create awareness among people through a marathon as an innovative effort. Make sure to be an exemplary citizen and participate in this marathon to make people aware of this crucial topic.",
-                image: "/event-images/marathon.webp"
+                date: "5TH MARCH",
+                time: "5:00 AM",
+                description: "Ready, set, run! Join us as we lace up our sneakers and hit the pavement for our society's marathon 🏃‍♀🏃‍♂ Let's go the distance together and make a difference! Vedanta Samiti is here with the marathon on 5th March 2023. So put your sports shoes on and  mark your calendar as we have some exciting times ahead.",
+                image: "/event-images/marathon.webp",
+                prize: 30000,
             },
         ]
     },
