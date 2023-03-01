@@ -204,6 +204,8 @@ export const eventsData = [
                 description: "How accurately can you make art? An art testing skill competition \"ART-CURRACY\" which will test your art skills and your descriptive abilities. Only good words are not enough, being able to draw accurate things is also a challenging part of itself. It will be fun and thrilling to witness this competition. Also for those artistic friends, it gives you a platform to showcase and test your art skills. The participants will compete in teams of two where one of them will be given a picture that he/she will see and describe to the other, and the other participant needs to draw it accurately based on the description provided.",
                 image: "/event-images/art-curacy.webp",
                 prize: 5000,
+                link: "https://docs.google.com/forms/d/e/1FAIpQLSdVEV8x7-lMT3iE0vcof8-9lJpVFCC5SKtrzHZg0Z8c3KUp0Q/viewform",
+                linkText: "Register",
             },
             {
                 date: "3RD MARCH",
