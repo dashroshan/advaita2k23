@@ -542,10 +542,8 @@
     .sponsorCard img {
         width: 100%;
         height: 100%;
+        max-width: unset;
     }
-}
-
-@media (max-width: 435px) {
 
     .fullWidth.sponsorsWrap,
     .fullWidth .sponsorCardWrap,
