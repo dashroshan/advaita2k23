@@ -121,8 +121,8 @@ let sponsorData3 = [
     { img: s_wizertech, link: "https://wizertech.com" },
     { img: s_hp, link: "https://www.hp.com" },
     { img: s_dell, link: "https://www.dell.com" },
-    { img: s_insidefpv, link: "https://insidefpv.com" }
 ];
+let sponsorData4 = [{ img: s_insidefpv, link: "https://insidefpv.com" }];
 
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -134,7 +134,7 @@ function shuffleArray(array) {
 shuffleArray(sponsorData1);
 shuffleArray(sponsorData2);
 shuffleArray(sponsorData3);
-
+shuffleArray(sponsorData4);
 
 export default function HomePage() {
     const options = {
@@ -280,6 +280,10 @@ export default function HomePage() {
                 <div className={classes.sponsorTitle}><span style={{ color: 'white' }}>ASSOCIATE</span><br /> SPONSORS</div>
                 <div className={classes.sponsorsWrap}>
                     {sponsorData3.map(e => sponsorCard(e.img, e.link))}
+                </div>
+                <div className={classes.sponsorTitle}><span style={{ color: 'white' }}>DRONE</span><br /> PARTNER</div>
+                <div className={classes.sponsorsWrap}>
+                    {sponsorData4.map(e => sponsorCard(e.img, e.link))}
                 </div>
                 <motion.div viewport={{ once: true }} initial={{ transform: 'translateY(6rem)', opacity: 0 }} whileInView={{ transform: 'translateY(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }}><HashLink to="/sponsors#"><AngleButton text="SPONSOR US" /></HashLink></motion.div>
             </section>
