@@ -369,17 +369,17 @@ export const eventsData = [
             },
             {
                 date: "3RD MARCH",
-                time: "4:00 PM - 5:00 PM",
-                description: "It is man's curiosity that widens the scope of his knowledge. But it is not possible to achieve everything on one's own in the short span of human life. As it is rightly said: Learn from the experts; you will not live long enough to figure it all out by yourself. Umang is where renowned and accomplished speakers enlighten the students and help them form a broader perspective about various aspects of life. The objective is to arouse enthusiasm and motivate students to step outside their comfort zone and feel confident. So don't miss this golden opportunity and satiate your curiosity appetite by getting plenty of knowledge.",
-                image: "/event-images/umang.webp"
-            },
-            {
-                date: "2ND - 5TH MARCH",
-                time: "9:00 AM - 9:00 PM",
+                time: "10:00 AM - 1:00 PM",
                 description: "As per swami vivekananda: Service to man is service to God. The truth of this adage also applies in case of blood donation. Saving lives by donating blood is no less meritorious than any act of God. Realizing this, a blood donation camp will be organised in the college campus to contribute to the urgent need for patients confronting trauma and other life-saving treatments, such as blood transfusions. It reduces the risk of heart attack and blood pressure in the donor while meeting the receiver's vital needs. As it is rightly said: Show an act of care, your Blood-Donation can keep one’s prayer.",
                 image: "/event-images/blood-donation.webp",
                 link: "https://docs.google.com/forms/d/e/1FAIpQLSdufT4rEI6HnfZpKR_ix1E0k4PAgANnOEEspGtE0wLHMZEkvg/viewform",
                 linkText: "Register",
+            },
+            {
+                date: "3RD MARCH",
+                time: "4:00 PM - 5:00 PM",
+                description: "It is man's curiosity that widens the scope of his knowledge. But it is not possible to achieve everything on one's own in the short span of human life. As it is rightly said: Learn from the experts; you will not live long enough to figure it all out by yourself. Umang is where renowned and accomplished speakers enlighten the students and help them form a broader perspective about various aspects of life. The objective is to arouse enthusiasm and motivate students to step outside their comfort zone and feel confident. So don't miss this golden opportunity and satiate your curiosity appetite by getting plenty of knowledge.",
+                image: "/event-images/umang.webp"
             },
             {
                 date: "5TH MARCH",
