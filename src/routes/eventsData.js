@@ -377,14 +377,18 @@ export const eventsData = [
                 date: "2ND - 5TH MARCH",
                 time: "9:00 AM - 9:00 PM",
                 description: "As per swami vivekananda: Service to man is service to God. The truth of this adage also applies in case of blood donation. Saving lives by donating blood is no less meritorious than any act of God. Realizing this, a blood donation camp will be organised in the college campus to contribute to the urgent need for patients confronting trauma and other life-saving treatments, such as blood transfusions. It reduces the risk of heart attack and blood pressure in the donor while meeting the receiver's vital needs. As it is rightly said: Show an act of care, your Blood-Donation can keep one’s prayer.",
-                image: "/event-images/blood-donation.webp"
+                image: "/event-images/blood-donation.webp",
+                link: "https://docs.google.com/forms/d/e/1FAIpQLSdufT4rEI6HnfZpKR_ix1E0k4PAgANnOEEspGtE0wLHMZEkvg/viewform",
+                linkText: "Register",
             },
             {
                 date: "5TH MARCH",
-                time: "5:00 AM",
+                time: "5:00 AM - 10:00 AM",
                 description: "Ready, set, run! Join us as we lace up our sneakers and hit the pavement for our society's marathon 🏃‍♀🏃‍♂ Let's go the distance together and make a difference! Vedanta Samiti is here with the marathon on 5th March 2023. So put your sports shoes on and  mark your calendar as we have some exciting times ahead.",
                 image: "/event-images/marathon.webp",
                 prize: 30000,
+                link: "https://docs.google.com/forms/d/e/1FAIpQLSc6iFedBfwXfMvbhUDXOzlArycXRwzjhD4Tm7SNUei3NNgwuQ/viewform",
+                linkText: "Register",
             },
         ]
     },
