@@ -16,6 +16,13 @@ export const eventsData = [
                 prize: 244000,
             },
             {
+                date: "2ND - 5TH MARCH",
+                time: "10:00 AM - 6:00 PM",
+                description: "Learn the art of flying drones and turn your passion into a profession. TARS-IIIT-BH in collaboration with Inside-FPV is conducting FLY THROUGH: Drone Flying Experience and Training Session. So, do not miss the golden opportunity to get yourself trained by approved drone trainers and make a career in the rapidly growing drone industry.",
+                image: "/event-images/fly-through.webp",
+                prize: 30000,
+            },
+            {
                 date: "3RD MARCH",
                 time: "10:00 AM - 1:00 PM",
                 description: "Coding is great but penalties are not and moreover when it’s bitter or worse. Couldn’t understand? Well, this fun event will test your skills through guts! It is an interesting fun coding competition which is formatted into two rounds. The first online round will select the top 50 coders who will compete in different groups. Each group will get a single question and failing to complete it within the given decreasing time limit will result in a penalty. The penalty will be in the form of a not-so-good drink. So, code your way out within time to escape the penalty of a dreadful drink.",
