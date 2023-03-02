@@ -30,7 +30,7 @@ export default function Verify(props) {
     return (
         <div className={classes.verify}>
             <div className={classes.qrBox}>
-                <QrReader className={classes.qrreader} onResult={result => {
+                <QrReader className={classes.qrreader} constraints={{ facingMode: "environment" }} onResult={result => {
                     if (!!result) setData(result?.text)
                 }} />
             </div>
