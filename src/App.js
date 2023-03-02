@@ -16,7 +16,6 @@ import events2 from "./assets/events.webp";
 import sponsors1 from "./assets/bgcu.webp";
 import sponsors2 from "./assets/contacts.webp";
 import downloadIcon from "./assets/download.svg";
-import Verify from './routes/verify';
 // For preloading images end
 
 const PageLayout = ({ children }) => children;
@@ -100,7 +99,6 @@ export default function App() {
                     <Route path="/" element={<HomePage />} />
                     <Route path="/events" element={<EventsPage />} />
                     <Route path="/sponsors" element={<SponsorsPage />} />
-                    <Route path="/verify" element={<Verify />} />
                     <Route path="*" element={<Navigate to="/" />} />
                 </Route>
             </Routes>
