@@ -1,0 +1,23 @@
+.qrreader {
+    display: none;
+}
+
+.verify {
+    text-align: center;
+}
+
+.ticket {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 11rem;
+}
+
+.status {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 3rem;
+}
+
+.scannew {
+    margin-top: 3rem;
+}
