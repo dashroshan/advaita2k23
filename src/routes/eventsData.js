@@ -197,6 +197,8 @@ export const eventsData = [
                 description: "“Bringing the best out of you, one stage at a time.” Whether you're an experienced thespian or just starting out, this is your chance to shine and impress a panel of pros. From monologues to scenes and short plays, this talent show will give you the opportunity to showcase your range and versatility as an actor. Participants will compete for cash prizes and the chance to discover your hidden talent. ‘Mai Kalakaar’ is not just about showcasing talent, it's about fostering a community of actors and encouraging them to grow and evolve. ",
                 image: "/event-images/mai-kalakar.webp",
                 prize: 10000,
+                link: "https://docs.google.com/forms/d/e/1FAIpQLSdhn1xtDwSbQ8jC_Fj3tcFmrBRxsLPTQn6JobYfKg2MFuKrLg/viewform",
+                linkText: "Register",
             },
         ]
     },
