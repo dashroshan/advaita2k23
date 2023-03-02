@@ -1,6 +1,8 @@
-/* .qrreader {
-    scale: 0.2;
-} */
+.qrreader {
+    margin: 0 auto;
+    margin-top: -2rem;
+    max-width: 40vw;
+}
 
 .verify {
     text-align: center;
@@ -9,7 +11,7 @@
 .ticket {
     font-size: 2rem;
     font-weight: bold;
-    margin-top: 11rem;
+    margin-top: -7rem;
 }
 
 .status {
