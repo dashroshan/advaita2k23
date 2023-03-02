@@ -1,7 +1,13 @@
-.qrreader {
+.qrBox {
+    width: 500px;
+    height: 450px;
+    display: block;
     margin: 0 auto;
-    margin-top: -2rem;
-    max-width: 40vw;
+    overflow: hidden;
+}
+
+.qrreader {
+    margin: 0
 }
 
 .verify {
@@ -11,7 +17,6 @@
 .ticket {
     font-size: 2rem;
     font-weight: bold;
-    margin-top: -7rem;
 }
 
 .status {

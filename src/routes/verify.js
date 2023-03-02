@@ -29,9 +29,11 @@ export default function Verify(props) {
 
     return (
         <div className={classes.verify}>
-            <QrReader className={classes.qrreader} onResult={result => {
-                if (!!result) setData(result?.text)
-            }} />
+            <div className={classes.qrBox}>
+                <QrReader className={classes.qrreader} onResult={result => {
+                    if (!!result) setData(result?.text)
+                }} />
+            </div>
             <div className={classes.ticket}>
                 <div>Ticket ID</div>
                 <div>{data ? data : "- SCAN IN PROGRESS -"}</div>
