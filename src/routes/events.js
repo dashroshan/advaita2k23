@@ -6,6 +6,8 @@ import { motion } from "framer-motion";
 import { eventsData } from "./eventsData";
 import { useState } from "react";
 import downloadIcon from "../assets/download.svg";
+import eyeIcon from "../assets/eye.svg";
+
 
 import EventModal from "../components/eventModal";
 
@@ -64,7 +66,10 @@ export default function EventsPage() {
                 <motion.div viewport={{ once: true }} initial={{ transform: 'translateY(-10rem)', opacity: 0 }} whileInView={{ transform: 'translateY(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }}><img src={eventsText} alt="events schedule" className={classes.eventText} /></motion.div>
             </section>
             <motion.div viewport={{ once: true }} initial={{ transform: `translateX(-6rem)`, opacity: 0 }} whileInView={{ transform: 'translateX(0rem)', opacity: 1 }} transition={{ duration: 1.5, type: "spring" }} className={classes.rulebookWrap}>
-                <a download href="/Advaita RuleBook.pdf" style={{ color: 'inherit', textDecoration: 'inherit' }}><div className={classes.rulebook}><img src={downloadIcon} alt="Download" /><span>Download RuleBook</span></div></a>
+                <div className={classes.eventbtns}>
+                    <a rel="noreferrer" target="_blank" href="https://advaita-map.netlify.app" style={{ color: 'inherit', textDecoration: 'inherit' }}><div className={classes.rulebook}><img src={eyeIcon} alt="View" /><span>Ongoing Events</span></div></a>
+                    <a download href="/Advaita RuleBook.pdf" style={{ color: 'inherit', textDecoration: 'inherit' }}><div className={classes.rulebook}><img src={downloadIcon} alt="Download" /><span>Download RuleBook</span></div></a>
+                </div>
                 <div className={classes.rulebooktext}>Refer to the RuleBook above for the team specifications, requirements, format, and more details of all the events in Advaita.</div>
             </motion.div>
             {eventsData.map(e => eventsSection(e, setPopUp))}

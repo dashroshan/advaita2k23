@@ -287,3 +287,15 @@ body {
         width: 1.6rem;
     }
 }
+
+.eventbtns {
+    display: flex;
+    gap: 1rem;
+}
+
+@media (max-width: 670px) {
+    .eventbtns {
+        flex-direction: column;
+        gap: 1.4rem;
+    }
+}
